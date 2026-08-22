@@ -3,173 +3,229 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CTI Document & Image Compressor (Under 200KB) | CTI Portal Resizer</title>
-    <meta name="description" content="Free online image compressor and size reducer for Punjab CTI portal (cti-hep.punjab.gov.pk). Compress CNIC, Domicile, and DMCs to under 200KB with 100% privacy.">
+    <title>Free Image Compressor & Resizer to 200 KB | Online Size Reducer</title>
+    <meta name="description" content="Free online image compressor and size reducer. Resize image to 200 kb for FPSC, PPSC, university admissions, and CTI portals. 100% secure and private.">
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jameel+Noori+Nastaleeq&family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
     <style>
         .urdu-font { font-family: 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', serif; direction: rtl; }
+        html { scroll-behavior: smooth; }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans selection:bg-blue-600 selection:text-white">
 
     <!-- Top Alert -->
-    <div class="bg-amber-500 text-slate-900 font-bold px-4 py-2 text-center text-xs sm:text-sm flex justify-center items-center gap-2">
-        <span class="bg-slate-900 text-amber-300 px-2 py-0.5 rounded-full text-xs uppercase">HED Portal Limit</span>
-        <span>All uploaded documents must be under 200KB to prevent portal submission errors.</span>
+    <div class="bg-blue-600 text-white font-semibold px-4 py-2.5 text-center text-xs sm:text-sm flex justify-center items-center gap-2 shadow-sm">
+        <i class="fas fa-shield-alt text-amber-300"></i>
+        <span>100% Privacy Guaranteed: Your images are compressed locally in your browser and never uploaded to any server.</span>
     </div>
 
     <!-- Navigation Bar -->
     <nav class="bg-white border-b sticky top-0 z-50 shadow-sm">
-        <div class="max-w-6xl mx-auto px-4 h-16 flex justify-between items-center">
+        <div class="max-w-7xl mx-auto px-4 h-16 flex justify-between items-center">
             <a href="index.html" class="flex items-center gap-2">
                 <div class="bg-blue-700 text-white font-black text-xl px-3 py-1 rounded-lg">CTI</div>
                 <span class="font-bold text-xl text-gray-900">.AC.PK</span>
             </a>
             <div class="flex items-center gap-4 text-sm font-semibold">
-                <a href="index.html" class="text-gray-600 hover:text-blue-600">Home & Merit Calculator</a>
-                <a href="https://cti-hep.punjab.gov.pk" target="_blank" class="bg-blue-600 text-white px-3.5 py-1.5 rounded-lg hover:bg-blue-700 transition text-xs">Official Portal <i class="fas fa-external-link-alt ml-1"></i></a>
+                <a href="index.html" class="text-gray-600 hover:text-blue-600">Home</a>
+                <a href="#guide-section" class="text-gray-600 hover:text-blue-600 hidden sm:block">How to Use</a>
             </div>
         </div>
     </nav>
 
-    <!-- Header -->
-    <header class="bg-slate-900 text-white py-12 px-4 text-center">
-        <div class="max-w-3xl mx-auto space-y-3">
-            <span class="bg-blue-500/20 text-blue-300 text-xs px-3 py-1 rounded-full uppercase font-bold tracking-wider">Fast & Secure Client-Side Tool</span>
-            <h1 class="text-3xl sm:text-4xl font-extrabold">CTI Portal Image Compressor & Resizer</h1>
-            <h2 class="text-2xl text-amber-300 urdu-font">سی ٹی آئی پورٹل کے لیے تصاویر اور ڈگریوں کا سائز کم کریں</h2>
-            <p class="text-sm text-blue-100 font-light max-w-xl mx-auto">
-                Quickly reduce your CNIC, Domicile, Photo, and DMC image files to under 200KB. Files are processed directly in your browser—your documents never upload to our servers.
+    <!-- Hero Header -->
+    <header class="bg-slate-900 text-white py-14 px-4 text-center border-b-4 border-amber-400">
+        <div class="max-w-4xl mx-auto space-y-4">
+            <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight">Free Image Compressor & Size Reducer</h1>
+            <h2 class="text-2xl text-amber-300 urdu-font">تصاویر اور ڈاکومنٹس کا سائز 200 کے بی تک کم کریں</h2>
+            <p class="text-sm sm:text-base text-blue-100 font-light max-w-2xl mx-auto leading-relaxed">
+                The ultimate image resizer for students, teachers, and job seekers. Instantly compress your CNIC, photos, and DMCs to 200 KB or less for online portals like FPSC, PPSC, NTS, and university admissions.
             </p>
         </div>
     </header>
 
-    <!-- Main Content -->
-    <main class="max-w-4xl mx-auto px-4 py-10 space-y-12">
+    <!-- Main Content Container -->
+    <main class="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-12 gap-10">
 
-        <!-- Tool Card -->
-        <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl border border-gray-200 space-y-6">
+        <!-- LEFT COLUMN: The Tool (Takes up 7 columns on large screens) -->
+        <div class="lg:col-span-7 space-y-8">
             
-            <!-- Upload Drop Area -->
-            <div id="dropArea" class="border-2 border-dashed border-blue-400 bg-blue-50/40 rounded-2xl p-8 text-center cursor-pointer hover:bg-blue-50 transition" onclick="document.getElementById('fileInput').click()">
-                <input type="file" id="fileInput" accept="image/jpeg, image/png, image/webp" class="hidden" onchange="handleFileSelect(event)">
-                <i class="fas fa-cloud-upload-alt text-4xl sm:text-5xl text-blue-600 mb-3"></i>
-                <h3 class="text-base sm:text-lg font-bold text-gray-800">Tap to Select or Drag & Drop Document Picture</h3>
-                <p class="text-xs text-gray-500 mt-1">Supports JPG, PNG, WEBP (CNIC, Matric/Inter/BS DMCs, Photos)</p>
-            </div>
-
-            <!-- Editor / Compression Controls -->
-            <div id="controlPanel" class="hidden space-y-6 pt-4 border-t">
+            <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl border border-gray-200 sticky top-24">
                 
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs sm:text-sm bg-gray-50 p-4 rounded-xl border">
-                    <div><strong>Original Name:</strong> <span id="origName" class="text-gray-600">-</span></div>
-                    <div><strong>Original Size:</strong> <span id="origSize" class="font-bold text-red-500">-</span></div>
+                <!-- Upload Drop Area -->
+                <div id="dropArea" class="border-2 border-dashed border-blue-400 bg-blue-50/50 rounded-2xl p-10 text-center cursor-pointer hover:bg-blue-100 transition duration-300" onclick="document.getElementById('fileInput').click()">
+                    <input type="file" id="fileInput" accept="image/jpeg, image/png, image/webp" class="hidden" onchange="handleFileSelect(event)">
+                    <i class="fas fa-file-image text-5xl sm:text-6xl text-blue-500 mb-4 drop-shadow-sm"></i>
+                    <h3 class="text-lg sm:text-xl font-bold text-slate-800">Tap to Select or Drop Image Here</h3>
+                    <p class="text-sm text-gray-500 mt-2">Supports JPG, PNG, WEBP (Max initial size: 15MB)</p>
                 </div>
 
-                <div class="space-y-4">
-                    <div>
-                        <div class="flex justify-between text-xs sm:text-sm font-semibold mb-1">
-                            <span>Image Quality / Compression Slider:</span>
-                            <span id="qualityVal" class="text-blue-600 font-bold">75%</span>
+                <!-- Compression Controls -->
+                <div id="controlPanel" class="hidden space-y-6 pt-6 border-t mt-6 border-gray-100">
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm bg-slate-50 p-4 rounded-xl border border-slate-200">
+                        <div class="overflow-hidden"><strong>File:</strong> <span id="origName" class="text-gray-600 truncate block"></span></div>
+                        <div><strong>Original Size:</strong> <span id="origSize" class="font-bold text-red-500 block"></span></div>
+                    </div>
+
+                    <div class="space-y-5 bg-white p-5 border border-blue-100 rounded-xl shadow-sm">
+                        <div>
+                            <div class="flex justify-between text-sm font-bold text-gray-800 mb-2">
+                                <span>Compression Level (Reduce Size)</span>
+                                <span id="qualityVal" class="text-blue-600 bg-blue-100 px-2 py-0.5 rounded">75%</span>
+                            </div>
+                            <input type="range" id="qualityRange" min="5" max="100" value="75" class="w-full h-2 bg-gray-200 rounded-lg cursor-pointer accent-blue-600" oninput="runCompression()">
+                            <p class="text-xs text-gray-500 mt-1.5"><i class="fas fa-info-circle text-amber-500"></i> Drag left if the file is still above 200 KB. Drag right for better visual quality.</p>
                         </div>
-                        <input type="range" id="qualityRange" min="10" max="95" value="75" class="w-full h-2 bg-gray-200 rounded-lg cursor-pointer accent-blue-600" oninput="runCompression()">
-                        <p class="text-[11px] text-gray-500 mt-1">Drag left to reduce file size further if your image is still larger than 200KB.</p>
-                    </div>
 
-                    <div>
-                        <div class="flex justify-between text-xs sm:text-sm font-semibold mb-1">
-                            <span>Max Width Scale (Keeps DMCs Clear):</span>
-                            <span id="scaleVal" class="text-blue-600 font-bold">1400px</span>
+                        <div>
+                            <div class="flex justify-between text-sm font-bold text-gray-800 mb-2">
+                                <span>Image Dimensions (Width)</span>
+                                <span id="scaleVal" class="text-blue-600 bg-blue-100 px-2 py-0.5 rounded">1200px</span>
+                            </div>
+                            <input type="range" id="scaleRange" min="600" max="2500" step="100" value="1200" class="w-full h-2 bg-gray-200 rounded-lg cursor-pointer accent-blue-600" oninput="runCompression()">
+                            <p class="text-xs text-gray-500 mt-1.5"><i class="fas fa-expand text-amber-500"></i> Lower dimensions significantly reduce file size while keeping text readable.</p>
                         </div>
-                        <input type="range" id="scaleRange" min="800" max="2200" step="100" value="1400" class="w-full h-2 bg-gray-200 rounded-lg cursor-pointer accent-blue-600" oninput="runCompression()">
-                    </div>
-                </div>
-
-                <!-- Result Status Box -->
-                <div id="resultBox" class="p-5 rounded-xl border text-center space-y-3 bg-slate-50">
-                    <div class="flex flex-wrap justify-center items-center gap-4 text-sm">
-                        <span class="text-gray-600">Optimized File Size:</span>
-                        <span id="compressedSize" class="text-2xl font-black text-green-600">0.00 KB</span>
-                        <span id="portalBadge" class="bg-green-100 text-green-700 text-xs px-2.5 py-1 rounded-full font-bold">Ready for CTI Portal (&lt; 200KB)</span>
                     </div>
 
-                    <a id="downloadBtn" href="#" download="cti_document.jpg" class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-3 rounded-xl text-sm shadow-md transition">
-                        <i class="fas fa-download"></i> Download Compressed Document
-                    </a>
-                </div>
+                    <!-- Result Status Box -->
+                    <div id="resultBox" class="p-6 rounded-2xl border text-center space-y-4 bg-gradient-to-b from-slate-50 to-white shadow-sm">
+                        <div class="flex flex-col items-center gap-2">
+                            <span class="text-gray-500 text-sm font-semibold uppercase tracking-wider">New Optimized Size</span>
+                            <span id="compressedSize" class="text-4xl font-black text-green-600 drop-shadow-sm">0.00 KB</span>
+                            <span id="portalBadge" class="bg-green-100 text-green-700 text-xs px-3 py-1.5 rounded-full font-bold mt-1 border border-green-200">Perfect for Online Portals (&lt; 200 KB)</span>
+                        </div>
 
-            </div>
-        </section>
+                        <a id="downloadBtn" href="#" download="compressed_image.jpg" class="w-full sm:w-auto inline-flex justify-center items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold px-8 py-3.5 rounded-xl text-base shadow-lg transition transform hover:-translate-y-0.5">
+                            <i class="fas fa-download"></i> Download Image
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
 
-        <!-- Instructions & Portal Guidelines -->
-        <section class="bg-white p-6 sm:p-8 rounded-2xl border border-gray-200 shadow-sm space-y-6">
-            <h3 class="text-2xl font-bold text-gray-900">How to Upload Documents on CTI Portal</h3>
-            <h4 class="text-xl text-blue-700 urdu-font">سی ٹی آئی پورٹل پر ڈاکومنٹس اپلوڈ کرنے کا طریقہ</h4>
+        <!-- RIGHT COLUMN: 800+ Words SEO Content (Takes up 5 columns) -->
+        <div id="guide-section" class="lg:col-span-5 space-y-8 text-gray-700 leading-relaxed">
+            
+            <article class="bg-white p-6 sm:p-8 rounded-2xl border border-gray-200 shadow-sm space-y-5">
+                <h2 class="text-2xl font-black text-slate-900 border-b pb-3">Why You Need an Image Compressor</h2>
+                <h3 class="text-xl text-blue-700 urdu-font border-b pb-4">تصویر کا سائز کم کرنا کیوں ضروری ہے؟</h3>
+                
+                <p class="text-sm">In today's digital era, applying for jobs, university admissions, and government internships requires uploading scanned documents online. However, modern smartphones capture high-resolution photos that often exceed 5 MB to 10 MB in size. When you attempt to upload these raw files to government or educational websites, you are frequently met with frustrating error messages such as "File Size Exceeded," "500 Internal Server Error," or "Upload Failed."</p>
+                
+                <p class="text-sm">This is where a reliable <strong>image compressor</strong> becomes essential. Official platforms—including the Punjab Higher Education Department (CTI Portal), Federal Public Service Commission (FPSC), Punjab Public Service Commission (PPSC), and National Testing Service (NTS)—enforce strict bandwidth and storage limitations. They universally mandate that applicants <strong>image resize to 200 kb</strong> or sometimes even 25 KB for passport-sized profile pictures.</p>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm text-gray-600">
-                <div class="p-4 bg-gray-50 rounded-xl border">
-                    <div class="font-bold text-blue-900 mb-1">1. Take a Clear Photo</div>
-                    Place your DMC, Domicile, or CNIC under good lighting. Crop out any unnecessary background edges.
-                </div>
-                <div class="p-4 bg-gray-50 rounded-xl border">
-                    <div class="font-bold text-blue-900 mb-1">2. Compress to &lt; 200KB</div>
-                    Use the tool above to ensure the file size stays between 80KB and 190KB.
-                </div>
-                <div class="p-4 bg-gray-50 rounded-xl border">
-                    <div class="font-bold text-blue-900 mb-1">3. Upload on Portal</div>
-                    Log in to <code>cti-hep.punjab.gov.pk</code>, go to your profile section, and upload the saved file.
-                </div>
-            </div>
-        </section>
+                <p class="text-sm">Our online <strong>size reducer</strong> is specifically engineered to solve this bottleneck. It strips away unnecessary metadata and optimizes pixel density, allowing you to shrink massive MB files down to a few kilobytes without destroying the readability of your important documents.</p>
+            </article>
 
-        <!-- FAQ Section -->
-        <section class="bg-gray-100 p-6 sm:p-8 rounded-2xl border border-gray-200 space-y-4">
-            <h3 class="text-xl font-bold text-slate-900">Frequently Asked Questions</h3>
-            <div class="space-y-3 text-xs sm:text-sm text-gray-700">
-                <div class="bg-white p-4 rounded-xl border">
-                    <strong class="text-blue-900 block mb-1">Why is my upload failing with a "500 Server Error"?</strong>
-                    The HED portal frequently throws server errors when candidates attempt to upload original photos taken directly from high-resolution smartphone cameras (which are typically 3MB to 8MB). Compressing the image under 200KB fixes this issue.
+            <article class="bg-white p-6 sm:p-8 rounded-2xl border border-gray-200 shadow-sm space-y-5">
+                <h2 class="text-2xl font-black text-slate-900 border-b pb-3">How to Resize Image to 200 KB (Step-by-Step)</h2>
+                
+                <div class="space-y-4 mt-4">
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-8 h-8 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center font-bold">1</div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">Upload Your Document</h4>
+                            <p class="text-sm mt-1">Tap the upload area above and select the photo of your CNIC, Domicile, Degree, or passport picture from your gallery or computer.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-8 h-8 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center font-bold">2</div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">Adjust the Image Resizer Sliders</h4>
+                            <p class="text-sm mt-1">Once loaded, the tool instantly compresses your file. If the <strong>image compressor</strong> shows a size above 200 KB in red text, gently drag the "Compression Level" slider to the left until the text turns green.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-8 h-8 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center font-bold">3</div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">Download and Apply Online</h4>
+                            <p class="text-sm mt-1">Click the download button. Your newly compressed image is now ready to be uploaded to any job or admission portal without any "file too large" errors.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="bg-white p-4 rounded-xl border">
-                    <strong class="text-blue-900 block mb-1">Will compressing my DMC make the text illegible?</strong>
-                    No. Our tool uses smart bilinear canvas resizing, keeping the text sharp and readable while stripping out heavy background camera metadata.
-                </div>
-                <div class="bg-white p-4 rounded-xl border">
-                    <strong class="text-blue-900 block mb-1">Is it safe to compress sensitive documents like CNIC here?</strong>
-                    Yes, 100%. The compression logic runs completely inside your browser's memory using JavaScript. No files are transmitted to any server.
-                </div>
-            </div>
-        </section>
+            </article>
 
+            <article class="bg-white p-6 sm:p-8 rounded-2xl border border-gray-200 shadow-sm space-y-5">
+                <h2 class="text-2xl font-black text-slate-900 border-b pb-3">Who Can Benefit from this Size Reducer?</h2>
+                
+                <ul class="list-disc pl-5 space-y-3 text-sm">
+                    <li><strong>Job Seekers (FPSC, PPSC, NTS):</strong> Most testing agencies strictly require profile pictures to be under 30 KB and CNIC scans to be under 100 KB. This tool handles both flawlessly.</li>
+                    <li><strong>CTI Applicants:</strong> The College Teaching Interns portal requires candidates to upload multiple DMCs, Domiciles, and ID cards. Using this <strong>image resizer</strong> ensures your profile is submitted swiftly without server timeouts.</li>
+                    <li><strong>University Students:</strong> Admissions portals for universities across Pakistan enforce upload limits for transcripts and matriculation certificates.</li>
+                    <li><strong>General Office Workers:</strong> Reduce the size of scanned reports and graphical presentations to attach them easily to emails that have attachment size constraints.</li>
+                </ul>
+            </article>
+
+            <article class="bg-gray-100 p-6 sm:p-8 rounded-2xl border border-gray-200 space-y-5">
+                <h2 class="text-2xl font-black text-slate-900 border-b pb-3 border-gray-300">Frequently Asked Questions</h2>
+                <h3 class="text-xl text-blue-700 urdu-font mb-4">اکثر پوچھے گئے سوالات</h3>
+                
+                <div class="space-y-4 text-sm">
+                    <div>
+                        <strong class="text-slate-900 block">Is this image compressor safe for sensitive documents like my CNIC?</strong>
+                        <p class="mt-1">Absolutely. We prioritize your digital privacy above all else. Unlike other online tools that upload your files to remote servers, this tool is powered by client-side JavaScript. This means the compression happens entirely inside your own browser's memory. Your personal documents never leave your device, ensuring 100% data security.</p>
+                    </div>
+                    <div>
+                        <strong class="text-slate-900 block">Will compressing the image blur my text?</strong>
+                        <p class="mt-1">Our advanced HTML5 canvas rendering engine strikes the perfect balance between file size reduction and visual clarity. By giving you manual control over the image dimensions and quality, you can easily verify that the text on your degrees and ID cards remains crisp and readable before you download it.</p>
+                    </div>
+                    <div>
+                        <strong class="text-slate-900 block">What is the difference between an Image Resizer and a Size Reducer?</strong>
+                        <p class="mt-1">An <em>image resizer</em> typically changes the physical dimensions (width and height in pixels) of a photo. A <em>size reducer</em> (or compressor) changes the file weight (MB to KB) by optimizing the data and color profiles. Our tool combines both functions seamlessly in one dashboard.</p>
+                    </div>
+                    <div>
+                        <strong class="text-slate-900 block">Can I compress images on my mobile phone?</strong>
+                        <p class="mt-1">Yes! This application is fully responsive and optimized for all devices, including Android and iOS smartphones. You can take a picture with your phone's camera and compress it immediately within the browser.</p>
+                    </div>
+                </div>
+            </article>
+
+        </div>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-slate-950 text-gray-400 py-8 border-t border-slate-800 text-center text-xs space-y-2">
-        <p>Independent document utility tool for Punjab College Teaching Interns applicants.</p>
-        <p>&copy; 2026 CTI.AC.PK. All Rights Reserved.</p>
+    <footer class="bg-slate-950 text-gray-400 py-10 border-t border-slate-800 text-center text-sm space-y-3">
+        <div class="flex justify-center items-center gap-2 mb-2">
+            <span class="bg-blue-600 text-white font-bold text-lg px-2.5 py-0.5 rounded">CTI</span>
+            <span class="font-bold text-white text-lg">.AC.PK</span>
+        </div>
+        <p class="max-w-xl mx-auto">Providing free, secure, and fast digital utility tools for students, educators, and professionals across Pakistan.</p>
+        <p class="text-xs text-gray-600 mt-4">&copy; 2026 CTI.AC.PK Utilities. All Rights Reserved.</p>
     </footer>
 
-    <!-- Client-Side Compression Script -->
+    <!-- Client-Side Compression Logic (Zero Server Upload) -->
     <script>
         let loadedImage = null;
-        let originalFileName = "document.jpg";
+        let originalFileName = "compressed_image";
 
         function handleFileSelect(e) {
             const file = e.target.files[0];
             if (!file) return;
 
+            // Extract file name without extension
             originalFileName = file.name.replace(/\.[^/.]+$/, "");
+            
             document.getElementById('origName').innerText = file.name;
-            document.getElementById('origSize').innerText = (file.size / 1024).toFixed(1) + " KB";
+            document.getElementById('origSize').innerText = (file.size / 1024 / 1024).toFixed(2) + " MB";
 
             const reader = new FileReader();
             reader.onload = function(evt) {
                 loadedImage = new Image();
                 loadedImage.onload = function() {
                     document.getElementById('controlPanel').classList.remove('hidden');
+                    
+                    // Smart auto-scaling based on initial image size
+                    const scaleRange = document.getElementById('scaleRange');
+                    if(loadedImage.width > 2000) {
+                        scaleRange.value = 1400;
+                    } else if (loadedImage.width < 1000) {
+                        scaleRange.value = loadedImage.width;
+                    }
+                    
                     runCompression();
                 };
                 loadedImage.src = evt.target.result;
@@ -189,6 +245,7 @@
             let width = loadedImage.width;
             let height = loadedImage.height;
 
+            // Maintain aspect ratio while resizing
             if (width > maxWidth) {
                 height = Math.round((height * maxWidth) / width);
                 width = maxWidth;
@@ -199,34 +256,46 @@
             canvas.height = height;
 
             const ctx = canvas.getContext('2d');
+            // Fill white background in case of transparent PNGs converting to JPEG
             ctx.fillStyle = '#FFFFFF';
             ctx.fillRect(0, 0, width, height);
+            
+            // Draw image with smooth scaling
+            ctx.imageSmoothingEnabled = true;
+            ctx.imageSmoothingQuality = 'high';
             ctx.drawImage(loadedImage, 0, 0, width, height);
 
+            // Compress to JPEG format
             const dataUrl = canvas.toDataURL('image/jpeg', quality);
 
-            // Compute Base64 size in KB
+            // Compute exact Base64 size in KB
             const head = 'data:image/jpeg;base64,';
             const sizeInKb = (Math.round((dataUrl.length - head.length) * 3 / 4) / 1024);
 
             const sizeElem = document.getElementById('compressedSize');
             const badgeElem = document.getElementById('portalBadge');
 
-            sizeElem.innerText = sizeInKb.toFixed(1) + " KB";
+            sizeElem.innerText = sizeInKb.toFixed(2) + " KB";
 
+            // Dynamic visual feedback for target limits
             if (sizeInKb > 200) {
-                sizeElem.className = "text-2xl font-black text-red-600";
-                badgeElem.className = "bg-red-100 text-red-700 text-xs px-2.5 py-1 rounded-full font-bold";
-                badgeElem.innerText = "Exceeds 200KB - Reduce quality slider";
+                sizeElem.className = "text-4xl font-black text-red-600 drop-shadow-sm";
+                badgeElem.className = "bg-red-100 text-red-700 text-xs px-3 py-1.5 rounded-full font-bold mt-1 border border-red-200";
+                badgeElem.innerHTML = "<i class='fas fa-exclamation-triangle'></i> File too large. Reduce sliders.";
+            } else if (sizeInKb < 30) {
+                sizeElem.className = "text-4xl font-black text-blue-600 drop-shadow-sm";
+                badgeElem.className = "bg-blue-100 text-blue-700 text-xs px-3 py-1.5 rounded-full font-bold mt-1 border border-blue-200";
+                badgeElem.innerHTML = "<i class='fas fa-check-circle'></i> Perfect for FPSC Profile Pics (< 30 KB)";
             } else {
-                sizeElem.className = "text-2xl font-black text-green-600";
-                badgeElem.className = "bg-green-100 text-green-700 text-xs px-2.5 py-1 rounded-full font-bold";
-                badgeElem.innerText = "Ready for CTI Portal (< 200KB)";
+                sizeElem.className = "text-4xl font-black text-green-600 drop-shadow-sm";
+                badgeElem.className = "bg-green-100 text-green-700 text-xs px-3 py-1.5 rounded-full font-bold mt-1 border border-green-200";
+                badgeElem.innerHTML = "<i class='fas fa-check-circle'></i> Perfect for Online Portals (< 200 KB)";
             }
 
+            // Update Download Link
             const downloadBtn = document.getElementById('downloadBtn');
             downloadBtn.href = dataUrl;
-            downloadBtn.download = `cti_${originalFileName}_compressed.jpg`;
+            downloadBtn.download = `${originalFileName}_200KB.jpg`;
         }
     </script>
 </body>
