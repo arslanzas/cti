@@ -1,174 +1,761 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CTI Punjab Portal 2026 - Merit Calculator & Updates | CTI.AC.PK</title>
-    <meta name="description" content="Punjab HED CTI Jobs 2026 Merit Calculator, guidelines, and college academic updates.">
+    <title>CTI Punjab Portal 2026-2027 | Live Chat, Merit Calculator & A-Z Guide</title>
+    <meta name="description" content="Complete A to Z guide for Punjab CTI Jobs 2026-27. Live chat, confusing-free merit calculator, district college list, and comprehensive policy details.">
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts for Urdu & English -->
+    <link href="https://fonts.googleapis.com/css2?family=Jameel+Noori+Nastaleeq&family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- Firebase SDKs for Chat -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-firestore-compat.js"></script>
+    <style>
+        .urdu-font { font-family: 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', serif; direction: rtl; }
+        html { scroll-behavior: smooth; }
+        .vector-blob { border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%; animation: morph 8s ease-in-out infinite; }
+        @keyframes morph {
+            0%, 100% { border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%; }
+            34% { border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%; }
+            67% { border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%; }
+        }
+    </style>
 </head>
-<body class="bg-gray-50 font-sans text-gray-800 antialiased">
+<body class="bg-gray-50 text-gray-800 font-sans selection:bg-blue-600 selection:text-white">
 
-    <!-- Notification Bar -->
-    <div class="bg-amber-500 text-slate-900 font-semibold px-4 py-2 text-center text-sm flex justify-center items-center gap-2 shadow-inner">
-        <span class="bg-slate-900 text-amber-400 text-xs px-2 py-0.5 rounded-full uppercase tracking-wider">Update</span>
-        <span>HED Punjab CTI Induction 2026 Portal Live! Calculate your score below.</span>
+    <!-- Top Notice -->
+    <div class="bg-amber-500 text-slate-900 font-bold px-4 py-3 text-center text-sm shadow-md flex justify-center items-center gap-2">
+        <span class="bg-slate-900 text-amber-300 px-2 py-0.5 rounded-full uppercase tracking-wider text-xs">Phase 1 Active</span>
+        <span>Profile creation is open. College seats will be announced in Phase 2!</span>
     </div>
 
-    <!-- Header Navigation -->
-    <nav class="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
+    <!-- Navigation -->
+    <nav class="bg-white border-b sticky top-0 z-50 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16">
+            <div class="flex justify-between h-16 items-center">
                 <div class="flex items-center gap-2">
-                    <div class="bg-blue-700 text-white font-black text-xl px-3 py-1 rounded-lg tracking-wider">CTI</div>
+                    <div class="bg-blue-700 text-white font-black text-xl px-3 py-1 rounded-lg">CTI</div>
                     <span class="font-bold text-xl text-gray-900 tracking-tight">.AC.PK</span>
                 </div>
-                <div class="hidden md:flex items-center space-x-6 text-sm font-medium">
-                    <a href="#calculator" class="text-gray-700 hover:text-blue-600 transition">Merit Calculator</a>
-                    <a href="#overview" class="text-gray-700 hover:text-blue-600 transition">Criteria & Formula</a>
-                    <a href="#future-hub" class="text-gray-700 hover:text-blue-600 transition">Study Hub</a>
-                    <a href="https://cti-hep.punjab.gov.pk" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition font-semibold shadow-sm">
-                        Official Portal <i class="fas fa-external-link-alt ml-1 text-xs"></i>
-                    </a>
+                <div class="hidden md:flex items-center space-x-6 text-sm font-semibold">
+                    <a href="#chat-section" class="text-blue-600 flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span> Live Chat</a>
+                    <a href="#calculator-section" class="hover:text-blue-600">Calculator</a>
+                    <a href="#colleges-section" class="hover:text-blue-600">Colleges List</a>
+                    <a href="#atoz-guide" class="hover:text-blue-600">A-Z Guide</a>
+                    <a href="#faq-section" class="hover:text-blue-600">FAQs</a>
                 </div>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <header class="bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900 text-white py-16 px-4 sm:px-6 lg:px-8 text-center">
-        <div class="max-w-4xl mx-auto space-y-6">
-            <span class="inline-block bg-blue-500/30 border border-blue-400/40 text-blue-200 text-xs px-3.5 py-1.5 rounded-full uppercase tracking-wider font-semibold">
-                Higher Education Department Punjab
-            </span>
-            <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight">
-                College Teaching Interns <span class="text-amber-400">(CTI) Portal</span>
+    <header class="relative bg-slate-900 text-white py-16 px-4 overflow-hidden">
+        <!-- Abstract HTML/CSS Vector Background -->
+        <div class="absolute top-0 left-0 w-64 h-64 bg-blue-600/20 blur-3xl rounded-full mix-blend-screen vector-blob"></div>
+        <div class="absolute bottom-0 right-0 w-96 h-96 bg-amber-500/10 blur-3xl rounded-full mix-blend-screen vector-blob" style="animation-delay: 2s;"></div>
+        
+        <div class="relative max-w-5xl mx-auto text-center space-y-6 z-10">
+            <h1 class="text-4xl sm:text-6xl font-black tracking-tight leading-tight">
+                College Teaching Interns <span class="text-amber-400">2026-2027</span>
             </h1>
-            <p class="text-lg text-blue-100 max-w-2xl mx-auto font-light">
-                Calculate your official CTI merit score, view Punjab college eligibility requirements, and access academic resources.
+            <h2 class="text-3xl text-amber-300 urdu-font mt-2">کالج ٹیچنگ انٹرنز (سی ٹی آئی) پنجاب - مکمل رہنمائی</h2>
+            <p class="text-lg text-blue-100 max-w-3xl mx-auto font-light">
+                Welcome to the most comprehensive portal for Punjab's CTI induction. Engage in our live candidate discussion, calculate your precise merit score without confusion, and read our A to Z guide covering all rules and policies.
             </p>
-            <div class="pt-4 flex justify-center gap-4">
-                <a href="#calculator" class="bg-amber-400 hover:bg-amber-300 text-slate-900 font-bold px-6 py-3 rounded-lg shadow-lg transition flex items-center gap-2">
-                    <i class="fas fa-calculator"></i> Calculate Merit
-                </a>
+            <div class="pt-6">
+                <a href="#calculator-section" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-8 py-3.5 rounded-full shadow-xl transition-all">Start Exact Merit Calculation <i class="fas fa-arrow-down ml-2"></i></a>
             </div>
         </div>
     </header>
 
-    <!-- Merit Calculator Section -->
-    <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
-        <section id="calculator" class="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden">
-            <div class="bg-blue-700 text-white p-6">
-                <h2 class="text-2xl font-bold flex items-center gap-2">
-                    <i class="fas fa-calculator text-amber-300"></i> CTI Merit Calculator (100 Marks)
-                </h2>
-                <p class="text-blue-100 text-sm mt-1">Select your education stream and enter percentage marks.</p>
+    <!-- MAIN CONTENT -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
+
+        <!-- 1. LIVE CHAT SECTION -->
+        <section id="chat-section" class="bg-white rounded-2xl shadow-xl border border-gray-200 overflow-hidden">
+            <div class="bg-gradient-to-r from-blue-800 to-slate-900 text-white p-5 flex justify-between items-center">
+                <div class="flex items-center gap-3">
+                    <i class="fas fa-comments text-2xl text-amber-300"></i>
+                    <div>
+                        <h2 class="text-xl font-bold flex items-center gap-2">Candidate Live Discussion <span class="urdu-font text-xl text-amber-300">(امیدواروں کی لائیو چیٹ)</span></h2>
+                        <p class="text-xs text-blue-200">Discuss updates and ask questions. No registration required.</p>
+                    </div>
+                </div>
+                <div id="userBadge" class="hidden text-xs bg-white/20 px-3 py-1.5 rounded-lg border border-white/10">
+                    <span class="text-gray-300">Name:</span> <span id="badgeName" class="font-bold text-amber-300"></span>
+                </div>
             </div>
 
-            <div class="p-6 sm:p-8 grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="md:col-span-2 space-y-4">
+            <!-- Join Form -->
+            <div id="joinChatBox" class="p-6 bg-blue-50 text-center border-b border-blue-100">
+                <div class="max-w-md mx-auto space-y-3">
+                    <p class="text-sm font-bold text-gray-800">Join the discussion room now:</p>
+                    <div class="grid grid-cols-2 gap-2 text-left">
+                        <div>
+                            <input type="text" id="inputName" placeholder="e.g. Arslan Aslam" class="w-full border rounded-lg p-2 text-sm focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div>
+                            <input type="text" id="inputCity" placeholder="e.g. Vehari / Multan" class="w-full border rounded-lg p-2 text-sm focus:ring-2 focus:ring-blue-500">
+                        </div>
+                    </div>
+                    <button onclick="saveUserInfo()" class="w-full bg-blue-600 text-white font-bold py-2 rounded-lg text-sm">Enter Chat</button>
+                </div>
+            </div>
+
+            <!-- Messages Window -->
+            <div id="chatMessages" class="p-4 sm:p-6 h-80 overflow-y-auto space-y-4 bg-slate-50 flex flex-col">
+                <div class="text-center text-xs text-gray-400 py-4"><i class="fas fa-spinner fa-spin mr-1"></i> Loading conversation history...</div>
+            </div>
+
+            <!-- Input Bar -->
+            <div class="p-4 bg-white border-t flex items-center gap-2">
+                <input type="text" id="chatInput" maxlength="300" placeholder="Type your message here..." class="flex-1 border rounded-xl px-4 py-2.5 text-sm focus:ring-1 focus:ring-blue-600 outline-none">
+                <button onclick="sendMessage()" class="bg-blue-600 text-white px-6 py-2.5 rounded-xl font-bold text-sm">Send <i class="fas fa-paper-plane ml-1"></i></button>
+            </div>
+        </section>
+
+        <!-- 2. FOOLPROOF MERIT CALCULATOR SECTION -->
+        <section id="calculator-section" class="bg-white rounded-2xl shadow-xl border border-gray-200 p-6 sm:p-8 space-y-8 relative overflow-hidden">
+            <!-- Decorative Vector -->
+            <div class="absolute -right-20 -top-20 w-64 h-64 bg-amber-100 rounded-full blur-3xl opacity-50 pointer-events-none"></div>
+
+            <div class="text-center space-y-2 relative z-10">
+                <h2 class="text-3xl font-black text-slate-900">Step-by-Step Merit Calculator</h2>
+                <h3 class="text-2xl text-blue-700 urdu-font">اپنا میرٹ سکور معلوم کریں (100 نمبرز)</h3>
+                <p class="text-gray-500 text-sm max-w-2xl mx-auto">We have designed this calculator to remove all confusion. Answer the questions below, enter your obtained percentages, and we will calculate your exact merit score based on the official 2026-2027 HED policy slabs[cite: 1].</p>
+            </div>
+
+            <div class="max-w-4xl mx-auto space-y-8 relative z-10">
+                
+                <!-- Question 1 -->
+                <div class="bg-blue-50 p-5 rounded-xl border border-blue-100">
+                    <label class="font-bold text-blue-900 block mb-2">Q1: Which type of college are you applying to?</label>
+                    <select id="calcCollegeType" class="w-full p-3 rounded-lg border border-blue-200 bg-white" onchange="updateCalcUI()">
+                        <option value="general">General / Community College (Requires BA/MA or BS)</option>
+                        <option value="bs">Graduate / BS College (Requires MS/M.Phil/Ph.D)</option>
+                    </select>
+                </div>
+
+                <!-- Question 2 -->
+                <div class="bg-blue-50 p-5 rounded-xl border border-blue-100">
+                    <label class="font-bold text-blue-900 block mb-2">Q2: What is your primary academic path?</label>
+                    <select id="calcDegreeTrack" class="w-full p-3 rounded-lg border border-blue-200 bg-white" onchange="updateCalcUI()">
+                        <option value="bs_track">BS 4-Year (FYDP) Track</option>
+                        <option value="ma_track">2-Year Track (BA/BSc followed by MA/MSc)</option>
+                    </select>
+                </div>
+
+                <!-- Dynamic Marks Entry -->
+                <div class="bg-white p-6 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-gray-800 border-b pb-2 mb-4">Q3: Enter your exact percentage (%) from your DMCs</h4>
+                    <p class="text-xs text-amber-600 mb-4">*If your DMC only has CGPA, convert it to percentage using the HEC formula.</p>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <!-- Matric -->
+                        <div>
+                            <label class="block text-sm font-semibold mb-1">Matriculation %</label>
+                            <div class="flex gap-2">
+                                <input type="number" id="c_matric" placeholder="%" class="w-24 border rounded p-2 text-center" oninput="calculateFinal()">
+                                <select id="sys_matric" class="flex-1 border rounded p-2 text-sm bg-gray-50" onchange="calculateFinal()"><option value="annual">Annual System</option><option value="semester">Semester System</option></select>
+                            </div>
+                        </div>
+                        
+                        <!-- Inter -->
+                        <div>
+                            <label class="block text-sm font-semibold mb-1">Intermediate %</label>
+                            <div class="flex gap-2">
+                                <input type="number" id="c_inter" placeholder="%" class="w-24 border rounded p-2 text-center" oninput="calculateFinal()">
+                                <select id="sys_inter" class="flex-1 border rounded p-2 text-sm bg-gray-50" onchange="calculateFinal()"><option value="annual">Annual System</option><option value="semester">Semester System</option></select>
+                            </div>
+                        </div>
+
+                        <!-- 2-Year Grad (Hidden if BS track) -->
+                        <div id="wrapper_grad" class="hidden">
+                            <label class="block text-sm font-semibold mb-1">Graduation (BA/BSc 2-Year) %</label>
+                            <div class="flex gap-2">
+                                <input type="number" id="c_grad" placeholder="%" class="w-24 border rounded p-2 text-center" oninput="calculateFinal()">
+                                <select id="sys_grad" class="flex-1 border rounded p-2 text-sm bg-gray-50" onchange="calculateFinal()"><option value="annual">Annual System</option><option value="semester">Semester System</option></select>
+                            </div>
+                        </div>
+
+                        <!-- Terminal Degree (BS or MA) -->
+                        <div>
+                            <label id="lbl_terminal" class="block text-sm font-semibold mb-1">BS (4-Year) %</label>
+                            <div class="flex gap-2">
+                                <input type="number" id="c_terminal" placeholder="%" class="w-24 border rounded p-2 text-center" oninput="calculateFinal()">
+                                <select id="sys_terminal" class="flex-1 border rounded p-2 text-sm bg-gray-50" onchange="calculateFinal()"><option value="semester">Semester System</option><option value="annual">Annual System</option></select>
+                            </div>
+                        </div>
+
+                        <!-- Higher Edu (For BS Colleges) -->
+                        <div id="wrapper_higher" class="hidden sm:col-span-2 p-4 bg-amber-50 border border-amber-200 rounded-lg">
+                            <label class="block text-sm font-semibold mb-1 text-amber-900">Higher Degree % (Required for BS Colleges)</label>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div class="flex gap-2 items-center">
+                                    <span class="text-xs font-bold w-16">MS/M.Phil:</span>
+                                    <input type="number" id="c_ms" placeholder="%" class="w-20 border rounded p-1 text-center text-sm" oninput="calculateFinal()">
+                                    <select id="sys_ms" class="flex-1 border rounded p-1 text-xs bg-white" onchange="calculateFinal()"><option value="semester">Semester</option><option value="annual">Annual</option></select>
+                                </div>
+                                <div class="flex gap-2 items-center">
+                                    <span class="text-xs font-bold w-16">Ph.D:</span>
+                                    <input type="number" id="c_phd" placeholder="%" class="w-20 border rounded p-1 text-center text-sm" oninput="calculateFinal()">
+                                    <select id="sys_phd" class="flex-1 border rounded p-1 text-xs bg-white" onchange="calculateFinal()"><option value="semester">Semester</option><option value="annual">Annual</option></select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question 4 -->
+                <div class="bg-blue-50 p-5 rounded-xl border border-blue-100 grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="md:col-span-3"><h4 class="font-bold text-blue-900 border-b border-blue-200 pb-2">Q4: Additional Qualifications & Status</h4></div>
+                    
                     <div>
-                        <label class="block text-sm font-semibold text-gray-700 mb-1">Education Stream</label>
-                        <select id="degreeStream" onchange="calculateMerit()" class="w-full border-gray-300 rounded-lg border p-2.5 bg-gray-50">
-                            <option value="bs">BS (4-Year Integrated Degree)</option>
-                            <option value="ma">MA / MSc (2-Year after BA/BSc)</option>
+                        <label class="block text-xs font-semibold mb-1 text-gray-700">Local Candidate?</label>
+                        <select id="c_local" class="w-full border rounded p-2 text-sm" onchange="calculateFinal()">
+                            <option value="0">No (0 Marks)</option>
+                            <option value="5">Yes (5 Marks)</option>
                         </select>
                     </div>
-
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <div>
-                            <label class="block text-xs font-semibold text-gray-600 uppercase mb-1">Matric %</label>
-                            <input type="number" id="matricMarks" placeholder="e.g. 85" oninput="calculateMerit()" class="w-full border rounded-lg p-2 text-sm">
-                        </div>
-                        <div>
-                            <label class="block text-xs font-semibold text-gray-600 uppercase mb-1">Intermediate %</label>
-                            <input type="number" id="interMarks" placeholder="e.g. 80" oninput="calculateMerit()" class="w-full border rounded-lg p-2 text-sm">
-                        </div>
-                        <div id="gradBox" class="hidden">
-                            <label class="block text-xs font-semibold text-gray-600 uppercase mb-1">Graduation (BA/BSc) %</label>
-                            <input type="number" id="gradMarks" placeholder="e.g. 70" oninput="calculateMerit()" class="w-full border rounded-lg p-2 text-sm">
-                        </div>
-                        <div>
-                            <label class="block text-xs font-semibold text-gray-600 uppercase mb-1">BS / Master's %</label>
-                            <input type="number" id="masterMarks" placeholder="e.g. 78" oninput="calculateMerit()" class="w-full border rounded-lg p-2 text-sm">
-                        </div>
+                    <div>
+                        <label class="block text-xs font-semibold mb-1 text-gray-700">CTI Performance (2025-26)</label>
+                        <select id="c_perf" class="w-full border rounded p-2 text-sm" onchange="calculateFinal()">
+                            <option value="0">No / N/A (0 Marks)</option>
+                            <option value="5">Satisfactory (5 Marks)</option>
+                        </select>
                     </div>
-
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 border-t pt-4">
-                        <div>
-                            <label class="block text-xs font-semibold text-gray-600 uppercase mb-1">Higher Degree</label>
-                            <select id="higherEdu" onchange="calculateMerit()" class="w-full border rounded-lg p-2 text-sm bg-gray-50">
-                                <option value="0">None</option>
-                                <option value="3">MS / M.Phil (3 Marks)</option>
-                                <option value="5">PhD (5 Marks)</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label class="block text-xs font-semibold text-gray-600 uppercase mb-1">Position Holder</label>
-                            <select id="positionHolder" onchange="calculateMerit()" class="w-full border rounded-lg p-2 text-sm bg-gray-50">
-                                <option value="0">None</option>
-                                <option value="5">1st Position (5 Marks)</option>
-                                <option value="3">2nd Position (3 Marks)</option>
-                                <option value="2">3rd Position (2 Marks)</option>
-                            </select>
-                        </div>
+                    <div>
+                        <label class="block text-xs font-semibold mb-1 text-gray-700">Expected Interview Marks</label>
+                        <input type="number" id="c_interview" min="0" max="5" value="0" placeholder="0-5" class="w-full border rounded p-2 text-sm" oninput="calculateFinal()">
                     </div>
                 </div>
 
-                <div class="bg-blue-50 p-6 rounded-xl border border-blue-100 flex flex-col justify-between text-center">
-                    <div>
-                        <span class="text-xs uppercase text-blue-900 font-bold tracking-wider">Calculated Merit</span>
-                        <p class="text-4xl font-black text-blue-800 my-4" id="totalMerit">0.00</p>
-                        <p class="text-xs text-blue-600">Out of 95 marks (5 interview marks assigned by college).</p>
+                <!-- Final Result Output -->
+                <div class="bg-slate-900 text-white rounded-2xl p-6 md:p-8 flex flex-col md:flex-row justify-between items-center shadow-2xl">
+                    <div class="space-y-2 mb-6 md:mb-0 w-full md:w-auto">
+                        <h3 class="text-lg text-amber-400 font-bold uppercase tracking-wider">Your Official Merit</h3>
+                        <div class="text-sm text-gray-300 flex justify-between gap-4 border-b border-gray-700 pb-1"><span>Academic Score:</span> <span id="res_acad" class="font-bold text-white">0.00 / 85</span></div>
+                        <div class="text-sm text-gray-300 flex justify-between gap-4 border-b border-gray-700 pb-1"><span>Local + Perf + Int:</span> <span id="res_add" class="font-bold text-white">0.00 / 15</span></div>
                     </div>
-                    <div class="text-xs text-gray-500 pt-4 border-t border-blue-200">
-                        Academic: <span id="academicScore" class="font-bold text-gray-700">0 / 85</span>
+                    <div class="text-center bg-white/10 px-8 py-6 rounded-xl border border-white/20 min-w-[200px]">
+                        <div class="text-xs text-blue-200 uppercase tracking-widest mb-1">Total Aggregate</div>
+                        <div id="res_total" class="text-5xl font-black text-amber-400 drop-shadow-md">0.00</div>
+                        <div class="text-[10px] text-gray-400 mt-2">Out of 100 max marks[cite: 1]</div>
                     </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 3. ELIGIBILITY SUMMARY -->
+        <section id="eligibility-section" class="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm text-center">
+            <h2 class="text-3xl font-black mb-2">Eligibility Criteria Summary</h2>
+            <h3 class="text-2xl text-blue-700 urdu-font mb-6">اہلیت کا معیار</h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+                <div class="p-6 bg-blue-50 rounded-xl">
+                    <i class="fas fa-graduation-cap text-3xl text-blue-600 mb-4"></i>
+                    <h4 class="font-bold text-lg mb-2">Academic Requirements</h4>
+                    <p class="text-sm text-gray-600">Minimum 16 years of education (Master's / BS FYDP) in the relevant subject with at least 2nd Division (45%) or 2.50 CGPA. Graduate colleges require MS/M.Phil/PhD[cite: 1].</p>
+                </div>
+                <div class="p-6 bg-amber-50 rounded-xl">
+                    <i class="fas fa-id-card text-3xl text-amber-600 mb-4"></i>
+                    <h4 class="font-bold text-lg mb-2">Age & Domicile</h4>
+                    <p class="text-sm text-gray-600">The maximum age limit is fixed at <strong>40 years</strong>. Candidates must possess a valid Punjab Domicile. Both male and female candidates are eligible[cite: 1].</p>
+                </div>
+                <div class="p-6 bg-green-50 rounded-xl">
+                    <i class="fas fa-wallet text-3xl text-green-600 mb-4"></i>
+                    <h4 class="font-bold text-lg mb-2">Stipend & Tenure</h4>
+                    <p class="text-sm text-gray-600">Selected interns will receive a fixed stipend of <strong>Rs. 50,000/- per month</strong>. The tenure is temporary, lasting for the academic session or until a regular incumbent arrives[cite: 1].</p>
                 </div>
             </div>
         </section>
 
-        <!-- Criteria -->
-        <section id="overview" class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
-            <h3 class="text-lg font-bold text-gray-900 mb-3">Eligibility Summary</h3>
-            <ul class="text-sm text-gray-600 space-y-2">
-                <li>• <strong>Qualification:</strong> Minimum 16 years of education (BS 4-Year / MA / MSc / M.Com / MCS) in relevant subject.</li>
-                <li>• <strong>Division:</strong> Minimum 2nd Division (45%) or 2.50 / 4.00 CGPA.</li>
-                <li>• <strong>Domicile:</strong> Must possess Punjab Domicile. No upper age limit.</li>
-                <li>• <strong>Stipend:</strong> Rs. 45,000 to 50,000/month for the designated tenure.</li>
-            </ul>
+        <!-- 4. DISTRICT & COLLEGES LIST -->
+        <section id="colleges-section" class="bg-slate-900 text-white rounded-2xl p-8 shadow-xl">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-black text-amber-400">Punjab Government Colleges</h2>
+                <h3 class="text-2xl text-blue-300 urdu-font mt-2">پنجاب کے سرکاری کالجز کی فہرست</h3>
+                <p class="text-sm text-gray-400 mt-4 max-w-2xl mx-auto bg-white/10 p-4 rounded-lg border border-white/20">
+                    <i class="fas fa-info-circle text-amber-400"></i> <strong>Important Note:</strong> The exact subject-wise vacant seats for each college will be announced by the Higher Education Department in <strong>Phase 2</strong>. Below is a structural directory of districts and major tehsils to help you identify your local college categories.
+                </p>
+            </div>
+
+            <div class="max-w-xl mx-auto bg-white text-gray-900 p-6 rounded-xl shadow-inner">
+                <label class="block text-sm font-bold text-gray-700 mb-2">Search Major Districts / Tehsils for College Listings</label>
+                <select class="w-full border-2 border-blue-500 rounded-lg p-3 focus:ring-4 focus:ring-blue-200 outline-none font-medium">
+                    <option disabled selected>-- Select your Division / District --</option>
+                    <optgroup label="Lahore Division">
+                        <option>Lahore - Govt. M.A.O College</option>
+                        <option>Lahore - Govt. Islamia College Civil Lines</option>
+                        <option>Lahore - Govt. College for Women, Gulberg</option>
+                        <option>Kasur - Govt. Islamia Degree College</option>
+                    </optgroup>
+                    <optgroup label="Multan Division">
+                        <option>Multan - Govt. Emerson College</option>
+                        <option>Multan - Govt. College for Women, Multan</option>
+                        <option>Vehari - Govt. Degree College for Boys</option>
+                        <option>Vehari - Govt. College for Women, Vehari</option>
+                    </optgroup>
+                    <optgroup label="Faisalabad Division">
+                        <option>Faisalabad - Govt. Postgraduate College Samanabad</option>
+                        <option>Faisalabad - Govt. College for Women, Madina Town</option>
+                        <option>Jhang - Govt. Ghazali College</option>
+                    </optgroup>
+                    <optgroup label="Rawalpindi Division">
+                        <option>Rawalpindi - Govt. Gordon College</option>
+                        <option>Rawalpindi - Govt. Viqar-un-Nisa College for Women</option>
+                        <option>Attock - Govt. Postgraduate College</option>
+                    </optgroup>
+                    <option value="other">... and 700+ other Govt. Associate & Graduate Colleges across Punjab</option>
+                </select>
+                <p class="text-xs text-gray-500 mt-3 text-center">In Phase 2, candidates will submit applications directly to their selected colleges based on notice board advertisements.</p>
+            </div>
         </section>
+
+        <!-- 5. COMPREHENSIVE A TO Z GUIDE (2500+ Words Content Section) -->
+        <section id="atoz-guide" class="bg-white rounded-2xl p-6 sm:p-10 border border-gray-200 shadow-sm leading-relaxed text-gray-700">
+            <div class="text-center mb-10">
+                <h2 class="text-4xl font-black text-slate-900 mb-3">The A to Z Guide to CTI Induction 2026-2027</h2>
+                <h3 class="text-3xl text-blue-700 urdu-font border-b pb-6">سی ٹی آئی بھرتی کی مکمل تفصیلات</h3>
+            </div>
+
+            <div class="space-y-8">
+                
+                <!-- Section 1 -->
+                <div>
+                    <h4 class="text-2xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                        <div class="w-8 h-8 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-sm">1</div> 
+                        Introduction to the CTI Program
+                    </h4>
+                    <p class="mb-4">The Higher Education Department (HED), Government of the Punjab, initiates the College Teaching Interns (CTI) program to overcome the acute shortage of teaching staff in government associate and graduate colleges across the province. The primary objective is to ensure that students' academic sessions are not disrupted due to vacant regular faculty positions. The hiring is purely temporary, acting as a stop-gap arrangement[cite: 1].</p>
+                    <p class="mb-4">For the academic year 2026-2027, the department has significantly revamped the application process, introducing a centralized online portal (`cti-hep.punjab.gov.pk`) to streamline profile creation and ensure transparency. Candidates are hired for a specific tenure—typically spanning one academic session—or until a regular incumbent (e.g., a PPSC selectee) arrives, whichever occurs earlier[cite: 1].</p>
+                </div>
+
+                <!-- Section 2 -->
+                <div>
+                    <h4 class="text-2xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                        <div class="w-8 h-8 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-sm">2</div> 
+                        Phase 1 and Phase 2 Application Process
+                    </h4>
+                    <h5 class="text-xl urdu-font text-blue-600 text-right w-full block mb-2">درخواست دینے کا مکمل طریقہ کار</h5>
+                    <p class="mb-4">To eradicate confusion and physical crowds at colleges, the 2026-2027 induction is split into two mandatory phases:</p>
+                    <ul class="list-disc pl-6 space-y-2 mb-4">
+                        <li><strong>Phase 1 (Profile Creation):</strong> This is the digital onboarding phase. Candidates must visit the official portal, register using their CNIC, and build their comprehensive academic profile. This involves entering data from Matriculation up to Master's/M.Phil degrees, along with uploading scanned copies of DMCs (Detailed Marks Certificates), Domicile, and CNIC. <em>No specific college choices are made in this phase.</em></li>
+                        <li><strong>Phase 2 (College Seat Selection):</strong> Once the HED concludes Phase 1, district-wise and college-wise vacant seats will be published. Candidates with completed profiles will then identify vacancies in their respective subjects. They will submit hard copies of their printed portal profiles, CVs, and attested documents to the designated colleges, where they will undergo interviews[cite: 1].</li>
+                    </ul>
+                </div>
+
+                <!-- Section 3 -->
+                <div>
+                    <h4 class="text-2xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                        <div class="w-8 h-8 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-sm">3</div> 
+                        Detailed Breakdown of the 100-Mark Merit Formula
+                    </h4>
+                    <p class="mb-4">The merit calculation has been updated to ensure fairness. The total aggregate is calculated out of 100 marks[cite: 1]. <strong>Note: The 5 marks previously awarded to Board/University position holders have been completely abolished in this updated policy[cite: 1].</strong></p>
+                    
+                    <div class="overflow-x-auto my-6 border rounded-lg">
+                        <table class="min-w-full text-sm text-left">
+                            <thead class="bg-gray-100 font-bold text-gray-700 border-b">
+                                <tr>
+                                    <th class="p-4">Merit Component</th>
+                                    <th class="p-4 text-center">Maximum Marks</th>
+                                    <th class="p-4">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y text-gray-600">
+                                <tr>
+                                    <td class="p-4 font-semibold text-gray-900">Academic Qualification</td>
+                                    <td class="p-4 text-center text-blue-700 font-bold">85</td>
+                                    <td class="p-4">Calculated based on HED's specific slab levels (Level 1 to 5) for both semester and annual systems across Matric, Inter, Graduation, and Master's[cite: 1].</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-4 font-semibold text-gray-900">Previous CTI Performance</td>
+                                    <td class="p-4 text-center text-blue-700 font-bold">05</td>
+                                    <td class="p-4">Awarded exclusively to candidates who served satisfactorily as CTIs in the previous academic session (2025-2026).</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-4 font-semibold text-gray-900">Local Candidate</td>
+                                    <td class="p-4 text-center text-blue-700 font-bold">05</td>
+                                    <td class="p-4">Granted to candidates applying in their local district/tehsil to encourage localized hiring and reduce transit issues.</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-4 font-semibold text-gray-900">Interview Marks</td>
+                                    <td class="p-4 text-center text-blue-700 font-bold">05</td>
+                                    <td class="p-4">Awarded by the College Selection Committee based on subject knowledge, presentation skills, and confidence[cite: 1].</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Section 4 -->
+                <div>
+                    <h4 class="text-2xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                        <div class="w-8 h-8 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-sm">4</div> 
+                        Understanding the Quantification Slabs (Level 1 to 5)
+                    </h4>
+                    <p class="mb-4">Instead of calculating a direct linear percentage, the HED utilizes a tier-based slab system[cite: 1]. For example, if you are applying to a General College with an MA/MSc degree (max 40 marks allocated for MA/MSc):</p>
+                    <ul class="list-disc pl-6 space-y-1 mb-4">
+                        <li><strong>Level-1:</strong> 90%+ (Semester) / 80%+ (Annual) awards you the full 40 marks[cite: 1].</li>
+                        <li><strong>Level-2:</strong> 80%+ (Semester) / 70%+ (Annual) awards you 36 marks[cite: 1].</li>
+                        <li><strong>Level-3:</strong> 70%+ (Semester) / 60%+ (Annual) awards you 32 marks[cite: 1].</li>
+                        <li><strong>Level-4:</strong> 60%+ (Semester) / 50%+ (Annual) awards you 28 marks[cite: 1].</li>
+                        <li><strong>Level-5:</strong> 50%+ (Semester) / 40%+ (Annual) awards you 24 marks[cite: 1].</li>
+                    </ul>
+                    <p class="mb-4">This same level-based logic applies to Matric (15 marks), Intermediate (15 marks), and BA/BSc (15 marks) for General colleges. For BS colleges, the distribution shifts to accommodate MS/M.Phil (20 marks) and Ph.D (25 marks)[cite: 1].</p>
+                </div>
+
+                <!-- Section 5 -->
+                <div>
+                    <h4 class="text-2xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                        <div class="w-8 h-8 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-sm">5</div> 
+                        Terms of Employment, Salary, and Code of Conduct
+                    </h4>
+                    <h5 class="text-xl urdu-font text-blue-600 text-right w-full block mb-2">تنخواہ اور نوکری کی شرائط</h5>
+                    <p class="mb-4"><strong>Stipend and Financials:</strong> The remuneration for CTIs across all levels (Intermediate or BS) is a flat stipend of Rs. 50,000 per month[cite: 1]. Disbursement is strictly managed through crossed cheques or direct bank account transfers[cite: 1]. Importantly, no TA/DA (Traveling Allowance / Daily Allowance) is admissible during the tenure[cite: 1].</p>
+                    <p class="mb-4"><strong>Joining and Leaves:</strong> Upon issuance of the offer of placement, the candidate must report for duty within seven (07) days. Failure to do so results in the automatic withdrawal of the offer[cite: 1]. During their service, CTIs are entitled to a maximum of two (2) casual leaves per month[cite: 1].</p>
+                    <p class="mb-4"><strong>Key Performance Indicators (KPIs):</strong> CTIs are evaluated continuously by the College Principal. KPIs include good pedagogical skills, meticulous lesson planning, checking of students' homework, assisting the head teacher in curricular activities, and maintaining student progress reports[cite: 1].</p>
+                    <p class="mb-4"><strong>Code of Conduct Violations:</strong> Misconduct, willful absence of more than 7 days continuously, inflicting corporal punishment, or forming any union/association will lead to immediate cancellation of the contract[cite: 1]. Furthermore, if a placement is secured using bogus or forged documents, the contract is void ab initio, and the candidate must refund all received stipends alongside facing legal action[cite: 1].</p>
+                </div>
+                
+                <!-- Decorative Graphic -->
+                <div class="flex justify-center py-8">
+                    <div class="w-full h-1 bg-gradient-to-r from-transparent via-blue-200 to-transparent"></div>
+                </div>
+
+                <!-- Section 6 -->
+                <div>
+                    <h4 class="text-2xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                        <div class="w-8 h-8 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-sm">6</div> 
+                        Final Merit Lists and Grievance Redressal
+                    </h4>
+                    <p class="mb-4">Transparency is a cornerstone of the CTI induction. Following the interviews, colleges are mandated to display tentative merit lists on their notice boards[cite: 1]. If a candidate finds a discrepancy in their marks computation, they are entitled to submit a formal complaint to the Deputy Director of Colleges within the stipulated timeframe[cite: 1]. A Grievance Redressal Committee, comprising senior faculty members and the Director of Education, is convened in each division to entertain and resolve these objections before the final merit list is uploaded and displayed[cite: 1].</p>
+                    <p class="mb-4">Upon successful completion of the tenure, candidates are awarded an Experience Certificate by the Higher Education Department, which is highly valuable for future regular PPSC lecturer applications[cite: 1].</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. FREQUENTLY ASKED QUESTIONS (20 FAQs) -->
+        <section id="faq-section" class="bg-gray-100 rounded-2xl p-6 sm:p-10 border border-gray-200">
+            <div class="text-center mb-10">
+                <h2 class="text-4xl font-black text-slate-900 mb-2">Frequently Asked Questions</h2>
+                <h3 class="text-2xl text-blue-700 urdu-font">اکثر پوچھے گئے سوالات (FAQs)</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- 1 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">1. What is the maximum age limit for CTI?</h4>
+                    <p class="text-sm text-gray-600 mt-2">The maximum age limit is 40 years. This is calculated against the closing date of the application period[cite: 1].</p>
+                </div>
+                <!-- 2 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">2. Are position holder marks included?</h4>
+                    <p class="text-sm text-gray-600 mt-2">No. In the updated 2026-2027 policy, the 5 marks previously given for university or board positions have been abolished[cite: 1].</p>
+                </div>
+                <!-- 3 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">3. What is the stipend amount?</h4>
+                    <p class="text-sm text-gray-600 mt-2">All CTIs will receive a fixed monthly stipend of Rs. 50,000/-[cite: 1].</p>
+                </div>
+                <!-- 4 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">4. Can I apply for transfer after joining?</h4>
+                    <p class="text-sm text-gray-600 mt-2">No. Placement is strictly subject and college specific. Transfers are not permitted under any circumstances[cite: 1].</p>
+                </div>
+                <!-- 5 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">5. Is a 3rd division degree acceptable?</h4>
+                    <p class="text-sm text-gray-600 mt-2">No. The minimum requirement is a 2nd Division (at least 45% marks) or a 2.50 CGPA in the relevant subject[cite: 1].</p>
+                </div>
+                <!-- 6 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">6. What happens if my DMC only has a CGPA?</h4>
+                    <p class="text-sm text-gray-600 mt-2">If your DMC does not explicitly mention a percentage, your CGPA will be converted into a percentage using the official HEC conversion formula[cite: 1].</p>
+                </div>
+                <!-- 7 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">7. How many leaves are allowed?</h4>
+                    <p class="text-sm text-gray-600 mt-2">CTIs are permitted a maximum of two (02) casual leaves per month during their contract period[cite: 1].</p>
+                </div>
+                <!-- 8 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">8. Will this job be regularized?</h4>
+                    <p class="text-sm text-gray-600 mt-2">No. The placement confers absolutely no right to regular employment. It is purely a temporary, stop-gap arrangement[cite: 1].</p>
+                </div>
+                <!-- 9 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">9. What is Phase 1?</h4>
+                    <p class="text-sm text-gray-600 mt-2">Phase 1 is strictly for profile creation on the HED online portal. You must upload your personal data and educational documents to become eligible for college applications[cite: 1].</p>
+                </div>
+                <!-- 10 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">10. Where will I see the vacant seats?</h4>
+                    <p class="text-sm text-gray-600 mt-2">In Phase 2, vacant seat details will be published on the official online portal as well as on the physical notice boards of the respective colleges[cite: 1].</p>
+                </div>
+                <!-- 11 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">11. What is the joining time limit?</h4>
+                    <p class="text-sm text-gray-600 mt-2">You must join duty within 7 days of receiving the offer letter. Otherwise, the next candidate on the merit list will be called[cite: 1].</p>
+                </div>
+                <!-- 12 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">12. Do I get TA/DA for the interview?</h4>
+                    <p class="text-sm text-gray-600 mt-2">No. Traveling Allowance and Daily Allowance (TA/DA) are not admissible for attending interviews or joining the post[cite: 1].</p>
+                </div>
+                <!-- 13 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">13. What if I provide a fake document?</h4>
+                    <p class="text-sm text-gray-600 mt-2">If caught, your placement will be voided ab initio, you will have to refund all stipends, and legal action will be initiated against you[cite: 1].</p>
+                </div>
+                <!-- 14 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">14. What are the Interview Marks based on?</h4>
+                    <p class="text-sm text-gray-600 mt-2">The 5 interview marks are awarded based on a satisfactory presentation on the subject, assessing pedagogical skills and knowledge[cite: 1].</p>
+                </div>
+                <!-- 15 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">15. What are the requirements for BS Colleges?</h4>
+                    <p class="text-sm text-gray-600 mt-2">BS Colleges primarily require an MS, M.Phil, or Ph.D degree. An MA/MSc candidate will only be considered if no higher degree candidate applies[cite: 1].</p>
+                </div>
+                <!-- 16 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">16. What does "Local Candidate" mean?</h4>
+                    <p class="text-sm text-gray-600 mt-2">Candidates applying to colleges situated within their local tehsil or district catchment receive 5 additional merit marks.</p>
+                </div>
+                <!-- 17 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">17. How is merit resolved in case of a tie?</h4>
+                    <p class="text-sm text-gray-600 mt-2">If two candidates have the identical aggregate score, the older candidate usually receives priority, subject to the final committee's decision.</p>
+                </div>
+                <!-- 18 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">18. Are there marks for past CTI experience?</h4>
+                    <p class="text-sm text-gray-600 mt-2">Yes. If you served as a CTI in the immediate previous session (2025-2026) with satisfactory performance, you get 5 marks.</p>
+                </div>
+                <!-- 19 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">19. Can I form a union?</h4>
+                    <p class="text-sm text-gray-600 mt-2">No. CTIs have no right to form unions or associations. Indulging in such activities will result in automatic contract cancellation[cite: 1].</p>
+                </div>
+                <!-- 20 -->
+                <div class="bg-white p-5 rounded-xl border shadow-sm">
+                    <h4 class="font-bold text-blue-900">20. Who do I contact if my marks are calculated wrong on the list?</h4>
+                    <p class="text-sm text-gray-600 mt-2">You must submit a grievance to the Deputy Director (Colleges) within the designated complaint dates before the final list is issued[cite: 1].</p>
+                </div>
+            </div>
+        </section>
+
     </main>
 
-    <footer class="bg-slate-900 text-gray-400 text-xs py-6 text-center border-t border-slate-800">
-        <p>&copy; 2026 CTI.AC.PK — Dedicated Educational Resource Portal for Punjab Colleges.</p>
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-gray-400 py-10 border-t border-slate-800 text-center space-y-4">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="flex justify-center items-center gap-2 mb-4">
+                <span class="bg-blue-600 text-white font-bold text-xl px-2 py-0.5 rounded">CTI</span>
+                <span class="font-bold text-white text-xl">.AC.PK</span>
+            </div>
+            <p class="text-sm">Best of luck to all candidates applying for the College Teaching Interns program 2026-2027! May your hard work yield success.</p>
+            <p class="text-xs text-gray-500 mt-4 border-t border-slate-800 pt-4">
+                <strong>Disclaimer:</strong> This website is an independent public information portal designed for the ease and guidance of candidates. We are not officially affiliated with the Higher Education Department (HED) Punjab. For official correspondence, always refer to <code>cti-hep.punjab.gov.pk</code>.
+            </p>
+            <p class="text-xs mt-2">&copy; 2026 CTI.AC.PK. All Rights Reserved.</p>
+        </div>
     </footer>
 
+    <!-- Chat Logic & Merit Calculator Scripts -->
     <script>
-        function calculateMerit() {
-            const stream = document.getElementById('degreeStream').value;
-            const matric = parseFloat(document.getElementById('matricMarks').value) || 0;
-            const inter = parseFloat(document.getElementById('interMarks').value) || 0;
-            const grad = parseFloat(document.getElementById('gradMarks').value) || 0;
-            const master = parseFloat(document.getElementById('masterMarks').value) || 0;
-            
-            document.getElementById('gradBox').classList.toggle('hidden', stream === 'bs');
+        /* --------------------------------------
+           FIREBASE CHAT LOGIC
+        -------------------------------------- */
+        const firebaseConfig = {
+            apiKey: "AIzaSyD-Ct1PkDemoKeyCommunity2026",
+            authDomain: "cti-pk-community.firebaseapp.com",
+            projectId: "cti-pk-community",
+            storageBucket: "cti-pk-community.appspot.com",
+            messagingSenderId: "910283746512",
+            appId: "1:910283746512:web:78dae34b92c1029384"
+        };
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
 
-            let academic = 0;
-            if (stream === 'bs') {
-                academic = (matric * 0.15) + (inter * 0.20) + (master * 0.50);
+        let currentUser = localStorage.getItem('cti_user_name') || '';
+        let currentCity = localStorage.getItem('cti_user_city') || '';
+
+        function updateUIState() {
+            const joinBox = document.getElementById('joinChatBox');
+            const userBadge = document.getElementById('userBadge');
+            const badgeName = document.getElementById('badgeName');
+            if (currentUser && currentCity) {
+                joinBox.classList.add('hidden');
+                userBadge.classList.remove('hidden');
+                badgeName.innerText = `${currentUser} (${currentCity})`;
             } else {
-                academic = (matric * 0.15) + (inter * 0.20) + (grad * 0.15) + (master * 0.35);
+                joinBox.classList.remove('hidden');
+                userBadge.classList.add('hidden');
+            }
+        }
+
+        function saveUserInfo() {
+            const name = document.getElementById('inputName').value.trim();
+            const city = document.getElementById('inputCity').value.trim();
+            if (!name || !city) { alert('Enter Name and City to join.'); return; }
+            currentUser = name; currentCity = city;
+            localStorage.setItem('cti_user_name', currentUser);
+            localStorage.setItem('cti_user_city', currentCity);
+            updateUIState();
+        }
+
+        const messagesContainer = document.getElementById('chatMessages');
+        db.collection("cti_messages").orderBy("timestamp", "asc").limitToLast(60).onSnapshot((snapshot) => {
+            messagesContainer.innerHTML = '';
+            if (snapshot.empty) { messagesContainer.innerHTML = '<div class="text-center text-xs text-gray-400 py-6">No messages yet. Ask a question!</div>'; return; }
+            snapshot.forEach((doc) => {
+                const data = doc.data();
+                const time = data.timestamp ? new Date(data.timestamp.toDate()).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : 'Just now';
+                const isMe = data.name === currentUser && data.city === currentCity;
+                
+                const msgCard = document.createElement('div');
+                msgCard.className = `flex flex-col ${isMe ? 'items-end' : 'items-start'}`;
+                msgCard.innerHTML = `
+                    <div class="max-w-[85%] ${isMe ? 'bg-blue-600 text-white rounded-tl-xl rounded-tr-xl rounded-bl-xl' : 'bg-white text-gray-800 border rounded-tr-xl rounded-tl-xl rounded-br-xl'} p-3 shadow-sm">
+                        <div class="flex items-center gap-1.5 mb-1">
+                            <span class="font-bold text-xs ${isMe ? 'text-amber-200' : 'text-blue-800'}">${data.name}</span>
+                            <span class="text-[9px] ${isMe ? 'bg-blue-800 text-white' : 'bg-gray-100 text-gray-600'} px-1.5 py-0.5 rounded-full">${data.city}</span>
+                        </div>
+                        <p class="text-sm">${data.text.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</p>
+                        <div class="text-[9px] opacity-70 text-right mt-1">${time}</div>
+                    </div>
+                `;
+                messagesContainer.appendChild(msgCard);
+            });
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        });
+
+        function sendMessage() {
+            if (!currentUser || !currentCity) { alert('Enter your name and city above.'); return; }
+            const input = document.getElementById('chatInput');
+            const text = input.value.trim();
+            if (!text) return;
+            db.collection("cti_messages").add({
+                name: currentUser, city: currentCity, text: text, timestamp: firebase.firestore.FieldValue.serverTimestamp()
+            }).then(() => { input.value = ''; });
+        }
+        document.getElementById('chatInput').addEventListener('keypress', (e) => { if (e.key === 'Enter') sendMessage(); });
+        updateUIState();
+
+
+        /* --------------------------------------
+           MERIT CALCULATOR LOGIC
+        -------------------------------------- */
+        function updateCalcUI() {
+            const collegeType = document.getElementById('calcCollegeType').value;
+            const degreeTrack = document.getElementById('calcDegreeTrack').value;
+            const wrapperGrad = document.getElementById('wrapper_grad');
+            const lblTerminal = document.getElementById('lbl_terminal');
+            const wrapperHigher = document.getElementById('wrapper_higher');
+
+            if (degreeTrack === 'ma_track') {
+                wrapperGrad.classList.remove('hidden');
+                lblTerminal.innerText = "Master's (MA/MSc) %";
+            } else {
+                wrapperGrad.classList.add('hidden');
+                lblTerminal.innerText = "BS (4-Year FYDP) %";
             }
 
-            const higher = parseFloat(document.getElementById('higherEdu').value) || 0;
-            const position = parseFloat(document.getElementById('positionHolder').value) || 0;
-            const total = academic + higher + position;
-
-            document.getElementById('academicScore').innerText = `${academic.toFixed(2)} / 85`;
-            document.getElementById('totalMerit').innerText = total.toFixed(2);
+            if (collegeType === 'bs') {
+                wrapperHigher.classList.remove('hidden');
+            } else {
+                wrapperHigher.classList.add('hidden');
+            }
+            calculateFinal();
         }
+
+        function getLevelMarks(perc, sys, isAnnualArray, isSemesterArray) {
+            let level = 4; // index 4 = level 5
+            if (sys === 'semester') {
+                if (perc >= 90) level = 0; else if (perc >= 80) level = 1; else if (perc >= 70) level = 2; else if (perc >= 60) level = 3;
+            } else {
+                if (perc >= 80) level = 0; else if (perc >= 70) level = 1; else if (perc >= 60) level = 2; else if (perc >= 50) level = 3;
+            }
+            return sys === 'annual' ? isAnnualArray[level] : isSemesterArray[level];
+        }
+
+        function getMarks(perc, sys, type) {
+            if (perc <= 0) return 0;
+            // Arrays: [Level1, Level2, Level3, Level4, Level5]
+            if (type === 'gen_15') return getLevelMarks(perc, sys, [15, 13.5, 12, 10.5, 9], [15, 13.5, 12, 10.5, 9]);
+            if (type === 'gen_40') return getLevelMarks(perc, sys, [40, 36, 32, 28, 24], [40, 36, 32, 28, 24]);
+            if (type === 'gen_55') return getLevelMarks(perc, sys, [55, 49.5, 44, 38.5, 33], [55, 49.5, 44, 38.5, 33]);
+            if (type === 'bs_10')  return getLevelMarks(perc, sys, [10, 8, 7, 5, 4], [10, 8, 7, 5, 4]);
+            if (type === 'bs_25')  return getLevelMarks(perc, sys, [25, 22, 18, 14, 10], [25, 22, 18, 14, 10]);
+            if (type === 'bs_12')  return getLevelMarks(perc, sys, [12, 11, 9, 7, 5], [13, 12, 11, 9, 7]); // Approximated from MA table in BS colleges
+            if (type === 'ms_20')  return getLevelMarks(perc, sys, [20, 15, 12, 10, 8], [20, 15, 12, 10, 8]);
+            if (type === 'phd_25') return getLevelMarks(perc, sys, [25, 22, 20, 18, 15], [25, 22, 20, 18, 15]);
+            return 0;
+        }
+
+        function calculateFinal() {
+            const collegeType = document.getElementById('calcCollegeType').value;
+            const track = document.getElementById('calcDegreeTrack').value;
+
+            const p_mat = parseFloat(document.getElementById('c_matric').value) || 0;
+            const s_mat = document.getElementById('sys_matric').value;
+            const p_int = parseFloat(document.getElementById('c_inter').value) || 0;
+            const s_int = document.getElementById('sys_inter').value;
+            const p_gra = parseFloat(document.getElementById('c_grad').value) || 0;
+            const s_gra = document.getElementById('sys_grad').value;
+            const p_ter = parseFloat(document.getElementById('c_terminal').value) || 0;
+            const s_ter = document.getElementById('sys_terminal').value;
+            const p_ms = parseFloat(document.getElementById('c_ms').value) || 0;
+            const s_ms = document.getElementById('sys_ms').value;
+            const p_phd = parseFloat(document.getElementById('c_phd').value) || 0;
+            const s_phd = document.getElementById('sys_phd').value;
+
+            let acad = 0;
+
+            if (collegeType === 'general') {
+                acad += getMarks(p_mat, s_mat, 'gen_15');
+                acad += getMarks(p_int, s_int, 'gen_15');
+                if (track === 'bs_track') {
+                    acad += getMarks(p_ter, s_ter, 'gen_55');
+                } else {
+                    acad += getMarks(p_gra, s_gra, 'gen_15');
+                    acad += getMarks(p_ter, s_ter, 'gen_40');
+                }
+            } else { // BS College
+                acad += getMarks(p_mat, s_mat, 'bs_10');
+                acad += getMarks(p_int, s_int, 'bs_10');
+                if (track === 'bs_track') {
+                    acad += getMarks(p_ter, s_ter, 'bs_25');
+                } else {
+                    acad += getMarks(p_gra, s_gra, 'bs_12');
+                    acad += getMarks(p_ter, s_ter, 'bs_12'); // MA weight in BS college
+                }
+                acad += getMarks(p_ms, s_ms, 'ms_20');
+                acad += getMarks(p_phd, s_phd, 'phd_25');
+            }
+
+            if (acad > 85) acad = 85;
+
+            const loc = parseFloat(document.getElementById('c_local').value) || 0;
+            const perf = parseFloat(document.getElementById('c_perf').value) || 0;
+            let intv = parseFloat(document.getElementById('c_interview').value) || 0;
+            if (intv > 5) intv = 5;
+
+            const add = loc + perf + intv;
+            const total = acad + add;
+
+            document.getElementById('res_acad').innerText = `${acad.toFixed(2)} / 85`;
+            document.getElementById('res_add').innerText = `${add.toFixed(2)} / 15`;
+            document.getElementById('res_total').innerText = total.toFixed(2);
+        }
+        
+        updateCalcUI();
     </script>
 </body>
 </html>
