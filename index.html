@@ -10,6 +10,11 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <!-- Google Fonts for Urdu & English -->
     <link href="https://fonts.googleapis.com/css2?family=Jameel+Noori+Nastaleeq&family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Firebase Cloud SDKs for Live Chat -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-firestore-compat.js"></script>
+
     <style>
         .urdu-font { font-family: 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', serif; direction: rtl; }
         html { scroll-behavior: smooth; }
@@ -93,7 +98,7 @@
                                 <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping mr-1.5"></span> Active
                             </span>
                         </h2>
-                        <p class="text-xs text-blue-200">Your messages stay saved across refreshes. Talk with applicants across Punjab.</p>
+                        <p class="text-xs text-blue-200">Connect with candidates, ask questions, and share updates.</p>
                     </div>
                 </div>
 
@@ -116,7 +121,7 @@
                         </div>
                         <div>
                             <label class="block text-xs font-semibold text-gray-600 mb-1">Your City / Tehsil</label>
-                            <input type="text" id="inputCity" placeholder="e.g. Multan / Vehari" class="w-full border rounded-lg p-2 text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+                            <input type="text" id="inputCity" placeholder="e.g. Vehari" class="w-full border rounded-lg p-2 text-sm focus:ring-2 focus:ring-blue-500 outline-none">
                         </div>
                     </div>
                     <button onclick="saveUserInfo()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 rounded-lg text-sm transition">
@@ -125,10 +130,10 @@
                 </div>
             </div>
 
-            <!-- Chat Window (Left for Own Messages, Right for Others) -->
+            <!-- Chat Window -->
             <div id="chatMessages" class="p-4 sm:p-6 h-96 overflow-y-auto space-y-4 bg-slate-50 border-b flex flex-col">
                 <div class="text-center text-xs text-gray-400 py-6">
-                    <i class="fas fa-spinner fa-spin mr-1"></i> Loading live discussions...
+                    <i class="fas fa-spinner fa-spin mr-1"></i> Connecting to live database...
                 </div>
             </div>
 
@@ -856,11 +861,22 @@
     <!-- JAVASCRIPT LOGIC -->
     <script>
         /* -------------------------------------------------------------
-           1. SERVER-BACKED PERSISTENT LIVE COMMUNITY CHAT
+           1. FIREBASE CLOUD CHAT LOGIC (Using Provided Config)
         ------------------------------------------------------------- */
+        const firebaseConfig = {
+            apiKey: "AIzaSyD9M_-CDILQVOqWl_ImBJmMiV3Y3MbNJrc",
+            authDomain: "cti-ac-pk-chat-box.firebaseapp.com",
+            projectId: "cti-ac-pk-chat-box",
+            storageBucket: "cti-ac-pk-chat-box.firebasestorage.app",
+            messagingSenderId: "337281441391",
+            appId: "1:337281441391:web:ef34cb2c1400cf0239b79a"
+        };
+        
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+
         let currentUser = localStorage.getItem('cti_user_name') || '';
         let currentCity = localStorage.getItem('cti_user_city') || '';
-        const messagesContainer = document.getElementById('chatMessages');
 
         function updateUIState() {
             const joinBox = document.getElementById('joinChatBox');
@@ -891,7 +907,6 @@
             localStorage.setItem('cti_user_name', currentUser);
             localStorage.setItem('cti_user_city', currentCity);
             updateUIState();
-            fetchMessages();
         }
 
         function resetUserInfo() {
@@ -902,49 +917,55 @@
             updateUIState();
         }
 
-        // Fetch messages from Node.js server API
-        async function fetchMessages() {
-            try {
-                const res = await fetch('/api/messages');
-                if (!res.ok) throw new Error('API offline');
-                const messages = await res.json();
+        // Live Real-Time Listener for Firestore Messages
+        const messagesContainer = document.getElementById('chatMessages');
 
-                messagesContainer.innerHTML = '';
-                if (!messages || messages.length === 0) {
-                    messagesContainer.innerHTML = '<div class="text-center text-xs text-gray-400 py-6">No messages yet. Be the first to ask a question!</div>';
-                    return;
-                }
-
-                messages.forEach((msg) => {
-                    const isMe = (msg.name === currentUser && msg.city === currentCity);
-                    const msgCard = document.createElement('div');
-                    
-                    // Left for OWN messages, Right for OTHERS
-                    msgCard.className = `flex w-full ${isMe ? 'justify-start' : 'justify-end'}`;
-
-                    msgCard.innerHTML = `
-                        <div class="max-w-[85%] sm:max-w-md ${isMe ? 'bg-blue-600 text-white rounded-tr-2xl rounded-tl-2xl rounded-br-2xl' : 'bg-white text-gray-800 border border-gray-200 rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl'} p-3.5 shadow-sm space-y-1">
-                            <div class="flex items-center gap-1.5 ${isMe ? 'justify-start' : 'justify-end'}">
-                                <span class="font-bold text-xs ${isMe ? 'text-amber-200' : 'text-blue-900'}">${escapeHtml(msg.name)}</span>
-                                <span class="text-[10px] ${isMe ? 'bg-blue-800 text-blue-100' : 'bg-gray-100 text-gray-600 border'} px-2 py-0.5 rounded-full font-medium">
-                                    <i class="fas fa-map-marker-alt text-[9px] mr-0.5"></i>${escapeHtml(msg.city)}
-                                </span>
-                            </div>
-                            <p class="text-xs sm:text-sm leading-relaxed">${escapeHtml(msg.text)}</p>
-                            <div class="text-[9px] ${isMe ? 'text-blue-200 text-left' : 'text-gray-400 text-right'} pt-0.5">${msg.time || 'Just now'}</div>
-                        </div>
-                    `;
-                    messagesContainer.appendChild(msgCard);
-                });
-
-                messagesContainer.scrollTop = messagesContainer.scrollHeight;
-            } catch (e) {
-                // Fallback demo render if running directly without server.js
-                console.log("Chat running in standalone client mode.");
+        db.collection("messages").orderBy("timestamp", "asc").limitToLast(100).onSnapshot((snapshot) => {
+            messagesContainer.innerHTML = '';
+            
+            if (snapshot.empty) {
+                messagesContainer.innerHTML = '<div class="text-center text-xs text-gray-400 py-6">No messages yet. Be the first to ask a question!</div>';
+                return;
             }
-        }
 
-        async function sendMessage() {
+            snapshot.forEach((doc) => {
+                const data = doc.data();
+                const time = data.timestamp ? new Date(data.timestamp.toDate()).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : 'Just now';
+                
+                // Identify if it's the current user sending it
+                const isMe = (data.name === currentUser && data.city === currentCity);
+
+                const msgCard = document.createElement('div');
+                
+                // EXACT USER REQUIREMENT: Own on LEFT, Others on RIGHT
+                // We accomplish this by using flex row / row-reverse.
+                msgCard.className = `flex w-full ${isMe ? 'justify-start' : 'justify-end'}`;
+
+                msgCard.innerHTML = `
+                    <div class="max-w-[85%] sm:max-w-md ${isMe ? 'bg-blue-600 text-white rounded-tr-2xl rounded-tl-2xl rounded-br-2xl' : 'bg-white text-gray-800 border border-gray-200 rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl'} p-3.5 shadow-sm space-y-1">
+                        
+                        <div class="flex items-center gap-1.5 ${isMe ? 'justify-start' : 'justify-end'}">
+                            <span class="font-bold text-xs ${isMe ? 'text-amber-200' : 'text-blue-900'}">${escapeHtml(data.name)}</span>
+                            <span class="text-[10px] ${isMe ? 'bg-blue-800 text-blue-100' : 'bg-gray-100 text-gray-600 border'} px-2 py-0.5 rounded-full font-medium">
+                                <i class="fas fa-map-marker-alt text-[9px] mr-0.5"></i>${escapeHtml(data.city)}
+                            </span>
+                        </div>
+
+                        <p class="text-xs sm:text-sm leading-relaxed ${isMe ? 'text-left' : 'text-right'}">${escapeHtml(data.text)}</p>
+                        
+                        <div class="text-[9px] ${isMe ? 'text-blue-200 text-left' : 'text-gray-400 text-right'} pt-0.5">${time}</div>
+                    </div>
+                `;
+                messagesContainer.appendChild(msgCard);
+            });
+
+            // Auto-scroll to latest message
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }, (error) => {
+            console.error("Firebase chat read error:", error);
+        });
+
+        function sendMessage() {
             if (!currentUser || !currentCity) {
                 alert('Please enter your name and city first.');
                 document.getElementById('inputName').focus();
@@ -956,21 +977,21 @@
 
             if (!text) return;
 
-            // Clear input immediately for next typing
+            // Instantly clear the input box to allow next typing
             input.value = '';
 
-            try {
-                await fetch('/api/messages', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ name: currentUser, city: currentCity, text: text })
-                });
-                fetchMessages();
-            } catch (err) {
+            // Add to Firebase Cloud Database
+            db.collection("messages").add({
+                name: currentUser,
+                city: currentCity,
+                text: text,
+                timestamp: firebase.firestore.FieldValue.serverTimestamp()
+            }).catch((err) => {
                 console.error("Failed to post message", err);
-            }
+            });
         }
 
+        // Enter key listener
         document.getElementById('chatInput').addEventListener('keypress', function (e) {
             if (e.key === 'Enter') sendMessage();
         });
@@ -979,10 +1000,8 @@
             return String(str).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
         }
 
-        // Initialize Chat & Auto-Poll every 3.5s for live updates
+        // Initialize Chat UI
         updateUIState();
-        fetchMessages();
-        setInterval(fetchMessages, 3500);
 
 
         /* -------------------------------------------------------------
