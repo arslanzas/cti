@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9956621358439176"
+     crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check CTI Vacant Seats | CTI.AC.PK</title>
+    <meta name="description" content="Check subject-wise available CTI seats across Punjab government associate and graduate colleges for the 2026-2027 academic session.">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B5R0BG2CT7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-B5R0BG2CT7');
+    </script>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans selection:bg-blue-600 selection:text-white">
+
+    <!-- Navigation Header -->
+    <nav class="bg-white border-b sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <a href="index.html" class="flex items-center gap-2">
+                    <div class="bg-blue-700 text-white font-black text-xl px-3 py-1 rounded-lg tracking-wider">CTI</div>
+                    <span class="font-bold text-xl text-slate-900 tracking-tight">.AC.PK</span>
+                </a>
+                <div class="hidden md:flex items-center space-x-6 text-sm font-semibold">
+                    <a href="index.html" class="text-slate-600 hover:text-blue-600 transition">Home</a>
+                    <a href="seats.html" class="text-blue-600 transition">Seat Checker</a>
+                    <a href="compress.html" class="text-slate-600 hover:text-blue-600 transition">Image Compressor</a>
+                    <a href="about.html" class="text-slate-600 hover:text-blue-600 transition">About Us</a>
+                    <a href="contact.html" class="text-slate-600 hover:text-blue-600 transition">Contact Us</a>
+                    <a href="privacy.html" class="text-slate-600 hover:text-blue-600 transition">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Banner -->
+    <header class="bg-slate-900 text-white py-14 px-4 text-center border-b-4 border-amber-400 relative overflow-hidden">
+        <div class="max-w-4xl mx-auto space-y-3 relative z-10">
+            <span class="bg-blue-600/30 text-blue-300 text-xs font-bold px-3 py-1 rounded-full border border-blue-500/30 uppercase tracking-widest">Phase 2 Vacancy Explorer</span>
+            <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight">College & Subject-Wise CTI Seats</h1>
+            <p class="text-sm sm:text-base text-slate-300 font-light max-w-2xl mx-auto">
+                Easily search through official Punjab government college notifications to find exact seat distributions across all available teaching disciplines.
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Seat Finder Content -->
+    <main class="max-w-5xl mx-auto px-4 py-12 space-y-8">
+        
+        <!-- Info Card (3 to 4 lines text about page) -->
+        <div class="bg-blue-50 border border-blue-200 rounded-2xl p-6 sm:p-8 space-y-2">
+            <h2 class="text-lg font-bold text-blue-900 flex items-center gap-2">
+                <i class="fa-solid fa-circle-info text-blue-600"></i> How to Check Available Seats
+            </h2>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                Welcome to the official CTI vacancy tracker portal designed for Punjab college applicants. Select your target district from the city dropdown, specify whether you are looking for a Girls or Boys college, and choose the college category (Associate or Graduate). The system will instantly filter and display all available subject-wise seats for your selected institution.
+            </p>
+        </div>
+
+        <!-- Filter Controls Box (4-Tier Dropdown Sequence) -->
+        <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm space-y-6">
+            <h3 class="text-xl font-bold text-slate-900 border-b pb-3">Filter Vacant Seats by Step</h3>
+            
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <!-- Dropdown 1: City -->
+                <div class="space-y-1.5">
+                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wide">1. Select City</label>
+                    <select id="citySelect" onchange="onCityChange()" disabled class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-blue-600 focus:bg-white transition disabled:opacity-50">
+                        <option value="">Loading data...</option>
+                    </select>
+                </div>
+
+                <!-- Dropdown 2: Gender (Girls / Boys) -->
+                <div class="space-y-1.5">
+                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wide">2. College Gender</label>
+                    <select id="genderSelect" onchange="onGenderChange()" disabled class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-blue-600 focus:bg-white transition disabled:opacity-50">
+                        <option value="">-- Choose Gender --</option>
+                        <option value="Women">Girls College (W)</option>
+                        <option value="Boys">Boys / Co-Ed College</option>
+                    </select>
+                </div>
+
+                <!-- Dropdown 3: Category (Associate / Graduate) -->
+                <div class="space-y-1.5">
+                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wide">3. College Category</label>
+                    <select id="categorySelect" onchange="onCategoryChange()" disabled class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-blue-600 focus:bg-white transition disabled:opacity-50">
+                        <option value="">-- Choose Category --</option>
+                        <option value="Associate">Associate College</option>
+                        <option value="Graduate">Graduate / Post-Graduate</option>
+                    </select>
+                </div>
+
+                <!-- Dropdown 4: Specific College Name -->
+                <div class="space-y-1.5">
+                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wide">4. Select College</label>
+                    <select id="collegeSelect" onchange="onCollegeChange()" disabled class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-blue-600 focus:bg-white transition disabled:opacity-50">
+                        <option value="">-- Choose College --</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Display Box -->
+        <div id="resultsContainer" class="hidden bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden space-y-6 p-6 sm:p-8">
+            <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b pb-4 gap-2">
+                <div>
+                    <h3 id="selectedCollegeTitle" class="text-xl font-black text-slate-900">College Name</h3>
+                    <p id="selectedCollegeDistrict" class="text-xs text-slate-500">District: --</p>
+                </div>
+                <span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-full">Status: Approved by DPI</span>
+            </div>
+
+            <div class="overflow-x-auto">
+                <table class="min-w-full text-left text-sm">
+                    <thead class="bg-slate-100 text-slate-700 font-bold uppercase text-xs">
+                        <tr>
+                            <th class="p-3.5 rounded-l-xl">Subject / Discipline</th>
+                            <th class="p-3.5 text-center">Available Seats</th>
+                            <th class="p-3.5 rounded-r-xl">Approval Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="seatsTableBody" class="divide-y text-slate-600">
+                        <!-- Populated dynamically -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Empty State Prompt -->
+        <div id="emptyState" class="bg-white rounded-2xl border border-slate-200 p-12 text-center space-y-3">
+            <div class="w-16 h-16 bg-slate-100 text-slate-400 rounded-full flex items-center justify-center mx-auto text-2xl">
+                <i class="fa-solid fa-school"></i>
+            </div>
+            <h4 class="text-lg font-bold text-slate-800">Complete Selection Sequence</h4>
+            <p class="text-xs text-slate-500 max-w-sm mx-auto">Please choose City, Gender, College Category, and the specific College above to view subject-wise seat distributions.</p>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 py-10 border-t border-slate-800 text-center space-y-4 mt-16">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="flex justify-center items-center gap-2 mb-3">
+                <span class="bg-blue-600 text-white font-bold text-xl px-2.5 py-0.5 rounded">CTI</span>
+                <span class="font-bold text-slate-100 text-xl">.AC.PK</span>
+            </div>
+            <div class="flex flex-wrap justify-center gap-6 text-sm font-semibold mb-4 text-slate-300">
+                <a href="index.html" class="hover:text-amber-400 transition">Home</a>
+                <a href="seats.html" class="hover:text-amber-400 transition">Seat Checker</a>
+                <a href="compress.html" class="hover:text-amber-400 transition">Image Compressor</a>
+                <a href="about.html" class="hover:text-amber-400 transition">About Us</a>
+                <a href="contact.html" class="hover:text-amber-400 transition">Contact Us</a>
+                <a href="privacy.html" class="hover:text-amber-400 transition">Privacy Policy</a>
+            </div>
+            <p class="text-sm text-slate-300">Independent public guidance and utility portal for Punjab education applicants.</p>
+            <p class="text-xs text-slate-600 mt-4 border-t border-slate-800 pt-4">&copy; 2026 CTI.AC.PK. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Async Data Loading & Filtering Script -->
+    <script>
+        let ctiData = [];
+
+        async function loadCollegeData() {
+            try {
+                const response = await fetch('colleges.json');
+                ctiData = await response.json();
+                
+                const citySelect = document.getElementById('citySelect');
+                citySelect.innerHTML = '<option value="">-- Choose City --</option>';
+                
+                const uniqueCities = [...new Set(ctiData.map(item => item.district))].sort();
+                uniqueCities.forEach(city => {
+                    const opt = document.createElement('option');
+                    opt.value = city;
+                    opt.textContent = city;
+                    citySelect.appendChild(opt);
+                });
+                citySelect.disabled = false;
+            } catch (error) {
+                console.error("Error loading colleges.json:", error);
+                document.getElementById('citySelect').innerHTML = '<option value="">Error loading data file</option>';
+            }
+        }
+
+        function onCityChange() {
+            const city = document.getElementById('citySelect').value;
+            const genderSelect = document.getElementById('genderSelect');
+            resetDropdowns(1);
+            if (city) genderSelect.disabled = false;
+        }
+
+        function onGenderChange() {
+            const gender = document.getElementById('genderSelect').value;
+            const categorySelect = document.getElementById('categorySelect');
+            resetDropdowns(2);
+            if (gender) categorySelect.disabled = false;
+        }
+
+        function onCategoryChange() {
+            const city = document.getElementById('citySelect').value;
+            const gender = document.getElementById('genderSelect').value;
+            const category = document.getElementById('categorySelect').value;
+            const collegeSelect = document.getElementById('collegeSelect');
+
+            resetDropdowns(3);
+            if (!category) return;
+
+            const filtered = ctiData.filter(item => item.district === city && item.gender === gender && item.category === category);
+            
+            filtered.forEach(col => {
+                const opt = document.createElement('option');
+                opt.value = col.id;
+                opt.textContent = col.name;
+                collegeSelect.appendChild(opt);
+            });
+
+            collegeSelect.disabled = false;
+        }
+
+        function onCollegeChange() {
+            const collegeId = document.getElementById('collegeSelect').value;
+            const resultsContainer = document.getElementById('resultsContainer');
+            const emptyState = document.getElementById('emptyState');
+
+            if (!collegeId) {
+                resultsContainer.classList.add('hidden');
+                emptyState.classList.remove('hidden');
+                return;
+            }
+
+            const college = ctiData.find(item => item.id === collegeId);
+            
+            document.getElementById('selectedCollegeTitle').textContent = college.name;
+            document.getElementById('selectedCollegeDistrict').textContent = `District: ${college.district} | Type: ${college.gender === 'Women' ? 'Girls College' : 'Boys/Co-Ed College'} (${college.category})`;
+
+            const tbody = document.getElementById('seatsTableBody');
+            tbody.innerHTML = '';
+
+            for (const [subject, seats] of Object.entries(college.subjects)) {
+                const tr = document.createElement('tr');
+                tr.className = "hover:bg-slate-50 transition";
+                tr.innerHTML = `
+                    <td class="p-3.5 font-semibold text-slate-800">${subject}</td>
+                    <td class="p-3.5 text-center font-black text-blue-700 text-base">${seats} Seat${seats > 1 ? 's' : ''}</td>
+                    <td class="p-3.5"><span class="bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs px-2.5 py-1 rounded-lg font-semibold">Approved</span></td>
+                `;
+                tbody.appendChild(tr);
+            }
+
+            emptyState.classList.add('hidden');
+            resultsContainer.classList.remove('hidden');
+        }
+
+        function resetDropdowns(level) {
+            if (level <= 1) {
+                document.getElementById('genderSelect').value = "";
+                document.getElementById('genderSelect').disabled = true;
+            }
+            if (level <= 2) {
+                document.getElementById('categorySelect').value = "";
+                document.getElementById('categorySelect').disabled = true;
+            }
+            if (level <= 3) {
+                const collegeSelect = document.getElementById('collegeSelect');
+                collegeSelect.innerHTML = '<option value="">-- Choose College --</option>';
+                collegeSelect.disabled = true;
+            }
+            document.getElementById('resultsContainer').classList.add('hidden');
+            document.getElementById('emptyState').classList.remove('hidden');
+        }
+
+        window.onload = loadCollegeData;
+    </script>
+    <!-- Floating WhatsApp Button (Bottom Right) -->
+    <a href="https://wa.me/+15097035524?text=Hello%2C%20I%20have%20a%20question%20regarding%20CTI%20Portal." 
+       target="_blank" 
+       rel="noopener noreferrer"
+       class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full shadow-2xl flex items-center justify-center text-2xl transition-all duration-300 hover:scale-110 group"
+       title="Chat with us on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="absolute right-full mr-3 bg-slate-900 text-white text-xs font-semibold px-3 py-1.5 rounded-xl shadow-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+            Chat on WhatsApp
+        </span>
+    </a>
+</body>
+</html>
