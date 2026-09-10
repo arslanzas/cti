@@ -1,0 +1,7720 @@
+[
+  {
+    "id": "372201",
+    "name": "GOVT. AL BIRUNI ASSOCIATE COLLEGE, PIND DADAN KHAN",
+    "district": "JHELUM",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Computer Science": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Zoology": 1,
+      "Philosophy": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "342103",
+    "name": "GOVT. ABDUL HAQ ISLAMIA ASSOCIATE COLLEGE, JALALPUR J",
+    "district": "GUJRAT",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Islamiat": 2,
+      "Urdu": 1,
+      "Physics": 1,
+      "Biology": 1,
+      "Civics": 1,
+      "Mathematics": 1,
+      "Computer Science": 1,
+      "Sociology": 1
+    }
+  },
+  {
+    "id": "361105",
+    "name": "GOVT. ALAMDAR HUSSAIN ISLAMIA GRADUATE COLLEGE",
+    "district": "MULTAN",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 2,
+      "Islamiat": 2
+    }
+  },
+  {
+    "id": "343306",
+    "name": "GOVT. ALLAMA IQBAL GRADUATE COLLEGE (W)",
+    "district": "SIALKOT",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 2,
+      "Botany": 1,
+      "Chemistry": 1,
+      "Commerce": 2,
+      "English": 2,
+      "Home Economics": 1,
+      "Islamiat": 2,
+      "Mathematics": 2,
+      "Pakistan Studies": 1,
+      "Political Science": 1,
+      "Psychology": 2,
+      "Sociology": 1,
+      "Urdu": 2,
+      "Computer Science": 3
+    }
+  },
+  {
+    "id": "343303",
+    "name": "GOVT. ALLAMA IQBAL GRADUATE COLLEGE, PARIS ROAD, SIAL",
+    "district": "SIALKOT",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Commerce": 2,
+      "English": 3,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Computer Science": 2,
+      "Economics": 1,
+      "Biology": 1
+    }
+  },
+  {
+    "id": "384204",
+    "name": "GOVT. AMBALA MUSLIM GRADUATE COLLEGE",
+    "district": "SARGODHA",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Physics": 1,
+      "Computer Science": 7,
+      "History": 1,
+      "Arabic": 1,
+      "Education": 1
+    }
+  },
+  {
+    "id": "352119",
+    "name": "GOVT. APWA GRADUATE COLLEGE (W)",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Commerce": 1
+    }
+  },
+  {
+    "id": "352229",
+    "name": "GOVT. AYESHA GRADUATE COLLEGE (W), TIMBER MARKET",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Physics": 1,
+      "Urdu": 2,
+      "Commerce": 1,
+      "Health and Physical Education": 1,
+      "Mathematics": 2,
+      "English": 3,
+      "Computer Science": 4,
+      "Pakistan Studies": 2,
+      "Islamiat": 2,
+      "Psychology": 1
+    }
+  },
+  {
+    "id": "351104",
+    "name": "GOVT. CHANDO BEGUM GRADUATE COLLEGE (W), KANGANPUR",
+    "district": "KASUR",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Biology": 1,
+      "Botany": 1,
+      "Chemistry": 1,
+      "Civics": 1,
+      "Economics": 1,
+      "Education": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Home Economics": 1,
+      "Islamiat": 2,
+      "Mathematics": 2,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Psychology": 1,
+      "Sociology": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "341204",
+    "name": "GOVT. CH.ILM DIN GRADUATE COLLEGE, ALIPUR CHATHA",
+    "district": "GUJRANWALA",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 5,
+      "Commerce": 2,
+      "English": 5,
+      "Health and Physical Education": 3,
+      "History": 1,
+      "Islamiat": 2,
+      "Mathematics": 2,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Philosophy": 1,
+      "Sociology": 1,
+      "Statistics": 1,
+      "Computer Science": 2,
+      "Political Science": 1
+    }
+  },
+  {
+    "id": "321107",
+    "name": "GOVT. ASSOCIATE COLLEGE, CHOTI ZAREEN",
+    "district": "DERA GHAZI KHAN",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Mathematics": 1,
+      "Physics": 1,
+      "Urdu": 1,
+      "Islamiat": 2,
+      "Education": 1,
+      "Saraiki": 1,
+      "Computer Science": 1,
+      "English": 1
+    }
+  },
+  {
+    "id": "343208",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), CHOBARA",
+    "district": "SIALKOT",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Urdu": 2,
+      "Computer Science": 2,
+      "Chemistry": 1,
+      "Biology": 1,
+      "Civics": 1,
+      "Health and Physical Education": 1,
+      "Commerce": 1
+    }
+  },
+  {
+    "id": "331204",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), CHAK NO. 591/GB",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "English": 2,
+      "Education": 1,
+      "Islamiat": 2,
+      "Physics": 1,
+      "Pakistan Studies": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "331501",
+    "name": "GOVT. GRADUATE COLLEGE (W), 153 R.B, SAHIANWALA",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 1,
+      "Commerce": 2,
+      "Computer Science": 2,
+      "English": 5,
+      "Economics": 1,
+      "Biology": 1,
+      "Geography": 1,
+      "Islamiat": 2,
+      "Library Science": 1,
+      "Psychology": 1,
+      "Health and Physical Education": 4,
+      "Pakistan Studies": 1,
+      "Urdu": 2,
+      "Sociology": 1,
+      "Mathematics": 3,
+      "Political Science": 2,
+      "Physics": 1
+    }
+  },
+  {
+    "id": "331119",
+    "name": "GOVT. GRADUATE COLLEGE (W), 266/RB, KHURRIANWALA",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Chemistry": 1,
+      "Computer Science": 3,
+      "Economics": 1,
+      "Education": 1,
+      "Home Economics": 1,
+      "Islamiat": 2,
+      "Library Science": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 2,
+      "Urdu": 6,
+      "Psychology": 1,
+      "Biology": 2,
+      "Commerce": 2,
+      "English": 6,
+      "Physics": 5
+    }
+  },
+  {
+    "id": "323102",
+    "name": "GOVT. GRADUATE COLLEGE (W), ALIPUR",
+    "district": "MUZAFFARGARH",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Botany": 2,
+      "Chemistry": 2,
+      "Economics": 1,
+      "Education": 1,
+      "English": 2,
+      "Mathematics": 2,
+      "Pakistan Studies": 1,
+      "Physics": 2,
+      "Zoology": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "374107",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), ARA BASHARAT",
+    "district": "CHAKWAL",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "Physics": 1,
+      "English": 1,
+      "Urdu": 1,
+      "Computer Science": 1,
+      "Pakistan Studies": 1,
+      "Mathematics": 1,
+      "Biology": 1,
+      "Economics": 1
+    }
+  },
+  {
+    "id": "331124",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), AYUB RESEARCH INSTITUTE",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Economics": 1,
+      "English": 1,
+      "Islamiat": 1,
+      "Persian": 1,
+      "Psychology": 1,
+      "Sociology": 1,
+      "Statistics": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "381104",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), BEHAL",
+    "district": "BHAKKAR",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Health and Physical Education": 2,
+      "Mathematics": 1,
+      "Islamiat": 1,
+      "Geography": 1,
+      "Sociology": 1,
+      "Psychology": 1,
+      "English": 1
+    }
+  },
+  {
+    "id": "381102",
+    "name": "GOVT. GRADUATE COLLEGE (W), BHAKKAR",
+    "district": "BHAKKAR",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 1,
+      "Computer Science": 2,
+      "English": 1,
+      "Education": 1,
+      "Health and Physical Education": 3,
+      "Home Economics": 1,
+      "Islamiat": 1,
+      "Physics": 1,
+      "Psychology": 1,
+      "Social Work": 1,
+      "Sociology": 1,
+      "Urdu": 2,
+      "Zoology": 2
+    }
+  },
+  {
+    "id": "384105",
+    "name": "GOVT. GRADUATE COLLEGE (W), BHALWAL",
+    "district": "SARGODHA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Computer Science": 3,
+      "English": 2,
+      "Islamiat": 2,
+      "Library Science": 1,
+      "Mathematics": 1,
+      "Statistics": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "384214",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), BHERA",
+    "district": "SARGODHA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Physics": 1,
+      "Arabic": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "343309",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), BHOPAL WALA",
+    "district": "SIALKOT",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Arabic": 1,
+      "Chemistry": 1,
+      "Commerce": 1,
+      "Computer Science": 1,
+      "Economics": 1,
+      "English": 1,
+      "Education": 1,
+      "Political Science": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "363102",
+    "name": "GOVT. GRADUATE COLLEGE (W), BUREWALA",
+    "district": "VEHARI",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Mathematics": 1,
+      "Islamiat": 2,
+      "Urdu": 4,
+      "English": 1
+    }
+  },
+  {
+    "id": "322308",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), 90 ML, KAROR",
+    "district": "LAYYAH",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 1,
+      "Physics": 1,
+      "Computer Science": 1,
+      "Mathematics": 1,
+      "English": 1
+    }
+  },
+  {
+    "id": "331502",
+    "name": "GOVT. GRADUATE COLLEGE (W), CHAK JHUMRA",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 3,
+      "Computer Science": 3,
+      "Biology": 1,
+      "Islamiat": 3,
+      "Health and Physical Education": 1,
+      "Psychology": 1,
+      "Political Science": 1,
+      "Pakistan Studies": 2,
+      "Statistics": 1,
+      "Urdu": 2
+    }
+  },
+  {
+    "id": "331403",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), 117/JB, MILLAT ROAD",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Psychology": 2,
+      "Arabic": 2,
+      "Chemistry": 1,
+      "Computer Science": 4,
+      "English": 4,
+      "Education": 2,
+      "Islamiat": 1,
+      "Physics": 1,
+      "Health and Physical Education": 2,
+      "Pakistan Studies": 1,
+      "Urdu": 1,
+      "Zoology": 1
+    }
+  },
+  {
+    "id": "384208",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), CHAK NO. 36/SB",
+    "district": "SARGODHA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Education": 1,
+      "Arabic": 1,
+      "Psychology": 1,
+      "Mathematics": 1,
+      "Health and Physical Education": 1
+    }
+  },
+  {
+    "id": "374103",
+    "name": "GOVT. GRADUATE COLLEGE (W), CHAKWAL",
+    "district": "CHAKWAL",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Chemistry": 2,
+      "English": 2,
+      "Computer Science": 3,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Pakistan Studies": 1,
+      "Psychology": 1,
+      "Statistics": 1,
+      "Zoology": 1
+    }
+  },
+  {
+    "id": "343206",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), CHAWINDA, PASRUR",
+    "district": "SIALKOT",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 1,
+      "Education": 1,
+      "English": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "374302",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), CHOA SAIDEN SHAH",
+    "district": "CHAKWAL",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "English": 3,
+      "Computer Science": 2,
+      "Physics": 1,
+      "Chemistry": 1,
+      "Islamiat": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "321101",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), CHOTI ZAREEN",
+    "district": "DERA GHAZI KHAN",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Urdu": 1,
+      "Mathematics": 1,
+      "Botany": 1,
+      "Education": 1,
+      "Economics": 1,
+      "History": 1,
+      "Biology": 1,
+      "Chemistry": 1
+    }
+  },
+  {
+    "id": "322306",
+    "name": "GOVT. GRADUATE COLLEGE (W), CHOWK AZAM",
+    "district": "LAYYAH",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Sociology": 1,
+      "Islamiat": 3,
+      "English": 4,
+      "Urdu": 3,
+      "Economics": 1,
+      "Computer Science": 1,
+      "Statistics": 1,
+      "Health and Physical Education": 1
+    }
+  },
+  {
+    "id": "361114",
+    "name": "GOVT. GRADUATE COLLEGE (W), CHUNGI NO. 6",
+    "district": "MULTAN",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Computer Science": 5,
+      "Islamiat": 3,
+      "Mathematics": 2,
+      "Pakistan Studies": 2,
+      "Psychology": 2,
+      "Education": 1,
+      "Zoology": 1
+    }
+  },
+  {
+    "id": "361111",
+    "name": "GOVT. GRADUATE COLLEGE (W), CHUNGI NO. 14",
+    "district": "MULTAN",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Psychology": 1,
+      "Urdu": 2,
+      "Arabic": 2,
+      "Computer Science": 4,
+      "English": 2,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Sociology": 1
+    }
+  },
+  {
+    "id": "351102",
+    "name": "GOVT. GRADUATE COLLEGE (W), CHUNIAN",
+    "district": "KASUR",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 3,
+      "Islamiat": 3,
+      "Computer Science": 4,
+      "Arabic": 1,
+      "Pakistan Studies": 2,
+      "Mathematics": 1,
+      "Persian": 1,
+      "Chemistry": 1,
+      "Physics": 1,
+      "Biology": 1,
+      "Philosophy": 1,
+      "Sociology": 1,
+      "Social Work": 1,
+      "Urdu": 2,
+      "Civics": 1
+    }
+  },
+  {
+    "id": "341112",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), COLLEGE ROAD",
+    "district": "GUJRANWALA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 2,
+      "English": 3,
+      "Chemistry": 1,
+      "Economics": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 2,
+      "Home Economics": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Social Work": 1,
+      "Urdu": 2
+    }
+  },
+  {
+    "id": "381401",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), DARYA KHAN",
+    "district": "BHAKKAR",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Psychology": 1,
+      "Health and Physical Education": 1,
+      "Economics": 1,
+      "Library Science": 1,
+      "Computer Science": 1,
+      "Sociology": 1,
+      "Islamiat": 1,
+      "English": 1
+    }
+  },
+  {
+    "id": "383207",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), DAUD KHEL",
+    "district": "MIANWALI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 2,
+      "Economics": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Psychology": 1,
+      "Pakistan Studies": 1,
+      "Urdu": 1,
+      "Biology": 1,
+      "Chemistry": 1,
+      "Civics": 1
+    }
+  },
+  {
+    "id": "321104",
+    "name": "GOVT. GRADUATE COLLEGE (W), DERA GHAZI KHAN",
+    "district": "DERA GHAZI KHAN",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 2,
+      "Chemistry": 1,
+      "Computer Science": 2,
+      "Economics": 1,
+      "Education": 1,
+      "English": 2,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Health and Physical Education": 1,
+      "Physics": 1,
+      "Psychology": 1,
+      "Sociology": 1,
+      "Statistics": 1
+    }
+  },
+  {
+    "id": "373322",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), DHOKE MANGTAL",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 2,
+      "Civics": 1,
+      "Commerce": 1,
+      "Health and Physical Education": 1,
+      "Arabic": 1
+    }
+  },
+  {
+    "id": "374104",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), DHUDIAL",
+    "district": "CHAKWAL",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Islamiat": 1,
+      "Physics": 1,
+      "Sociology": 1,
+      "Home Economics": 1,
+      "Statistics": 1
+    }
+  },
+  {
+    "id": "331115",
+    "name": "GOVT. GRADUATE COLLEGE (W), DIJKOT",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Health and Physical Education": 1,
+      "Islamiat": 3,
+      "English": 3,
+      "Education": 1,
+      "Economics": 1,
+      "Arabic": 2,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Persian": 1,
+      "Psychology": 1,
+      "Sociology": 1,
+      "Statistics": 1,
+      "Urdu": 3,
+      "Computer Science": 2,
+      "Physics": 1
+    }
+  },
+  {
+    "id": "372402",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), DINA",
+    "district": "JHELUM",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 2,
+      "Chemistry": 1,
+      "Civics": 1,
+      "English": 3,
+      "Economics": 1,
+      "History": 1,
+      "Islamiat": 3,
+      "Physiology": 1,
+      "Urdu": 3,
+      "Health and Physical Education": 1,
+      "Education": 1,
+      "Physics": 1,
+      "Sociology": 1,
+      "Mathematics": 2
+    }
+  },
+  {
+    "id": "342205",
+    "name": "GOVT. GRADUATE COLLEGE (W), DINGA",
+    "district": "GUJRAT",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Chemistry": 1,
+      "Civics": 1,
+      "Education": 1,
+      "English": 4,
+      "Health and Physical Education": 2,
+      "Islamiat": 3,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Political Science": 1,
+      "Urdu": 1,
+      "Computer Science": 2,
+      "Psychology": 1
+    }
+  },
+  {
+    "id": "331112",
+    "name": "GOVT. GRADUATE COLLEGE (W), D TYPE COLONY",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Pakistan Studies": 1,
+      "Computer Science": 1,
+      "Islamiat": 1,
+      "Psychology": 1
+    }
+  },
+  {
+    "id": "381404",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), DULLEWALA",
+    "district": "BHAKKAR",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Physics": 1,
+      "Computer Science": 1,
+      "Sociology": 1
+    }
+  },
+  {
+    "id": "352103",
+    "name": "GOVT. GRADUATE COLLEGE (W), E BLOCK MODEL TOWN",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Islamiat": 2,
+      "Arabic": 1,
+      "Mathematics": 2,
+      "Psychology": 2,
+      "Statistics": 1,
+      "Computer Science": 3,
+      "Education": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "384503",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), FAROOQA",
+    "district": "SARGODHA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Mathematics": 1,
+      "English": 1,
+      "Education": 1,
+      "Physics": 1,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "384210",
+    "name": "GOVT. GRADUATE COLLEGE (W), FAROOQ COLONY",
+    "district": "SARGODHA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 2,
+      "Computer Science": 5,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Social Work": 1,
+      "Sociology": 1,
+      "Statistics": 1,
+      "Zoology": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "354310",
+    "name": "GOVT. GRADUATE COLLEGE (W), FAROOQABAD",
+    "district": "SHEIKHUPURA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 1,
+      "Arabic": 1,
+      "Computer Science": 2,
+      "Islamiat": 1,
+      "Education": 1,
+      "Mathematics": 1,
+      "Health and Physical Education": 1,
+      "Zoology": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "371202",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), FATEH JANG",
+    "district": "ATTOCK",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Economics": 1,
+      "English": 2,
+      "Mathematics": 1,
+      "Computer Science": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "322204",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), FATEHPUR",
+    "district": "LAYYAH",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Chemistry": 1,
+      "Biology": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "324203",
+    "name": "GOVT. GRADUATE COLLEGE (W), FAZILPUR",
+    "district": "RAJANPUR",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 1,
+      "Computer Science": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Urdu": 2
+    }
+  },
+  {
+    "id": "363104",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), GAGGO",
+    "district": "VEHARI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "Biology": 1,
+      "Computer Science": 1,
+      "Economics": 1,
+      "Health and Physical Education": 1,
+      "Home Economics": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Urdu": 1,
+      "English": 1
+    }
+  },
+  {
+    "id": "331113",
+    "name": "GOVT. GRADUATE COLLEGE (W), G.M.ABAD",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 1,
+      "Computer Science": 5,
+      "English": 8,
+      "Education": 3,
+      "Islamiat": 8,
+      "Mathematics": 2,
+      "Physics": 3,
+      "Health and Physical Education": 2,
+      "Psychology": 2,
+      "Pakistan Studies": 3,
+      "Punjabi": 1,
+      "Urdu": 8,
+      "Civics": 1
+    }
+  },
+  {
+    "id": "373604",
+    "name": "GOVT. GRADUATE COLLEGE (W), GUJAR KHAN",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "Botany": 1,
+      "Civics": 1,
+      "Commerce": 1,
+      "Economics": 1,
+      "Education": 1,
+      "English": 1,
+      "Health and Physical Education": 1,
+      "History": 1,
+      "Home Economics": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Political Science": 1,
+      "Psychology": 1,
+      "Urdu": 1,
+      "Computer Science": 3,
+      "Geography": 1,
+      "Statistics": 1,
+      "Chemistry": 1,
+      "Physics": 1
+    }
+  },
+  {
+    "id": "341107",
+    "name": "GOVT. GRADUATE COLLEGE (W), GUJRANWALA",
+    "district": "GUJRANWALA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 3,
+      "Biology": 1,
+      "Civics": 1,
+      "Education": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 2,
+      "Persian": 1,
+      "Physics": 1,
+      "Psychology": 1,
+      "Urdu": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "352120",
+    "name": "GOVT. GRADUATE COLLEGE (W), GULBERG",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Fine Arts": 2,
+      "Mathematics": 5,
+      "Biology": 5,
+      "Commerce": 2,
+      "Computer Science": 8,
+      "Education": 2,
+      "English": 4,
+      "Islamiat": 7,
+      "Mass Communication": 3,
+      "Journalism": 1,
+      "Physics": 8,
+      "Punjabi": 1,
+      "Urdu": 5,
+      "Zoology": 3,
+      "Arabic": 1,
+      "Health and Physical Education": 1,
+      "Psychology": 2,
+      "Statistics": 1
+    }
+  },
+  {
+    "id": "331110",
+    "name": "GOVT. GRADUATE COLLEGE (W), GULISTAN COLONY",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 1,
+      "Islamiat": 1,
+      "Computer Science": 3,
+      "Persian": 1,
+      "English": 4,
+      "Urdu": 4
+    }
+  },
+  {
+    "id": "342119",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), GULIYANA",
+    "district": "GUJRAT",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Civics": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Psychology": 1,
+      "Statistics": 1,
+      "Urdu": 2,
+      "Computer Science": 2,
+      "English": 3,
+      "Mathematics": 2,
+      "Health and Physical Education": 1,
+      "Islamiat": 3
+    }
+  },
+  {
+    "id": "343307",
+    "name": "GOVT. GRADUATE COLLEGE (W), HAJIPURA",
+    "district": "SIALKOT",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Urdu": 1,
+      "English": 1,
+      "Islamiat": 1,
+      "Arabic": 1,
+      "Computer Science": 1,
+      "Persian": 1,
+      "History": 1,
+      "Health and Physical Education": 1,
+      "Physics": 1,
+      "Sociology": 1,
+      "Statistics": 1,
+      "Philosophy": 1
+    }
+  },
+  {
+    "id": "364402",
+    "name": "GOVT. GRADUATE COLLEGE (W), JAHANIAN",
+    "district": "KHANEWAL",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "Botany": 1,
+      "Chemistry": 1,
+      "Economics": 1,
+      "Education": 1,
+      "English": 4,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Physics": 2,
+      "Statistics": 1,
+      "Urdu": 2,
+      "Psychology": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "371404",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), JAND",
+    "district": "ATTOCK",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Islamiat": 2,
+      "English": 1,
+      "Psychology": 1,
+      "Biology": 1,
+      "Chemistry": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "381204",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), JANDAN WALA",
+    "district": "BHAKKAR",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Islamiat": 1,
+      "Chemistry": 1,
+      "Health and Physical Education": 1,
+      "Library Science": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Zoology": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "331202",
+    "name": "GOVT. GRADUATE COLLEGE (W), JARANWALA",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 3,
+      "Physics": 1,
+      "Computer Science": 2,
+      "Pakistan Studies": 2,
+      "Urdu": 3,
+      "Statistics": 2,
+      "Arabic": 1
+    }
+  },
+  {
+    "id": "323403",
+    "name": "GOVT. KAURA KHAN GRADUATE COLLEGE (W), JATOI",
+    "district": "MUZAFFARGARH",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 1,
+      "Biology": 1,
+      "Chemistry": 1,
+      "Economics": 1,
+      "Health and Physical Education": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Urdu": 1,
+      "Arabic": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "332204",
+    "name": "GOVT. GRADUATE COLLEGE (W), SADDAR, JHANG",
+    "district": "JHANG",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Botany": 1,
+      "Chemistry": 2,
+      "Computer Science": 5,
+      "English": 3,
+      "Economics": 2,
+      "Geography": 1,
+      "Mathematics": 3,
+      "Physics": 1,
+      "Health and Physical Education": 2,
+      "Psychology": 1,
+      "Political Science": 2,
+      "Urdu": 3,
+      "Zoology": 1,
+      "Statistics": 1,
+      "Library Science": 1,
+      "Islamiat": 2,
+      "Pakistan Studies": 2,
+      "Home Economics": 2,
+      "Fine Arts": 1
+    }
+  },
+  {
+    "id": "372103",
+    "name": "GOVT. GRADUATE COLLEGE (W), JHELUM",
+    "district": "JHELUM",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Economics": 1,
+      "Arabic": 1,
+      "Computer Science": 2,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Philosophy": 1,
+      "Physics": 1,
+      "Urdu": 2,
+      "English": 4
+    }
+  },
+  {
+    "id": "341302",
+    "name": "GOVT. GRADUATE COLLEGE (W), KAMOKE",
+    "district": "GUJRANWALA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 2,
+      "Civics": 1,
+      "Commerce": 1,
+      "Education": 2,
+      "English": 3,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Health and Physical Education": 1,
+      "Pakistan Studies": 1,
+      "Persian": 1,
+      "Statistics": 1,
+      "Urdu": 2,
+      "Zoology": 1,
+      "Computer Science": 3
+    }
+  },
+  {
+    "id": "383104",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), KAMAR MUSHANI",
+    "district": "MIANWALI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "Economics": 1,
+      "Education": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Psychology": 1,
+      "Urdu": 2,
+      "Islamiat": 2
+    }
+  },
+  {
+    "id": "323304",
+    "name": "GOVT. GRADUATE COLLEGE (W), KARAM DAD QURESHI",
+    "district": "MUZAFFARGARH",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Education": 1,
+      "English": 1,
+      "Economics": 1,
+      "Urdu": 2,
+      "Computer Science": 2,
+      "Biology": 1,
+      "Chemistry": 1,
+      "Physics": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "331108",
+    "name": "GOVT. GRADUATE COLLEGE (W), KARKHANA BAZAR",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Commerce": 1,
+      "Economics": 1,
+      "Education": 2,
+      "Fine Arts": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Mass Communication": 1,
+      "Mathematics": 3,
+      "Pakistan Studies": 2,
+      "Psychology": 2,
+      "Computer Science": 4
+    }
+  },
+  {
+    "id": "322203",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), KAROR",
+    "district": "LAYYAH",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 2,
+      "Chemistry": 2,
+      "English": 2,
+      "Geography": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Physics": 2,
+      "Urdu": 1,
+      "Computer Science": 2,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "323305",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), KHAN GARH",
+    "district": "MUZAFFARGARH",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 2,
+      "Chemistry": 2,
+      "Economics": 1,
+      "Education": 1,
+      "English": 2,
+      "Health and Physical Education": 2,
+      "Islamiat": 2,
+      "Mathematics": 2,
+      "Pakistan Studies": 2,
+      "Physics": 2,
+      "Sociology": 2,
+      "Urdu": 2,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "313304",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), KHAN BELA",
+    "district": "RAHIM YAR KHAN",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Arabic": 1,
+      "Biology": 1,
+      "Chemistry": 1,
+      "Computer Science": 1,
+      "Education": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "382107",
+    "name": "GOVT. GRADUATE COLLEGE (W), KHUSHAB",
+    "district": "KHUSHAB",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 1,
+      "English": 1,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Health and Physical Education": 1,
+      "Psychology": 1
+    }
+  },
+  {
+    "id": "323202",
+    "name": "GOVT. GRADUATE COLLEGE (W), KOT ADU",
+    "district": "MUZAFFARGARH",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 1,
+      "Computer Science": 1,
+      "English": 2,
+      "Economics": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Political Science": 1,
+      "Urdu": 1,
+      "Zoology": 1
+    }
+  },
+  {
+    "id": "384107",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), KOT MOMIN",
+    "district": "SARGODHA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Zoology": 1,
+      "Punjabi": 1,
+      "Urdu": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "351205",
+    "name": "GOVT. GRADUATE COLLEGE (W), KOT RADHA KISHAN",
+    "district": "KASUR",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 2,
+      "Physics": 2,
+      "Mathematics": 1,
+      "Islamiat": 2,
+      "Urdu": 1,
+      "Economics": 1,
+      "Computer Science": 4,
+      "Geography": 1,
+      "Pakistan Studies": 2,
+      "Chemistry": 2,
+      "Persian": 1,
+      "Statistics": 1,
+      "English": 1,
+      "Psychology": 1,
+      "Sociology": 1,
+      "Arabic": 1,
+      "Medical Laboratory Technology": 2
+    }
+  },
+  {
+    "id": "322305",
+    "name": "GOVT. GRADUATE COLLEGE (W), KOT SULTAN",
+    "district": "LAYYAH",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Botany": 1,
+      "English": 2,
+      "Physics": 1,
+      "Chemistry": 1,
+      "Mathematics": 1,
+      "Urdu": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "342207",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), KOTLA ARAB ALI KHAN",
+    "district": "GUJRAT",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 1,
+      "Civics": 1,
+      "Commerce": 1,
+      "Computer Science": 1,
+      "Economics": 1,
+      "Education": 2,
+      "English": 3,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Health and Physical Education": 1,
+      "Psychology": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "322304",
+    "name": "GOVT. GRADUATE COLLEGE (W), LAYYAH",
+    "district": "LAYYAH",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Biology": 1,
+      "Botany": 1,
+      "Chemistry": 2,
+      "Computer Science": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Sociology": 1,
+      "Statistics": 1,
+      "Urdu": 2
+    }
+  },
+  {
+    "id": "313202",
+    "name": "GOVT. GRADUATE COLLEGE (W), LIAQUATPUR",
+    "district": "RAHIM YAR KHAN",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 2,
+      "Computer Science": 3,
+      "Education": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Persian": 1,
+      "Library Science": 1,
+      "Psychology": 2,
+      "Social Work": 1
+    }
+  },
+  {
+    "id": "383302",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), LIAQUATABAD",
+    "district": "MIANWALI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Physics": 1,
+      "Mathematics": 1,
+      "Computer Science": 1,
+      "Health and Physical Education": 1,
+      "Pakistan Studies": 1,
+      "Library Science": 1,
+      "Urdu": 2,
+      "Psychology": 1,
+      "Civics": 1,
+      "Islamiat": 2
+    }
+  },
+  {
+    "id": "363304",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), LUDDAN",
+    "district": "VEHARI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Economics": 1,
+      "English": 2,
+      "Home Economics": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Saraiki": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "361112",
+    "name": "GOVT. GRADUATE COLLEGE (W), MAKHDOOM RASHEED",
+    "district": "MULTAN",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Islamiat": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Urdu": 2
+    }
+  },
+  {
+    "id": "373606",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), MANGHOT",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 1,
+      "Education": 1,
+      "English": 2,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Urdu": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "381103",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), MANKERA",
+    "district": "BHAKKAR",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Chemistry": 1,
+      "Islamiat": 1,
+      "Library Science": 1,
+      "Computer Science": 1,
+      "Physics": 1
+    }
+  },
+  {
+    "id": "364302",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), MIAN CHANNU",
+    "district": "KHANEWAL",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Computer Science": 3,
+      "Economics": 1,
+      "Mathematics": 1,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "383202",
+    "name": "GOVT. GRADUATE COLLEGE (W), MIANWALI",
+    "district": "MIANWALI",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Commerce": 1,
+      "Home Economics": 1,
+      "Health and Physical Education": 1,
+      "Mathematics": 1,
+      "Psychology": 3,
+      "Political Science": 1,
+      "Sociology": 1,
+      "Urdu": 1,
+      "Zoology": 3,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "322307",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), MIRHAN",
+    "district": "LAYYAH",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Urdu": 1,
+      "Islamiat": 1,
+      "Computer Science": 1,
+      "Education": 1,
+      "Economics": 1,
+      "Physics": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "374105",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), MULHAL MUGHLAN",
+    "district": "CHAKWAL",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 2,
+      "English": 1,
+      "Education": 1,
+      "Economics": 1,
+      "Chemistry": 1,
+      "Biology": 1,
+      "Pakistan Studies": 1,
+      "Sociology": 2
+    }
+  },
+  {
+    "id": "383205",
+    "name": "GOVT. GRADUATE COLLEGE (W), MUSA KHEL",
+    "district": "MIANWALI",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "Civics": 1,
+      "Economics": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Islamiat": 2,
+      "Library Science": 1,
+      "Psychology": 1,
+      "Physics": 1,
+      "Urdu": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "323303",
+    "name": "GOVT. GRADUATE COLLEGE (W), MUZAFFARGARH",
+    "district": "MUZAFFARGARH",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 1,
+      "Education": 1,
+      "English": 2,
+      "Geography": 1,
+      "Mathematics": 1,
+      "Computer Science": 2,
+      "Political Science": 2,
+      "Psychology": 2,
+      "Urdu": 1,
+      "Physics": 1
+    }
+  },
+  {
+    "id": "341401",
+    "name": "GOVT. GRADUATE COLLEGE (W), NOWSHERA VIRKAN",
+    "district": "GUJRANWALA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 3,
+      "Islamiat": 5,
+      "Urdu": 4,
+      "Education": 1,
+      "Persian": 1,
+      "Computer Science": 3,
+      "Psychology": 1,
+      "Pakistan Studies": 2,
+      "Political Science": 1,
+      "Mathematics": 2,
+      "Physics": 1,
+      "Chemistry": 1,
+      "Punjabi": 1
+    }
+  },
+  {
+    "id": "398202",
+    "name": "GOVT. GRADUATE COLLEGE (W), PAKPATTAN",
+    "district": "PAKPATTAN",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 4,
+      "Mathematics": 3,
+      "Physics": 2,
+      "Chemistry": 1,
+      "Botany": 3,
+      "Zoology": 3,
+      "Economics": 2,
+      "Computer Science": 3,
+      "Islamiat": 1,
+      "Arabic": 1,
+      "Health and Physical Education": 1,
+      "Education": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "343202",
+    "name": "GOVT. GRADUATE COLLEGE (W), PASRUR",
+    "district": "SIALKOT",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 1,
+      "English": 2,
+      "Islamiat": 2,
+      "Mathematics": 2,
+      "Health and Physical Education": 1,
+      "Education": 1,
+      "Physics": 1,
+      "Punjabi": 1,
+      "Urdu": 3,
+      "Pakistan Studies": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "351303",
+    "name": "GOVT. GRADUATE COLLEGE (W), PATTOKI",
+    "district": "KASUR",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 4,
+      "Islamiat": 1,
+      "Urdu": 1,
+      "Pakistan Studies": 1,
+      "Persian": 1,
+      "Computer Science": 4,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Chemistry": 2,
+      "Health and Physical Education": 2,
+      "Zoology": 2
+    }
+  },
+  {
+    "id": "372202",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), PIND DADAN KHAN",
+    "district": "JHELUM",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Mathematics": 1,
+      "Islamiat": 2,
+      "English": 2,
+      "Computer Science": 3
+    }
+  },
+  {
+    "id": "322312",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), PEER JAGGI",
+    "district": "LAYYAH",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "Biology": 1,
+      "English": 1,
+      "Mathematics": 1,
+      "Urdu": 1,
+      "Physics": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "331111",
+    "name": "GOVT. GRADUATE COLLEGE (W), PEOPLES COLONY NO. 2",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 5,
+      "English": 5,
+      "Economics": 1,
+      "Education": 1,
+      "Geography": 1,
+      "Islamiat": 4,
+      "Health and Physical Education": 1,
+      "Psychology": 2,
+      "Pakistan Studies": 2,
+      "Urdu": 4,
+      "Punjabi": 1
+    }
+  },
+  {
+    "id": "341108",
+    "name": "GOVT. GRADUATE COLLEGE (W), PEOPLES COLONY",
+    "district": "GUJRANWALA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 6,
+      "Urdu": 3,
+      "Islamiat": 3,
+      "Computer Science": 4,
+      "Physics": 1,
+      "Mathematics": 2,
+      "Health and Physical Education": 1,
+      "Home Economics": 2,
+      "Psychology": 1,
+      "Education": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "373203",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), PHAGWARI MURREE",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Mathematics": 1,
+      "Computer Science": 1,
+      "Physics": 1,
+      "Islamiat": 1,
+      "English": 1
+    }
+  },
+  {
+    "id": "384104",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), PHULARWAN",
+    "district": "SARGODHA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Islamiat": 2,
+      "English": 1,
+      "Computer Science": 2,
+      "Health and Physical Education": 1,
+      "Physics": 1,
+      "Arabic": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "371302",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), PINDI GHEB",
+    "district": "ATTOCK",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 2,
+      "Education": 1,
+      "History": 1,
+      "Islamiat": 2,
+      "Urdu": 2
+    }
+  },
+  {
+    "id": "341109",
+    "name": "GOVT. GRADUATE COLLEGE (W), QILA DIDAR SINGH",
+    "district": "GUJRANWALA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 3,
+      "English": 3,
+      "Education": 2,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Pakistan Studies": 2,
+      "Health and Physical Education": 2,
+      "Physics": 1,
+      "Urdu": 2,
+      "Economics": 1,
+      "Chemistry": 1
+    }
+  },
+  {
+    "id": "343203",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), QILA KALARWALA",
+    "district": "SIALKOT",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Civics": 1,
+      "Islamiat": 1,
+      "Physics": 1,
+      "Mathematics": 1,
+      "Economics": 1,
+      "Health and Physical Education": 1,
+      "Computer Science": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "324201",
+    "name": "GOVT. GRADUATE COLLEGE (W), RAJANPUR",
+    "district": "RAJANPUR",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 2,
+      "English": 2,
+      "Urdu": 1,
+      "Islamiat": 2,
+      "Physics": 1,
+      "Chemistry": 2,
+      "Computer Science": 2,
+      "Mathematics": 2,
+      "Statistics": 1,
+      "Economics": 1,
+      "Education": 2,
+      "Sociology": 1,
+      "Psychology": 1,
+      "Library Science": 1,
+      "Health and Physical Education": 1
+    }
+  },
+  {
+    "id": "397203",
+    "name": "GOVT. GRADUATE COLLEGE (W), SAHIWAL",
+    "district": "SAHIWAL",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 2,
+      "Zoology": 2,
+      "Commerce": 1,
+      "Computer Science": 5,
+      "Chemistry": 3,
+      "English": 2,
+      "Mathematics": 3,
+      "Pakistan Studies": 2,
+      "Physics": 3,
+      "Geography": 1,
+      "Economics": 2,
+      "Sociology": 1,
+      "Political Science": 4,
+      "Statistics": 2,
+      "Home Economics": 1
+    }
+  },
+  {
+    "id": "384502",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), SAHIWAL",
+    "district": "SARGODHA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "English": 1,
+      "Statistics": 1
+    }
+  },
+  {
+    "id": "331114",
+    "name": "GOVT. GRADUATE COLLEGE (W), SAIFABAD",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Education": 1,
+      "Computer Science": 4,
+      "Civics": 1,
+      "English": 4,
+      "Physics": 1,
+      "Health and Physical Education": 1,
+      "Psychology": 1,
+      "Sociology": 1,
+      "Urdu": 2,
+      "Islamiat": 5
+    }
+  },
+  {
+    "id": "331120",
+    "name": "GOVT. GRADUATE COLLEGE (W), SAMANABAD",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 2,
+      "Chemistry": 2,
+      "Computer Science": 4,
+      "English": 7,
+      "Education": 1,
+      "Home Economics": 1,
+      "Islamiat": 3,
+      "Mathematics": 1,
+      "Physics": 2,
+      "Health and Physical Education": 1,
+      "Psychology": 2,
+      "Pakistan Studies": 2,
+      "Sociology": 1,
+      "Urdu": 6
+    }
+  },
+  {
+    "id": "343308",
+    "name": "GOVT. GRADUATE COLLEGE (W), SAMBRIAL",
+    "district": "SIALKOT",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 3,
+      "Urdu": 2,
+      "Islamiat": 2,
+      "Education": 1,
+      "Political Science": 1,
+      "Mathematics": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "331303",
+    "name": "GOVT. GRADUATE COLLEGE (W), SAMUNDARI",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 3,
+      "English": 6,
+      "Geography": 1,
+      "Islamiat": 3,
+      "Mathematics": 2,
+      "Pakistan Studies": 2,
+      "Physics": 3,
+      "Physiology": 1,
+      "Statistics": 1,
+      "Urdu": 2,
+      "Zoology": 2
+    }
+  },
+  {
+    "id": "356402",
+    "name": "GOVT. GRADUATE COLLEGE (W), SANGLA HILL",
+    "district": "NANKANA SAHIB",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 2,
+      "Urdu": 2,
+      "Computer Science": 3,
+      "Islamiat": 3,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Chemistry": 1,
+      "Political Science": 1,
+      "Psychology": 1
+    }
+  },
+  {
+    "id": "384302",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), SHAHPUR",
+    "district": "SARGODHA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Urdu": 2,
+      "Computer Science": 1,
+      "Sociology": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "344202",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), SHAKARGARH",
+    "district": "NAROWAL",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Physics": 2,
+      "Political Science": 1,
+      "Computer Science": 1,
+      "Zoology": 1
+    }
+  },
+  {
+    "id": "363103",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), SHEIKH FAZAL",
+    "district": "VEHARI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Urdu": 1,
+      "Islamiat": 1,
+      "Chemistry": 1,
+      "Mathematics": 1,
+      "Economics": 1,
+      "Computer Science": 1,
+      "Physics": 1
+    }
+  },
+  {
+    "id": "332302",
+    "name": "GOVT. GRADUATE COLLEGE (W), SHORKOT",
+    "district": "JHANG",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "Botany": 1,
+      "Chemistry": 2,
+      "Economics": 1,
+      "Education": 2,
+      "English": 3,
+      "Health and Physical Education": 2,
+      "Islamiat": 1,
+      "Mathematics": 3,
+      "Physics": 1,
+      "Political Science": 1,
+      "Psychology": 2,
+      "Urdu": 3,
+      "Zoology": 2,
+      "Pakistan Studies": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "323310",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), SANAWAAN",
+    "district": "MUZAFFARGARH",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 1,
+      "English": 1,
+      "Physics": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "343207",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), SOKANWIND, PASRUR",
+    "district": "SIALKOT",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Economics": 1,
+      "English": 2,
+      "Computer Science": 1,
+      "Islamiat": 2,
+      "Punjabi": 1,
+      "Mathematics": 1,
+      "Biology": 1,
+      "Urdu": 1,
+      "Education": 1
+    }
+  },
+  {
+    "id": "331602",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), TANDLIANWALA",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 2,
+      "Islamiat": 3,
+      "Mathematics": 1,
+      "Home Economics": 1,
+      "Botany": 1,
+      "Computer Science": 1,
+      "English": 4,
+      "Education": 1,
+      "Health and Physical Education": 1,
+      "Physics": 2
+    }
+  },
+  {
+    "id": "363204",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), TIBBA SULTANPUR",
+    "district": "VEHARI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Botany": 1,
+      "Computer Science": 1,
+      "Economics": 1,
+      "English": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Physics": 1,
+      "Psychology": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "352124",
+    "name": "GOVT. GRADUATE COLLEGE (W), TOWNSHIP",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Chemistry": 1,
+      "Education": 1,
+      "English": 2,
+      "Fine Arts": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Mass Communication": 1,
+      "Mathematics": 2,
+      "Persian": 1,
+      "Philosophy": 1,
+      "Political Science": 1,
+      "Psychology": 1,
+      "Sociology": 1,
+      "Urdu": 2,
+      "Computer Science": 4,
+      "Pakistan Studies": 2
+    }
+  },
+  {
+    "id": "364303",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), TULAMBA",
+    "district": "KHANEWAL",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "English": 2,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "383206",
+    "name": "GOVT. GRADUATE COLLEGE (W), WAN BHACHRAN",
+    "district": "MIANWALI",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Urdu": 1,
+      "Health and Physical Education": 1,
+      "English": 2,
+      "Islamiat": 3,
+      "Pakistan Studies": 1,
+      "Biology": 1,
+      "Computer Science": 1,
+      "Statistics": 1
+    }
+  },
+  {
+    "id": "341202",
+    "name": "GOVT. GRADUATE COLLEGE (W), G.T. ROAD WAZIRABAD",
+    "district": "GUJRANWALA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Civics": 1,
+      "Commerce": 1,
+      "Economics": 1,
+      "Education": 1,
+      "English": 3,
+      "Health and Physical Education": 2,
+      "Arabic": 1,
+      "Chemistry": 2,
+      "Islamiat": 3,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Physics": 2,
+      "Statistics": 1,
+      "Urdu": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "384402",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), SILLANWALI",
+    "district": "SARGODHA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Arabic": 1,
+      "Computer Science": 2,
+      "Education": 1,
+      "English": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 2,
+      "Library Science": 1,
+      "Urdu": 2
+    }
+  },
+  {
+    "id": "384103",
+    "name": "GOVT. GRADUATE COLLEGE, BHALWAL",
+    "district": "SARGODHA",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Commerce": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Islamiat": 3,
+      "Library Science": 1,
+      "Mathematics": 2,
+      "Sociology": 1,
+      "Statistics": 1,
+      "Urdu": 3,
+      "Computer Science": 3
+    }
+  },
+  {
+    "id": "321103",
+    "name": "GOVT. GRADUATE COLLEGE, BLOCK 17, DERA GHAZI KHAN",
+    "district": "DERA GHAZI KHAN",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Botany": 1,
+      "English": 3,
+      "Islamiat": 2,
+      "Physics": 3,
+      "Urdu": 2,
+      "Computer Science": 2,
+      "Education": 1
+    }
+  },
+  {
+    "id": "361101",
+    "name": "GOVT. GRADUATE COLLEGE, CIVIL LINES, MULTAN",
+    "district": "MULTAN",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 3,
+      "Urdu": 2
+    }
+  },
+  {
+    "id": "333102",
+    "name": "GOVT. GRADUATE COLLEGE (W), GOJRA",
+    "district": "TOBA TEK SINGH",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 3,
+      "Chemistry": 1,
+      "Economics": 1,
+      "English": 3,
+      "Education": 1,
+      "Home Economics": 1,
+      "Islamiat": 3,
+      "Mathematics": 4,
+      "Persian": 1,
+      "Physics": 4,
+      "Pakistan Studies": 5,
+      "Health and Physical Education": 2,
+      "Sociology": 1,
+      "Statistics": 1,
+      "Urdu": 9,
+      "Zoology": 1
+    }
+  },
+  {
+    "id": "372101",
+    "name": "GOVT. GRADUATE COLLEGE, G.T. ROAD, JHELUM",
+    "district": "JHELUM",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 2,
+      "Civics": 1,
+      "English": 3,
+      "Pakistan Studies": 2,
+      "Physics": 1,
+      "Statistics": 1,
+      "Urdu": 2,
+      "Computer Science": 6,
+      "Islamiat": 2
+    }
+  },
+  {
+    "id": "342114",
+    "name": "GOVT. GRADUATE COLLEGE OF COMMERCE, GUJRAT",
+    "district": "GUJRAT",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Economics": 1,
+      "English": 2,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Statistics": 1,
+      "Urdu": 2
+    }
+  },
+  {
+    "id": "343312",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE (W), SIALKOT",
+    "district": "SIALKOT",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Mathematics": 1,
+      "Urdu": 1,
+      "Commerce": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "333103",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, GOJRA",
+    "district": "TOBA TEK SINGH",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Islamiat": 1,
+      "Computer Science": 1,
+      "Economics": 1,
+      "Mathematics": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "382109",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, JAUHARABAD",
+    "district": "KHUSHAB",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Commerce": 2,
+      "Economics": 1,
+      "English": 1,
+      "English Shorthand": 1,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Urdu": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "333204",
+    "name": "GOVT.GRADUATE COLLEGE OF COMMERCE, KAMALIA",
+    "district": "TOBA TEK SINGH",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Commerce": 1,
+      "Computer Science": 1,
+      "Urdu": 1,
+      "English": 1,
+      "Islamiat": 1,
+      "Statistics": 1
+    }
+  },
+  {
+    "id": "383209",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, MIANWALI",
+    "district": "MIANWALI",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Islamiat": 1,
+      "Urdu": 1,
+      "English Shorthand": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "331123",
+    "name": "GOVT. GRADUATE COLLEGE OF COMMERCE, PEOPLES COLONY",
+    "district": "FAISALABAD",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Commerce": 5,
+      "Computer Science": 2,
+      "English": 1,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Statistics": 1,
+      "Urdu": 2,
+      "Economics": 2
+    }
+  },
+  {
+    "id": "384304",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, SHAHPUR SADAR",
+    "district": "SARGODHA",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Urdu": 1,
+      "Computer Science": 2,
+      "Economics": 1,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "331104",
+    "name": "GOVT. GRADUATE COLLEGE, ABDULLAHPUR",
+    "district": "FAISALABAD",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 3,
+      "Health and Physical Education": 1,
+      "Islamiat": 3,
+      "Library Science": 1,
+      "Mathematics": 2,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Urdu": 3
+    }
+  },
+  {
+    "id": "312105",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, AHMEDPUR EAST",
+    "district": "BAHAWALPUR",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Commerce": 1,
+      "English": 1,
+      "Urdu": 1,
+      "Computer Science": 1,
+      "English Shorthand": 1
+    }
+  },
+  {
+    "id": "352253",
+    "name": "GOVT. GRADUATE COLLEGE OF COMMERCE, HUNZA BLOCK",
+    "district": "LAHORE",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Commerce": 2,
+      "Computer Science": 4,
+      "Economics": 1,
+      "Mathematics": 1,
+      "Islamiat": 3,
+      "Physics": 1,
+      "Statistics": 1,
+      "Urdu": 1,
+      "English": 1,
+      "Sociology": 1,
+      "Psychology": 1
+    }
+  },
+  {
+    "id": "371103",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, ATTOCK",
+    "district": "ATTOCK",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Islamiat": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "381105",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, BHAKKAR",
+    "district": "BHAKKAR",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Urdu": 2,
+      "Mathematics": 1,
+      "Islamiat": 2
+    }
+  },
+  {
+    "id": "363105",
+    "name": "GOVT. GRADUATE COLLEGE OF COMMERCE, CHUNGI NO. 5",
+    "district": "VEHARI",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Commerce": 1,
+      "Economics": 1,
+      "English": 1,
+      "English Shorthand": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Computer Science": 2,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "397103",
+    "name": "GOVT. GRADUATE COLLEGE OF COMMERCE, G.T ROAD CHICHAWATNI",
+    "district": "SAHIWAL",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Commerce": 4,
+      "English": 1,
+      "Urdu": 1,
+      "Economics": 1,
+      "Mathematics": 1,
+      "English Shorthand": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "321111",
+    "name": "GOVT. GRADUATE COLLEGE OF COMMERCE, DERA GHAZI KHAN",
+    "district": "DERA GHAZI KHAN",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Commerce": 1,
+      "Mathematics": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "331203",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, SATIANA ROAD",
+    "district": "FAISALABAD",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Commerce": 1,
+      "Economics": 1,
+      "English Shorthand": 1,
+      "Urdu": 1,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "332208",
+    "name": "GOVT. GRADUATE COLLEGE OF COMMERCE, SATTELITE TOWN",
+    "district": "JHANG",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Commerce": 3,
+      "Computer Science": 2,
+      "Civics": 1,
+      "English": 2,
+      "Economics": 1,
+      "English Shorthand": 1,
+      "Islamiat": 3,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "372105",
+    "name": "GOVT. GRADUATE COLLEGE OF COMMERCE, BILAL TOWN",
+    "district": "JHELUM",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Commerce": 6,
+      "Economics": 1,
+      "English": 2,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Pakistan Studies": 2,
+      "Statistics": 2,
+      "Urdu": 4
+    }
+  },
+  {
+    "id": "351206",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, KASUR",
+    "district": "KASUR",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Commerce": 1,
+      "Islamiat": 1,
+      "Urdu": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "364204",
+    "name": "GOVT. GRADUATE COLLEGE OF COMMERCE, PEOPLES COLONY",
+    "district": "KHANEWAL",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Commerce": 5,
+      "Computer Science": 1,
+      "Economics": 1,
+      "English": 2,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Statistics": 1,
+      "Urdu": 2
+    }
+  },
+  {
+    "id": "313103",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, KHANPUR",
+    "district": "RAHIM YAR KHAN",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Urdu": 2,
+      "Islamiat": 2,
+      "Biology": 1,
+      "Chemistry": 1,
+      "Health and Physical Education": 1,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "352256",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, TOWNSHIP",
+    "district": "LAHORE",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English Shorthand": 1,
+      "Computer Science": 1,
+      "Islamiat": 1,
+      "English": 1
+    }
+  },
+  {
+    "id": "323203",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, KOT ADU",
+    "district": "MUZAFFARGARH",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Commerce": 3,
+      "Computer Science": 1,
+      "Urdu": 1,
+      "English Shorthand": 1
+    }
+  },
+  {
+    "id": "322309",
+    "name": "GOVT. GRADUATE COLLEGE OF COMMERCE, LAYYAH",
+    "district": "LAYYAH",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Commerce": 1,
+      "Urdu": 2,
+      "English Shorthand": 1,
+      "Economics": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Statistics": 1,
+      "Sociology": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "313203",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, LIAQUATPUR",
+    "district": "RAHIM YAR KHAN",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Commerce": 2,
+      "English": 1,
+      "Islamiat": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "366104",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, LODHRAN",
+    "district": "LODHRAN",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Urdu": 1,
+      "Islamiat": 1,
+      "Economics": 1,
+      "Mathematics": 1,
+      "English Shorthand": 1,
+      "Commerce": 1,
+      "Pakistan Studies": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "364304",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, MUSA VIRAK",
+    "district": "KHANEWAL",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "English Shorthand": 1,
+      "Islamiat": 1,
+      "Urdu": 1,
+      "Commerce": 1
+    }
+  },
+  {
+    "id": "373204",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, MURREE",
+    "district": "RAWALPINDI",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Commerce": 5,
+      "English": 3,
+      "Urdu": 2,
+      "Computer Science": 4,
+      "Mathematics": 1,
+      "Statistics": 1,
+      "Economics": 2,
+      "Pakistan Studies": 1,
+      "Islamiat": 2
+    }
+  },
+  {
+    "id": "323306",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, MUZAFFARGARH",
+    "district": "MUZAFFARGARH",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Commerce": 2,
+      "English": 1,
+      "Mathematics": 1,
+      "Arabic": 1
+    }
+  },
+  {
+    "id": "393206",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, OKARA",
+    "district": "OKARA",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Islamiat": 1,
+      "Commerce": 1,
+      "Statistics": 1,
+      "English": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "341114",
+    "name": "GOVT. GRADUATE COLLEGE OF COMMERCE, PEOPLES COLONY",
+    "district": "GUJRANWALA",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "English": 1,
+      "Urdu": 2,
+      "Mathematics": 3,
+      "Statistics": 2,
+      "Economics": 2,
+      "Islamiat": 3,
+      "Pakistan Studies": 2,
+      "Commerce": 4,
+      "Computer Science": 4,
+      "Physics": 2
+    }
+  },
+  {
+    "id": "361119",
+    "name": "GOVT. GRADUATE COLLEGE OF COMMERCE, QASIMPUR COLONY",
+    "district": "MULTAN",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Islamiat": 1,
+      "Economics": 1,
+      "English": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "397205",
+    "name": "GOVT. GRADUATE COLLEGE OF COMMERCE, SAHIWAL",
+    "district": "SAHIWAL",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 2,
+      "Economics": 1,
+      "English": 3,
+      "English Shorthand": 1,
+      "Islamiat": 2,
+      "Mathematics": 2,
+      "Pakistan Studies": 1,
+      "Urdu": 2,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "331304",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, SAMUNDARI",
+    "district": "FAISALABAD",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Commerce": 2,
+      "Economics": 1,
+      "Islamiat": 1,
+      "Computer Science": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "384217",
+    "name": "GOVT. GRADUATE COLLEGE OF COMMERCE, SARGODHA",
+    "district": "SARGODHA",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "English": 2,
+      "Mathematics": 1,
+      "Urdu": 1,
+      "Arabic": 1,
+      "Computer Science": 2,
+      "Commerce": 1
+    }
+  },
+  {
+    "id": "373328",
+    "name": "GOVT. GRADUATE COLLEGE OF COMMERCE, RAWALPINDI",
+    "district": "RAWALPINDI",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Mathematics": 2,
+      "Urdu": 2,
+      "Islamiat": 2
+    }
+  },
+  {
+    "id": "354404",
+    "name": "GOVT. GRADUATE COLLEGE OF COMMERCE, SHEIKHUPURA",
+    "district": "SHEIKHUPURA",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Economics": 1,
+      "Commerce": 4,
+      "English": 2,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Computer Science": 3
+    }
+  },
+  {
+    "id": "333307",
+    "name": "GOVT. GRADUATE COLLEGE OF COMMERCE, TOBA TEK SINGH",
+    "district": "TOBA TEK SINGH",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Commerce": 2,
+      "Computer Science": 2,
+      "English": 1,
+      "English Shorthand": 1,
+      "Islamiat": 2,
+      "Urdu": 1,
+      "Economics": 1
+    }
+  },
+  {
+    "id": "363305",
+    "name": "GOVT. GRADUATE COLLEGE OF COMMERCE, VEHARI",
+    "district": "VEHARI",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Commerce": 2,
+      "Computer Science": 2,
+      "English": 1,
+      "Islamiat": 1,
+      "Urdu": 1,
+      "Pakistan Studies": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "361103",
+    "name": "GOVT. GRADUATE COLLEGE OF SCIENCE, NEAR PTCL EXCHANGE",
+    "district": "MULTAN",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 4,
+      "Mathematics": 3,
+      "Urdu": 3
+    }
+  },
+  {
+    "id": "352109",
+    "name": "GOVT. GRADUATE COLLEGE OF SCIENCE WAHDAT ROAD",
+    "district": "LAHORE",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Urdu": 3,
+      "Mathematics": 1,
+      "Botany": 2,
+      "Computer Science": 3,
+      "Political Science": 3,
+      "Commerce": 1
+    }
+  },
+  {
+    "id": "372104",
+    "name": "GOVT. ASSOCIATE COLLEGE, RASULPUR, SOHAWA",
+    "district": "JHELUM",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Sociology": 1,
+      "Urdu": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "331106",
+    "name": "GOVT. GRADUATE COLLEGE, SATIANA ROAD",
+    "district": "FAISALABAD",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Commerce": 1,
+      "English": 2,
+      "Computer Science": 2,
+      "Physics": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "372301",
+    "name": "GOVT. ASSOCIATE COLLEGE, SOHAWA",
+    "district": "JHELUM",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 1,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Urdu": 1,
+      "Chemistry": 1,
+      "Islamiat": 1,
+      "Geography": 1,
+      "Economics": 1,
+      "Biology": 1
+    }
+  },
+  {
+    "id": "331118",
+    "name": "GOVT. GRADUATE COLLEGE, 266/RB, KHURRIANWALA",
+    "district": "FAISALABAD",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "English": 2,
+      "Urdu": 1,
+      "Computer Science": 2,
+      "Islamiat": 1,
+      "Pakistan Studies": 1,
+      "Economics": 1
+    }
+  },
+  {
+    "id": "322303",
+    "name": "GOVT. GRADUATE COLLEGE, CHOWK AZAM",
+    "district": "LAYYAH",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Botany": 1,
+      "Biology": 1,
+      "Zoology": 2,
+      "Mathematics": 2,
+      "Computer Science": 2,
+      "Urdu": 2,
+      "English": 3,
+      "Psychology": 1,
+      "Physics": 2,
+      "Islamiat": 2,
+      "Education": 1,
+      "Statistics": 1,
+      "Pakistan Studies": 1,
+      "Commerce": 1
+    }
+  },
+  {
+    "id": "351101",
+    "name": "GOVT. GRADUATE COLLEGE, CHUNIAN",
+    "district": "KASUR",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Urdu": 1,
+      "Computer Science": 2,
+      "Political Science": 1,
+      "Chemistry": 1,
+      "Statistics": 1,
+      "Arabic": 1
+    }
+  },
+  {
+    "id": "324202",
+    "name": "GOVT. GRADUATE COLLEGE, FAZILPUR",
+    "district": "RAJANPUR",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Education": 1,
+      "English": 2,
+      "Mathematics": 1,
+      "Chemistry": 1,
+      "Physics": 1,
+      "Sociology": 1,
+      "Computer Science": 1,
+      "Statistics": 1,
+      "Urdu": 1,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "352239",
+    "name": "GOVT. GRADUATE COLLEGE, GULBERG",
+    "district": "LAHORE",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Physics": 2,
+      "Computer Science": 1,
+      "Urdu": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "345201",
+    "name": "GOVT. GRADUATE COLLEGE, HAFIZABAD",
+    "district": "HAFIZABAD",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Health and Physical Education": 1,
+      "English": 2,
+      "Computer Science": 2,
+      "Mathematics": 2,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "383101",
+    "name": "GOVT. GRADUATE COLLEGE, ISA KHEL",
+    "district": "MIANWALI",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 1,
+      "English": 2,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Urdu": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "364401",
+    "name": "GOVT. GRADUATE COLLEGE, JAHANIAN",
+    "district": "KHANEWAL",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 2,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Islamiat": 2,
+      "Physics": 1
+    }
+  },
+  {
+    "id": "322201",
+    "name": "GOVT. GRADUATE COLLEGE, KAROR LAL ESAN",
+    "district": "LAYYAH",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 2,
+      "English": 2,
+      "Computer Science": 1,
+      "Pakistan Studies": 1,
+      "Physics": 2,
+      "Mathematics": 1,
+      "Zoology": 1,
+      "Chemistry": 2
+    }
+  },
+  {
+    "id": "384106",
+    "name": "GOVT. GRADUATE COLLEGE, KOT MOMIN",
+    "district": "SARGODHA",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "English": 3,
+      "Biology": 1,
+      "Chemistry": 1,
+      "Islamiat": 1,
+      "History": 1,
+      "Pakistan Studies": 1,
+      "Computer Science": 3,
+      "Urdu": 3,
+      "Economics": 1
+    }
+  },
+  {
+    "id": "383301",
+    "name": "GOVT. GRADUATE COLLEGE, LIAQATABAD MIANWALI",
+    "district": "MIANWALI",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Library Science": 1,
+      "Botany": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Computer Science": 2,
+      "Political Science": 1,
+      "Physics": 1
+    }
+  },
+  {
+    "id": "383201",
+    "name": "GOVT. GRADUATE COLLEGE, MIANWALI",
+    "district": "MIANWALI",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Education": 1,
+      "Computer Science": 2,
+      "English": 1,
+      "Health and Physical Education": 1
+    }
+  },
+  {
+    "id": "352106",
+    "name": "GOVT. GRADUATE COLLEGE, MODEL TOWN",
+    "district": "LAHORE",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 4,
+      "Physics": 2
+    }
+  },
+  {
+    "id": "351301",
+    "name": "GOVT. GRADUATE COLLEGE, PATTOKI",
+    "district": "KASUR",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Civics": 1,
+      "Computer Science": 4,
+      "Education": 1,
+      "English": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Physics": 2,
+      "Urdu": 1,
+      "Sociology": 1,
+      "Zoology": 1
+    }
+  },
+  {
+    "id": "324301",
+    "name": "GOVT. ASSOCIATE COLLEGE, ROJHAN",
+    "district": "RAJANPUR",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Sociology": 1,
+      "Health and Physical Education": 1,
+      "Commerce": 1,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Chemistry": 1,
+      "Biology": 1,
+      "Computer Science": 1,
+      "Pakistan Studies": 1,
+      "Islamiat": 1,
+      "Urdu": 1,
+      "English": 1,
+      "Education": 1,
+      "Journalism": 1
+    }
+  },
+  {
+    "id": "331601",
+    "name": "GOVT. GRADUATE COLLEGE, TANDLIANWALA",
+    "district": "FAISALABAD",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Chemistry": 1,
+      "Computer Science": 1,
+      "English": 2,
+      "Education": 1,
+      "Islamiat": 3,
+      "Pakistan Studies": 1,
+      "Urdu": 2,
+      "Zoology": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "363203",
+    "name": "GOVT. ASSOCIATE COLLEGE, TIBBA SULTANPUR, MAILSI",
+    "district": "VEHARI",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "Computer Science": 1,
+      "Physics": 1,
+      "Economics": 1,
+      "Pakistan Studies": 1,
+      "Mathematics": 1,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "384220",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), MIANI",
+    "district": "SARGODHA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Education": 1,
+      "Urdu": 1,
+      "Sociology": 1,
+      "Health and Physical Education": 1,
+      "Computer Science": 1,
+      "Political Science": 1,
+      "Physics": 1,
+      "Pakistan Studies": 1,
+      "Economics": 1,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "383105",
+    "name": "GOVT. ASSOCIATE COLLEGE OF COMMERCE, ISA KHEL",
+    "district": "MIANWALI",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Commerce": 1,
+      "Urdu": 1,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "397102",
+    "name": "GOVT. CRESCENT GRADUATE COLLEGE (W), CHICHAWATNI",
+    "district": "SAHIWAL",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Urdu": 2,
+      "Mathematics": 1,
+      "English": 2,
+      "Physics": 2,
+      "Economics": 1,
+      "Islamiat": 2,
+      "Computer Science": 2,
+      "Health and Physical Education": 1,
+      "Statistics": 1
+    }
+  },
+  {
+    "id": "344105",
+    "name": "GOVT. GRADUATE COLLEGE (W), BADDOMALHI",
+    "district": "NAROWAL",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Civics": 1,
+      "Economics": 1,
+      "Education": 2,
+      "English": 2,
+      "Islamiat": 3,
+      "Mathematics": 1,
+      "Urdu": 3,
+      "Computer Science": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "312106",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), HATHEJI",
+    "district": "BAHAWALPUR",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Urdu": 1,
+      "Arabic": 1,
+      "Education": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Pakistan Studies": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "345103",
+    "name": "GOVT. GRADUATE COLLEGE (W), JALALPUR BHATTIAN",
+    "district": "HAFIZABAD",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Physics": 1,
+      "Mathematics": 1,
+      "Biology": 1,
+      "Computer Science": 1,
+      "English": 2,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "324206",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), KOT MITHAN, RIC",
+    "district": "RAJANPUR",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 1,
+      "Education": 1,
+      "English": 2,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "342109",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), KUNJAH",
+    "district": "GUJRAT",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 1,
+      "Biology": 1,
+      "Chemistry": 1,
+      "Education": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Psychology": 1,
+      "Statistics": 1,
+      "Urdu": 2,
+      "History": 1
+    }
+  },
+  {
+    "id": "373312",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), MUSLIM TOWN",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Mathematics": 2,
+      "Physics": 2,
+      "Computer Science": 3,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "345102",
+    "name": "GOVT. GRADUATE COLLEGE (W), PINDI BHATTIAN",
+    "district": "HAFIZABAD",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Computer Science": 1,
+      "Arabic": 1,
+      "Pakistan Studies": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "364104",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), SARAI SIDHU",
+    "district": "KHANEWAL",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 2,
+      "Chemistry": 1,
+      "Economics": 1,
+      "Education": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Urdu": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "344108",
+    "name": "GOVT. ZAINAB BIBI HAMEEDA ASSOCIATE COLLEGE (W), TALWA",
+    "district": "NAROWAL",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 1,
+      "Civics": 1,
+      "Economics": 1,
+      "Education": 1,
+      "English": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Psychology": 1,
+      "Urdu": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "341303",
+    "name": "GOVT. GRADUATE COLLEGE (W), WAHNDO",
+    "district": "GUJRANWALA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 2,
+      "Education": 1,
+      "Computer Science": 1,
+      "Mathematics": 1,
+      "Urdu": 1,
+      "Health and Physical Education": 1,
+      "Pakistan Studies": 1,
+      "Biology": 1,
+      "Chemistry": 1,
+      "Psychology": 1,
+      "Islamiat": 2
+    }
+  },
+  {
+    "id": "373310",
+    "name": "GOVT. GRADUATE COLLEGE (W), (ZAFAR UL HAQ) ROAD",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Urdu": 2,
+      "Computer Science": 3,
+      "Mathematics": 1,
+      "Education": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "313305",
+    "name": "GOVT. FATIMA JINNAH ASSOCIATE COLLEGE (W), 103/I L KHANE",
+    "district": "RAHIM YAR KHAN",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Arabic": 1,
+      "Chemistry": 1,
+      "Computer Science": 2,
+      "Education": 1,
+      "English": 2,
+      "Islamiat": 1,
+      "Physics": 1,
+      "Urdu": 1,
+      "Biology": 1,
+      "Economics": 1
+    }
+  },
+  {
+    "id": "331121",
+    "name": "GOVT. GRADUATE COLLEGE, CHAK NO. 122/JB SARGODHA ROAD",
+    "district": "FAISALABAD",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 3,
+      "Biology": 1,
+      "Chemistry": 3,
+      "Commerce": 1,
+      "Computer Science": 4,
+      "Education": 2,
+      "English": 8,
+      "Health and Physical Education": 2,
+      "Islamiat": 3,
+      "Mathematics": 2,
+      "Pakistan Studies": 1,
+      "Physics": 2,
+      "Psychology": 3,
+      "Urdu": 5,
+      "Zoology": 1
+    }
+  },
+  {
+    "id": "366304",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), 365/WB, DUNYAPUR",
+    "district": "LODHRAN",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Physics": 1,
+      "Pakistan Studies": 1,
+      "Urdu": 1,
+      "Biology": 1,
+      "Education": 1,
+      "Mathematics": 1,
+      "Computer Science": 1,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "331402",
+    "name": "GOVT. GRADUATE COLLEGE (W), 61/JB, NARWALA BANGLOW",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 6,
+      "Biology": 1,
+      "Urdu": 3,
+      "Computer Science": 3,
+      "Economics": 1,
+      "Islamiat": 5,
+      "Physics": 1,
+      "Mathematics": 1,
+      "Commerce": 1,
+      "Sociology": 1,
+      "Health and Physical Education": 1,
+      "Psychology": 1,
+      "Political Science": 1,
+      "Persian": 2
+    }
+  },
+  {
+    "id": "333205",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), 721/GB, KAMALIA",
+    "district": "TOBA TEK SINGH",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "Economics": 1,
+      "Education": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Home Economics": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Psychology": 1,
+      "Urdu": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "364105",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), ABDUL HAKIM",
+    "district": "KHANEWAL",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "Economics": 1,
+      "Education": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "History": 1,
+      "Islamiat": 1,
+      "Mathematics": 2,
+      "Physics": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "312104",
+    "name": "GOVT. GRADUATE COLLEGE (W), AHMADPUR EAST",
+    "district": "BAHAWALPUR",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 3,
+      "Urdu": 2,
+      "Computer Science": 2,
+      "Chemistry": 1,
+      "Physics": 1,
+      "Mathematics": 1,
+      "Economics": 1,
+      "Education": 1,
+      "Arabic": 1,
+      "Islamiat": 1,
+      "History": 1,
+      "Biology": 1,
+      "Health and Physical Education": 1
+    }
+  },
+  {
+    "id": "341203",
+    "name": "GOVT. GRADUATE COLLEGE (W), ALI PUR CHATHA",
+    "district": "GUJRANWALA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 1,
+      "Economics": 1,
+      "Mathematics": 1,
+      "Punjabi": 1,
+      "Statistics": 1,
+      "Home Economics": 1,
+      "Sociology": 1,
+      "Arabic": 1,
+      "Computer Science": 3,
+      "English": 4,
+      "Islamiat": 3,
+      "Pakistan Studies": 1,
+      "Psychology": 1
+    }
+  },
+  {
+    "id": "398102",
+    "name": "GOVT. GRADUATE COLLEGE (W), ARIF WALA",
+    "district": "PAKPATTAN",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Islamiat": 3,
+      "Computer Science": 2,
+      "English": 7,
+      "Mathematics": 1,
+      "Sociology": 1,
+      "Physics": 2,
+      "Health and Physical Education": 1,
+      "Urdu": 2,
+      "Arabic": 2
+    }
+  },
+  {
+    "id": "371102",
+    "name": "GOVT. GRADUATE COLLEGE (W), ATTOCK",
+    "district": "ATTOCK",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 4,
+      "Civics": 1,
+      "Pakistan Studies": 1,
+      "Psychology": 2,
+      "Urdu": 2,
+      "Health and Physical Education": 1,
+      "Mathematics": 2,
+      "Islamiat": 2,
+      "Statistics": 1
+    }
+  },
+  {
+    "id": "352228",
+    "name": "GOVT. GRADUATE COLLEGE (W), BAGHBANPURA",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 2,
+      "Chemistry": 2,
+      "English": 4,
+      "Mathematics": 3,
+      "Physics": 3,
+      "Psychology": 2,
+      "Pakistan Studies": 2,
+      "Punjabi": 1,
+      "Social Work": 1,
+      "Urdu": 3,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Computer Science": 5
+    }
+  },
+  {
+    "id": "374106",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), BALKASSAR",
+    "district": "CHAKWAL",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Biology": 1,
+      "Computer Science": 2,
+      "Chemistry": 1,
+      "Mathematics": 1,
+      "Sociology": 1,
+      "Health and Physical Education": 1,
+      "Statistics": 1
+    }
+  },
+  {
+    "id": "312211",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), BANGLA TAILWALA",
+    "district": "BAHAWALPUR",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Urdu": 1,
+      "Computer Science": 1,
+      "English": 2,
+      "Islamiat": 1,
+      "Physics": 1,
+      "Education": 1,
+      "Pakistan Studies": 1,
+      "Home Economics": 1,
+      "Saraiki": 1
+    }
+  },
+  {
+    "id": "393109",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), BASIRPUR",
+    "district": "OKARA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Arabic": 1,
+      "Chemistry": 1,
+      "Urdu": 3,
+      "Islamiat": 3,
+      "Physics": 1,
+      "English": 2,
+      "Computer Science": 2,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "373308",
+    "name": "GOVT. GRADUATE COLLEGE (W), B BLOCK SATELLITE TOWN",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 1,
+      "English": 2
+    }
+  },
+  {
+    "id": "342110",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), BHAGOWAL KALAN",
+    "district": "GUJRAT",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Economics": 1,
+      "Chemistry": 1,
+      "Commerce": 1,
+      "Education": 1,
+      "English": 1,
+      "Health and Physical Education": 1,
+      "Urdu": 1,
+      "Psychology": 1,
+      "Computer Science": 1,
+      "Islamiat": 2
+    }
+  },
+  {
+    "id": "384209",
+    "name": "GOVT. GRADUATE COLLEGE (W), BHAGTANWALA",
+    "district": "SARGODHA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 2,
+      "Political Science": 1,
+      "Mathematics": 1,
+      "Statistics": 1,
+      "Education": 1,
+      "Punjabi": 1,
+      "Islamiat": 1,
+      "English": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "354305",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), BHIKHI",
+    "district": "SHEIKHUPURA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Computer Science": 1,
+      "Education": 1,
+      "Persian": 1,
+      "Pakistan Studies": 1,
+      "Physiology": 1,
+      "Urdu": 2,
+      "English": 2,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "374110",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), BHAUN",
+    "district": "CHAKWAL",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Urdu": 1,
+      "Computer Science": 1,
+      "Mathematics": 1,
+      "Education": 1,
+      "Islamiat": 2,
+      "Zoology": 1,
+      "English": 1,
+      "Sociology": 1
+    }
+  },
+  {
+    "id": "334302",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), BHOWANA",
+    "district": "CHINIOT",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Botany": 1,
+      "Computer Science": 1,
+      "English": 2,
+      "Pakistan Studies": 1,
+      "Arabic": 1,
+      "Physics": 1,
+      "Education": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "352117",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), BILAL GANJ",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Commerce": 1,
+      "Arabic": 1,
+      "Physics": 1,
+      "Education": 1,
+      "Computer Science": 2,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "384205",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), BLOCK NO. 23/A SARGODHA",
+    "district": "SARGODHA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Arabic": 1,
+      "Computer Science": 2,
+      "English": 1,
+      "Education": 2,
+      "Home Economics": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Sociology": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "346206",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), BOSAL SUKHA MALIKWAL",
+    "district": "MANDI BAHAUDDIN",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Mathematics": 1,
+      "Islamiat": 1,
+      "Computer Science": 1,
+      "Education": 1,
+      "Chemistry": 1,
+      "Biology": 1,
+      "English": 1,
+      "Political Science": 1,
+      "Physics": 1
+    }
+  },
+  {
+    "id": "352116",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), BUND ROAD",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Islamiat": 2,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "384206",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), CHAK 98/NB",
+    "district": "SARGODHA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Islamiat": 2,
+      "Sociology": 1,
+      "Computer Science": 1,
+      "English": 1
+    }
+  },
+  {
+    "id": "334104",
+    "name": "GOVT. GRADUATE COLLEGE (W), CHINIOT",
+    "district": "CHINIOT",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 1,
+      "Computer Science": 6,
+      "English": 10,
+      "Geography": 1,
+      "Health and Physical Education": 4,
+      "History": 2,
+      "Islamiat": 5,
+      "Mathematics": 2,
+      "Physics": 3,
+      "Sociology": 1,
+      "Urdu": 6
+    }
+  },
+  {
+    "id": "312304",
+    "name": "GOVT. ASSOCIATE COLLEGE, (W), CHOONAWALA, HASILPUR",
+    "district": "BAHAWALPUR",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Urdu": 1,
+      "English": 1,
+      "Physics": 1,
+      "Economics": 1,
+      "Computer Science": 1,
+      "Education": 1,
+      "Islamiat": 1,
+      "Library Science": 1
+    }
+  },
+  {
+    "id": "322103",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), CHOUBARA",
+    "district": "LAYYAH",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Urdu": 1,
+      "Mathematics": 1,
+      "Computer Science": 1,
+      "Education": 1,
+      "Chemistry": 1,
+      "Physics": 1
+    }
+  },
+  {
+    "id": "323307",
+    "name": "GOVT. GRADUATE COLLEGE (W), CHOWK SARWAR SHAHEED",
+    "district": "MUZAFFARGARH",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "English": 1,
+      "Mathematics": 1,
+      "Urdu": 1,
+      "Computer Science": 2,
+      "Physics": 1
+    }
+  },
+  {
+    "id": "352258",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), CHUNG",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Home Economics": 1,
+      "Zoology": 1,
+      "Education": 1,
+      "English": 1,
+      "Mathematics": 1,
+      "Urdu": 1,
+      "History": 1,
+      "Islamiat": 1,
+      "Physics": 1,
+      "Computer Science": 3,
+      "Psychology": 1,
+      "Commerce": 1,
+      "INTRO TO THE T": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "372108",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), CIVIL LINES, JHELUM",
+    "district": "JHELUM",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Arabic": 1,
+      "Computer Science": 1,
+      "English": 2,
+      "Home Economics": 1,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Health and Physical Education": 1,
+      "Physics": 1,
+      "Psychology": 1,
+      "Library Science": 1,
+      "Urdu": 1,
+      "Political Science": 1
+    }
+  },
+  {
+    "id": "311204",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), DAHARANWALA",
+    "district": "BAHAWALNAGAR",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Urdu": 1,
+      "Health and Physical Education": 1,
+      "Library Science": 1,
+      "Zoology": 1,
+      "Chemistry": 1,
+      "Computer Science": 2,
+      "Economics": 1,
+      "Mathematics": 1,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "323204",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), DAIRA DIN PANAH",
+    "district": "MUZAFFARGARH",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 2,
+      "Education": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Mathematics": 2,
+      "Pakistan Studies": 2,
+      "Physics": 1,
+      "Sociology": 2,
+      "Computer Science": 2,
+      "Urdu": 1,
+      "Zoology": 1
+    }
+  },
+  {
+    "id": "324207",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), DAJAL",
+    "district": "RAJANPUR",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Urdu": 1,
+      "Biology": 1,
+      "Mathematics": 1,
+      "Botany": 1,
+      "Computer Science": 1,
+      "Chemistry": 1,
+      "Health and Physical Education": 1,
+      "Saraiki": 1,
+      "Physics": 1,
+      "Education": 1
+    }
+  },
+  {
+    "id": "352231",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), DATA NAGAR",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Health and Physical Education": 1,
+      "Home Economics": 1,
+      "Mathematics": 1,
+      "Arabic": 1,
+      "Commerce": 1,
+      "Education": 2,
+      "Fine Arts": 1,
+      "Islamiat": 1,
+      "Urdu": 2
+    }
+  },
+  {
+    "id": "373603",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), DAULTALA",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Computer Science": 2,
+      "Education": 1,
+      "Islamiat": 2,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Mathematics": 1,
+      "Economics": 1
+    }
+  },
+  {
+    "id": "393106",
+    "name": "GOVT. GRADUATE COLLEGE (W), DEPALPUR",
+    "district": "OKARA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Islamiat": 2,
+      "Education": 1,
+      "Pakistan Studies": 1,
+      "Psychology": 1,
+      "Computer Science": 2,
+      "Health and Physical Education": 1,
+      "Sociology": 2,
+      "Urdu": 1,
+      "Physics": 1,
+      "Chemistry": 1
+    }
+  },
+  {
+    "id": "373316",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), DHOK ELLAHI BUKHSH",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Computer Science": 1,
+      "Health and Physical Education": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "373315",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), DHOKE HASSU",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Arabic": 1,
+      "Computer Science": 2,
+      "Education": 1,
+      "Islamiat": 1,
+      "Physics": 1
+    }
+  },
+  {
+    "id": "373314",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), DHOKE KALA KHAN",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Pakistan Studies": 1,
+      "Health and Physical Education": 1,
+      "History": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "373317",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), DHOKE RATTA",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "History": 1,
+      "Computer Science": 1,
+      "Education": 1,
+      "Psychology": 1
+    }
+  },
+  {
+    "id": "374115",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), DHURNAL",
+    "district": "CHAKWAL",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Economics": 1,
+      "Education": 1,
+      "Health and Physical Education": 1,
+      "Mathematics": 1,
+      "Chemistry": 1,
+      "Computer Science": 1,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "312204",
+    "name": "GOVT. GRADUATE COLLEGE (W), DUBAI MAHAL ROAD",
+    "district": "BAHAWALPUR",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Pakistan Studies": 3,
+      "Psychology": 3,
+      "Social Work": 1,
+      "Urdu": 3,
+      "History": 1,
+      "Economics": 3,
+      "Islamiat": 3
+    }
+  },
+  {
+    "id": "366303",
+    "name": "GOVT. GRADUATE COLLEGE (W), DUNYAPUR",
+    "district": "LODHRAN",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "English": 4,
+      "Education": 1,
+      "Physics": 1,
+      "Computer Science": 2,
+      "Chemistry": 1,
+      "Urdu": 1,
+      "History": 1,
+      "Biology": 1
+    }
+  },
+  {
+    "id": "341113",
+    "name": "GOVT. GRADUATE COLLEGE (W), EMANABAD",
+    "district": "GUJRANWALA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Islamiat": 2,
+      "English": 2,
+      "Commerce": 2,
+      "Economics": 1,
+      "Home Economics": 1,
+      "Physics": 1,
+      "Psychology": 1
+    }
+  },
+  {
+    "id": "373307",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), F BLOCK SATELLITE TOWN",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Islamiat": 1,
+      "Urdu": 1,
+      "Commerce": 1,
+      "Psychology": 1,
+      "Computer Science": 2,
+      "Education": 1
+    }
+  },
+  {
+    "id": "354101",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), FEROZEWALA",
+    "district": "SHEIKHUPURA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "Computer Science": 2,
+      "Pakistan Studies": 1,
+      "English": 1,
+      "Home Economics": 1,
+      "Economics": 1,
+      "Education": 1
+    }
+  },
+  {
+    "id": "311302",
+    "name": "GOVT. GRADUATE COLLEGE (W), FORT ABBAS",
+    "district": "BAHAWALNAGAR",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 2,
+      "Physics": 2,
+      "Islamiat": 1,
+      "Health and Physical Education": 1,
+      "Mathematics": 1,
+      "Geography": 1,
+      "Political Science": 1,
+      "English": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "341122",
+    "name": "GOVT. GRADUATE COLLEGE (W), GAKHAR MANDI",
+    "district": "GUJRANWALA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Physics": 1,
+      "Civics": 1,
+      "Commerce": 2,
+      "Computer Science": 1,
+      "Education": 1,
+      "Islamiat": 1,
+      "Health and Physical Education": 1,
+      "English": 2,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Statistics": 1,
+      "Urdu": 1,
+      "Psychology": 1,
+      "Sociology": 1,
+      "Arabic": 1
+    }
+  },
+  {
+    "id": "352125",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), GAWALMANDI",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Civics": 1,
+      "Commerce": 1,
+      "English": 1,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Psychology": 1,
+      "Computer Science": 3
+    }
+  },
+  {
+    "id": "373321",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), GAWALMANDI, RAWALPINDI",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 2,
+      "Arabic": 1,
+      "Islamiat": 1,
+      "Health and Physical Education": 1
+    }
+  },
+  {
+    "id": "331116",
+    "name": "GOVT. GRADUATE COLLEGE (W), GULSHAN COLONY",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "Commerce": 1,
+      "Education": 1,
+      "Fine Arts": 1,
+      "Economics": 2,
+      "Pakistan Studies": 1,
+      "Islamiat": 8,
+      "Urdu": 2,
+      "Political Science": 1,
+      "Sociology": 1,
+      "Computer Science": 6,
+      "Health and Physical Education": 2,
+      "English": 8
+    }
+  },
+  {
+    "id": "352240",
+    "name": "GOVT. GRADUATE COLLEGE (W), GULSHAN RAVI",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 1,
+      "English": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Urdu": 2,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "352260",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), HAIR, BEDIAN",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Mathematics": 1,
+      "Education": 1,
+      "Health and Physical Education": 1,
+      "Political Science": 1,
+      "Islamiat": 2,
+      "Urdu": 2,
+      "English": 1,
+      "Computer Science": 3,
+      "Chemistry": 1
+    }
+  },
+  {
+    "id": "397204",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), HARAPPA",
+    "district": "SAHIWAL",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 2,
+      "Islamiat": 2,
+      "Arabic": 1,
+      "Chemistry": 1,
+      "Physics": 1,
+      "Mathematics": 1,
+      "Psychology": 1,
+      "Urdu": 1,
+      "Political Science": 2,
+      "Geography": 1,
+      "Commerce": 1,
+      "English": 4
+    }
+  },
+  {
+    "id": "311402",
+    "name": "GOVT. GRADUATE COLLEGE (W), HAROONABAD",
+    "district": "BAHAWALNAGAR",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Computer Science": 1,
+      "Health and Physical Education": 1,
+      "Chemistry": 1,
+      "English": 2,
+      "Urdu": 1,
+      "Education": 1,
+      "Psychology": 1,
+      "Pakistan Studies": 1,
+      "Islamiat": 2,
+      "Economics": 1,
+      "Library Science": 1
+    }
+  },
+  {
+    "id": "312302",
+    "name": "GOVT. GRADUATE COLLEGE (W), HASILPUR",
+    "district": "BAHAWALPUR",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 4,
+      "Urdu": 2,
+      "Islamiat": 4,
+      "Physics": 1,
+      "Chemistry": 3,
+      "Biology": 2,
+      "Computer Science": 3,
+      "Mathematics": 3,
+      "Health and Physical Education": 1,
+      "Botany": 2
+    }
+  },
+  {
+    "id": "371501",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), HASSAN ABDAL",
+    "district": "ATTOCK",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Urdu": 1,
+      "Political Science": 1,
+      "Health and Physical Education": 1,
+      "Computer Science": 1,
+      "Pakistan Studies": 1,
+      "Islamiat": 2
+    }
+  },
+  {
+    "id": "393107",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), HAVELI LAKHA",
+    "district": "OKARA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Physics": 1,
+      "Biology": 1,
+      "Health and Physical Education": 1,
+      "Pakistan Studies": 1,
+      "Mathematics": 1,
+      "Islamiat": 2,
+      "History": 1,
+      "Sociology": 1,
+      "Computer Science": 2,
+      "Education": 1
+    }
+  },
+  {
+    "id": "371602",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), HAZRO",
+    "district": "ATTOCK",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "History": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Urdu": 2,
+      "Computer Science": 1,
+      "Chemistry": 1,
+      "Statistics": 1,
+      "Islamiat": 2
+    }
+  },
+  {
+    "id": "393108",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), HUJRA SHAH MUQEEM",
+    "district": "OKARA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Sociology": 1,
+      "Economics": 1,
+      "English": 2,
+      "Computer Science": 2,
+      "Physics": 1,
+      "Political Science": 1,
+      "Health and Physical Education": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "383102",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), ISA KHEL",
+    "district": "MIANWALI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "Computer Science": 1,
+      "Education": 2,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "History": 1,
+      "Islamiat": 2,
+      "Physics": 1,
+      "Urdu": 2
+    }
+  },
+  {
+    "id": "352264",
+    "name": "GOVT. GRADUATE COLLEGE (W), ISLAMPURA",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 2,
+      "Islamiat": 1,
+      "Pakistan Studies": 1,
+      "Urdu": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "361402",
+    "name": "GOVT. GRADUATE COLLEGE (W), JALALPUR PIRWALA",
+    "district": "MULTAN",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 1,
+      "Computer Science": 1,
+      "Physics": 1,
+      "Zoology": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "324103",
+    "name": "GOVT. GRADUATE COLLEGE (W), JAMPUR",
+    "district": "RAJANPUR",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Botany": 1,
+      "Chemistry": 2,
+      "Economics": 1,
+      "Education": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Physics": 2,
+      "Urdu": 2,
+      "Computer Science": 1,
+      "Biology": 2
+    }
+  },
+  {
+    "id": "382102",
+    "name": "GOVT. GRADUATE COLLEGE (W), JAUHARABAD",
+    "district": "KHUSHAB",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "Computer Science": 1,
+      "English": 1,
+      "Arabic": 1,
+      "Statistics": 1,
+      "Health and Physical Education": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "373318",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), JHANDA CHICHI",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Arabic": 1,
+      "Pakistan Studies": 1,
+      "Commerce": 1,
+      "Psychology": 1,
+      "Islamiat": 1,
+      "Computer Science": 3
+    }
+  },
+  {
+    "id": "332207",
+    "name": "GOVT. GRADUATE COLLEGE (W), JHANG CITY",
+    "district": "JHANG",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Computer Science": 3,
+      "English": 4,
+      "Economics": 1,
+      "Psychology": 1,
+      "Islamiat": 3,
+      "Library Science": 1,
+      "Mathematics": 2,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "364103",
+    "name": "GOVT. GRADUATE COLLEGE (W), KABIRWALA",
+    "district": "KHANEWAL",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Sociology": 1,
+      "Psychology": 2,
+      "Pakistan Studies": 1,
+      "Mathematics": 2,
+      "Islamiat": 1,
+      "English": 4,
+      "Education": 1,
+      "Economics": 1,
+      "Computer Science": 4,
+      "Arabic": 1
+    }
+  },
+  {
+    "id": "352245",
+    "name": "GOVT. GRADUATE COLLEGE (W), KAHNA NAU",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Islamiat": 2,
+      "Pakistan Studies": 2,
+      "History": 1,
+      "Mathematics": 1,
+      "Computer Science": 3,
+      "Sociology": 1,
+      "Statistics": 1,
+      "Commerce": 1,
+      "English": 2,
+      "Urdu": 2,
+      "Physics": 2,
+      "Chemistry": 1,
+      "Arabic": 2
+    }
+  },
+  {
+    "id": "366202",
+    "name": "GOVT. GRADUATE COLLEGE (W), KAHROR PACCA",
+    "district": "LODHRAN",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 1,
+      "Botany": 1,
+      "Chemistry": 1,
+      "Physics": 1,
+      "Economics": 1,
+      "English": 2,
+      "Islamiat": 1,
+      "Political Science": 1
+    }
+  },
+  {
+    "id": "373101",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), KAHUTA",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Islamiat": 2,
+      "Computer Science": 2,
+      "Mathematics": 1,
+      "Education": 1,
+      "Urdu": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "373701",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), KALLAR SYEDAN",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Education": 1,
+      "Economics": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "381203",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), KALLUR KOT",
+    "district": "BHAKKAR",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Health and Physical Education": 2,
+      "Arabic": 1,
+      "Urdu": 2,
+      "Statistics": 1,
+      "Computer Science": 1,
+      "Home Economics": 1,
+      "Sociology": 1,
+      "English": 2,
+      "Islamiat": 2,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "333202",
+    "name": "GOVT. GRADUATE COLLEGE (W), KAMALIA",
+    "district": "TOBA TEK SINGH",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 1,
+      "Islamiat": 2,
+      "Arabic": 2,
+      "Chemistry": 3,
+      "Urdu": 5,
+      "Pakistan Studies": 2,
+      "Health and Physical Education": 1,
+      "Computer Science": 3,
+      "Mathematics": 2
+    }
+  },
+  {
+    "id": "343310",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), KAPOOR WALI",
+    "district": "SIALKOT",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Urdu": 1,
+      "Computer Science": 1,
+      "Mathematics": 1,
+      "Economics": 1,
+      "Sociology": 1,
+      "English": 1
+    }
+  },
+  {
+    "id": "312502",
+    "name": "GOVT. GRADUATE COLLEGE (W), KHAIRPUR TAMEWALI",
+    "district": "BAHAWALPUR",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 1,
+      "Computer Science": 3,
+      "Economics": 1,
+      "English": 3,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Psychology": 1,
+      "Urdu": 1,
+      "Physics": 1,
+      "Library Science": 1
+    }
+  },
+  {
+    "id": "313102",
+    "name": "GOVT. GRADUATE COLLEGE (W), KHANPUR",
+    "district": "RAHIM YAR KHAN",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 2,
+      "Computer Science": 3,
+      "Economics": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 3,
+      "Pakistan Studies": 2,
+      "Physics": 1,
+      "Psychology": 1,
+      "Statistics": 1,
+      "Urdu": 2
+    }
+  },
+  {
+    "id": "354309",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), KHANQA DOGARAN",
+    "district": "SHEIKHUPURA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Education": 1,
+      "Urdu": 1,
+      "English": 1,
+      "Islamiat": 2,
+      "Computer Science": 1,
+      "Psychology": 1,
+      "Physics": 1,
+      "Economics": 1,
+      "Pakistan Studies": 1,
+      "Political Science": 1,
+      "Mathematics": 2,
+      "Zoology": 1,
+      "Chemistry": 1,
+      "Health and Physical Education": 1
+    }
+  },
+  {
+    "id": "342206",
+    "name": "GOVT. ASGHAR ALI GRADUATE COLLEGE (W), KHARIAN",
+    "district": "GUJRAT",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 3,
+      "Computer Science": 3,
+      "Health and Physical Education": 1,
+      "Pakistan Studies": 2,
+      "Islamiat": 5,
+      "Arabic": 2,
+      "Statistics": 1,
+      "History": 1
+    }
+  },
+  {
+    "id": "373305",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), KHAYABAN E SIR SYED",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 2,
+      "Chemistry": 1,
+      "Health and Physical Education": 1,
+      "Education": 1,
+      "Physics": 1,
+      "Urdu": 2,
+      "Psychology": 1,
+      "English": 2
+    }
+  },
+  {
+    "id": "351210",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), KHUDIAN KHAS",
+    "district": "KASUR",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 2,
+      "Chemistry": 1,
+      "Education": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Home Economics": 1,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Persian": 1,
+      "Physics": 1,
+      "Political Science": 1,
+      "Sociology": 1,
+      "Economics": 1,
+      "Computer Science": 2,
+      "ARABIC LANGUAGE": 1,
+      "Medical Laboratory Technology": 1
+    }
+  },
+  {
+    "id": "321108",
+    "name": "GOVT. GRADUATE COLLEGE (W), KOT CHUTTA",
+    "district": "DERA GHAZI KHAN",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "Education": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Mathematics": 1,
+      "Psychology": 1,
+      "Urdu": 1,
+      "Sociology": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "352232",
+    "name": "GOVT. GRADUATE COLLEGE (W), KOT KHAWAJA SAEED",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Statistics": 2,
+      "Urdu": 2,
+      "English": 3,
+      "Islamiat": 2,
+      "Education": 1,
+      "Home Economics": 1,
+      "Chemistry": 1,
+      "Mathematics": 1,
+      "Computer Science": 4,
+      "Biology": 1,
+      "Physics": 2
+    }
+  },
+  {
+    "id": "352242",
+    "name": "GOVT. GRADUATE COLLEGE (W), KOT LAKHPAT",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Economics": 1,
+      "Education": 1,
+      "Islamiat": 1,
+      "Arabic": 1,
+      "Computer Science": 1,
+      "Pakistan Studies": 1,
+      "Sociology": 1,
+      "Mathematics": 1,
+      "Psychology": 1,
+      "Biology": 1
+    }
+  },
+  {
+    "id": "321204",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), KOT QAISRANI",
+    "district": "DERA GHAZI KHAN",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Computer Science": 1,
+      "Mathematics": 1,
+      "Biology": 1,
+      "Chemistry": 1
+    }
+  },
+  {
+    "id": "312207",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), KUD WALA, YAZMAN",
+    "district": "BAHAWALPUR",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Islamiat": 1,
+      "Chemistry": 1,
+      "Mathematics": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "334201",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), LALIAN",
+    "district": "CHINIOT",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "English": 2,
+      "Health and Physical Education": 2,
+      "Mathematics": 1,
+      "Zoology": 1,
+      "Computer Science": 2,
+      "Pakistan Studies": 2,
+      "Physics": 1,
+      "Arabic": 1
+    }
+  },
+  {
+    "id": "366102",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), LODHRAN",
+    "district": "LODHRAN",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Islamiat": 1,
+      "English": 1,
+      "Physics": 1,
+      "Urdu": 1,
+      "Zoology": 1,
+      "Computer Science": 3
+    }
+  },
+  {
+    "id": "363303",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), MACHIWAL",
+    "district": "VEHARI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Biology": 1,
+      "Physiology": 1,
+      "Political Science": 1,
+      "Economics": 1
+    }
+  },
+  {
+    "id": "346102",
+    "name": "GOVT. GRADUATE COLLEGE (W), MALAKWAL",
+    "district": "MANDI BAHAUDDIN",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Chemistry": 2,
+      "Civics": 1,
+      "Economics": 1,
+      "Education": 1,
+      "English": 1,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Psychology": 1,
+      "Zoology": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "331603",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), MAMUN KANJAN",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Botany": 1,
+      "Chemistry": 1,
+      "Economics": 1,
+      "Education": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Psychology": 1,
+      "Statistics": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "332206",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), MANDI SHAH JEWANA",
+    "district": "JHANG",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Physics": 1,
+      "Computer Science": 1,
+      "Chemistry": 1,
+      "Biology": 1
+    }
+  },
+  {
+    "id": "313310",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), MANTHAR",
+    "district": "RAHIM YAR KHAN",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 1,
+      "English": 1,
+      "Library Science": 1,
+      "Computer Science": 1,
+      "Political Science": 1,
+      "Islamiat": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "352244",
+    "name": "GOVT. GRADUATE COLLEGE (W), MARGHZAR COLONY",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 3,
+      "Physics": 2,
+      "Computer Science": 4,
+      "Chemistry": 1,
+      "Education": 1,
+      "Mathematics": 2,
+      "Urdu": 1,
+      "Islamiat": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "384215",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), MARI",
+    "district": "SARGODHA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Health and Physical Education": 1,
+      "Pakistan Studies": 1,
+      "Urdu": 1,
+      "Islamiat": 1,
+      "English": 1,
+      "Computer Science": 1,
+      "Education": 1
+    }
+  },
+  {
+    "id": "361115",
+    "name": "GOVT. FATIMA JINNAH GRADUATE COLLEGE (W), MASOOM SHAH",
+    "district": "MULTAN",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 2,
+      "Computer Science": 4,
+      "English": 3,
+      "Economics": 2,
+      "Education": 1,
+      "Islamiat": 3,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Pakistan Studies": 1,
+      "Urdu": 3,
+      "Psychology": 1
+    }
+  },
+  {
+    "id": "311502",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), MINCHINABAD",
+    "district": "BAHAWALNAGAR",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Economics": 1,
+      "English": 3,
+      "Computer Science": 2,
+      "Islamiat": 2,
+      "Biology": 1,
+      "Persian": 1,
+      "Pakistan Studies": 1,
+      "Mathematics": 1,
+      "Urdu": 1,
+      "Sociology": 1
+    }
+  },
+  {
+    "id": "321106",
+    "name": "GOVT. GRADUATE COLLEGE (W), MODEL TOWN",
+    "district": "DERA GHAZI KHAN",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 1,
+      "Economics": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Urdu": 1,
+      "Sociology": 1,
+      "Biology": 1,
+      "Botany": 2,
+      "Geography": 1,
+      "Physics": 1,
+      "Mathematics": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "373309",
+    "name": "GOVT. GRADUATE COLLEGE (W), MOHANPURA",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 3,
+      "Computer Science": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "374111",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), MULTAN KHURD",
+    "district": "CHAKWAL",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Arabic": 1,
+      "Chemistry": 1,
+      "Urdu": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "361109",
+    "name": "GOVT. GRADUATE COLLEGE (W), MUMTAZABAD",
+    "district": "MULTAN",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 2,
+      "Psychology": 2,
+      "Urdu": 2,
+      "Geography": 1,
+      "Islamiat": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "354202",
+    "name": "GOVT. GRADUATE COLLEGE (W), MURIDKE",
+    "district": "SHEIKHUPURA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Psychology": 1,
+      "Chemistry": 1,
+      "Persian": 1,
+      "Urdu": 2,
+      "English": 3,
+      "Arabic": 1,
+      "Political Science": 1,
+      "Physics": 1,
+      "Islamiat": 2,
+      "Computer Science": 1,
+      "Statistics": 1
+    }
+  },
+  {
+    "id": "331302",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), MURIDWALA",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Islamiat": 2,
+      "Punjabi": 1,
+      "Urdu": 2,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "373313",
+    "name": "GOVT. GRADUATE COLLEGE (W), MURREE ROAD",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Chemistry": 2,
+      "Computer Science": 5,
+      "Economics": 1,
+      "English": 1,
+      "Islamiat": 1,
+      "Physics": 2,
+      "Political Science": 2,
+      "Library Science": 1,
+      "Sociology": 1,
+      "Pakistan Studies": 2,
+      "Philosophy": 1,
+      "Health and Physical Education": 1,
+      "Commerce": 1
+    }
+  },
+  {
+    "id": "352225",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), MUSTAFAABAD",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Urdu": 1,
+      "Education": 1,
+      "Computer Science": 2,
+      "Arabic": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "341125",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), NAUKHAR",
+    "district": "GUJRANWALA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Arabic": 1,
+      "Chemistry": 1,
+      "Economics": 1,
+      "English": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Psychology": 1,
+      "Political Science": 1,
+      "Statistics": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "382106",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), NEAR SABHRAL NAUSHERA",
+    "district": "KHUSHAB",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 2,
+      "English": 1,
+      "Urdu": 1,
+      "Psychology": 1,
+      "Health and Physical Education": 1,
+      "Physics": 1,
+      "Zoology": 1
+    }
+  },
+  {
+    "id": "382202",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), NOOR PUR THAL",
+    "district": "KHUSHAB",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Urdu": 2,
+      "Islamiat": 1,
+      "Health and Physical Education": 1,
+      "Persian": 1,
+      "Library Science": 1,
+      "Computer Science": 1,
+      "Biology": 1,
+      "Physics": 1,
+      "Mathematics": 1,
+      "Education": 1,
+      "English": 2
+    }
+  },
+  {
+    "id": "393202",
+    "name": "GOVT. GRADUATE COLLEGE (W), OKARA",
+    "district": "OKARA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 2,
+      "Education": 2,
+      "Economics": 2,
+      "Civics": 1,
+      "Arabic": 2,
+      "Computer Science": 6,
+      "Mathematics": 3,
+      "Zoology": 2,
+      "Pakistan Studies": 2,
+      "Urdu": 2,
+      "Health and Physical Education": 2,
+      "Library Science": 2,
+      "Islamiat": 2,
+      "Statistics": 1,
+      "Psychology": 1,
+      "Physics": 1
+    }
+  },
+  {
+    "id": "346305",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), PAHRIANWALI",
+    "district": "MANDI BAHAUDDIN",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Arabic": 1,
+      "Economics": 1,
+      "Education": 3,
+      "English": 3,
+      "Health and Physical Education": 2,
+      "Islamiat": 3,
+      "Mathematics": 2,
+      "Pakistan Studies": 2,
+      "Political Science": 1,
+      "Urdu": 2,
+      "Computer Science": 2,
+      "Biology": 1,
+      "Chemistry": 1,
+      "Physics": 1
+    }
+  },
+  {
+    "id": "373311",
+    "name": "GOVT. GRADUATE COLLEGE (W), PESHAWAR RD",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Islamiat": 2,
+      "Urdu": 2,
+      "Mass Communication": 1,
+      "Education": 1,
+      "English": 2,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "346303",
+    "name": "GOVT. GRADUATE COLLEGE (W), PHALIA",
+    "district": "MANDI BAHAUDDIN",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "Education": 1,
+      "English": 3,
+      "Health and Physical Education": 1,
+      "Islamiat": 2,
+      "Arabic": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Persian": 1,
+      "Computer Science": 2,
+      "Home Economics": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "351304",
+    "name": "GOVT. GRADUATE COLLEGE (W), PHOOL NAGAR",
+    "district": "KASUR",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Persian": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Urdu": 2,
+      "Islamiat": 2,
+      "Arabic": 1,
+      "Health and Physical Education": 1,
+      "English": 2,
+      "Computer Science": 3,
+      "Statistics": 1,
+      "Mathematics": 1,
+      "Civics": 1,
+      "Biology": 1
+    }
+  },
+  {
+    "id": "372202",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), PIND DADAN KHAN",
+    "district": "JHELUM",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Mathematics": 1,
+      "Islamiat": 2,
+      "English": 2,
+      "Computer Science": 3
+    }
+  },
+  {
+    "id": "356402",
+    "name": "GOVT. GRADUATE COLLEGE (W), SANGLA HILL",
+    "district": "NANKANA SAHIB",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 2,
+      "Urdu": 2,
+      "Computer Science": 3,
+      "Islamiat": 3,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Chemistry": 1,
+      "Political Science": 1,
+      "Psychology": 1
+    }
+  },
+  {
+    "id": "393203",
+    "name": "GOVT. GRADUATE COLLEGE (W), SOUTH CITY",
+    "district": "OKARA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Mathematics": 1,
+      "Computer Science": 2,
+      "Islamiat": 3,
+      "English": 2,
+      "Physics": 2,
+      "Chemistry": 1,
+      "Education": 1
+    }
+  },
+  {
+    "id": "345106",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), SUKHEKI MANDI",
+    "district": "HAFIZABAD",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "Civics": 1,
+      "Education": 1,
+      "English": 2,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Psychology": 1,
+      "Urdu": 1,
+      "Zoology": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "374202",
+    "name": "GOVT. GRADUATE COLLEGE (W), TALAGANG",
+    "district": "CHAKWAL",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 1,
+      "Urdu": 1,
+      "Pakistan Studies": 1,
+      "Mathematics": 1,
+      "Education": 1,
+      "Physics": 1,
+      "Islamiat": 1,
+      "Zoology": 1,
+      "Chemistry": 1,
+      "Health and Physical Education": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "374108",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), TAMMAN",
+    "district": "CHAKWAL",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Urdu": 1,
+      "Chemistry": 1,
+      "Economics": 1,
+      "Physics": 1,
+      "Islamiat": 1,
+      "Arabic": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "341126",
+    "name": "GOVT. GRADUATE COLLEGE (W), TARIQABAD KHOKHARKI",
+    "district": "GUJRANWALA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 3,
+      "Urdu": 3,
+      "Islamiat": 2,
+      "Education": 1,
+      "Punjabi": 1,
+      "Mathematics": 1,
+      "Computer Science": 2,
+      "Sociology": 1,
+      "Pakistan Studies": 1,
+      "Civics": 1
+    }
+  },
+  {
+    "id": "321201",
+    "name": "GOVT. GRADUATE COLLEGE (W), TAUNSA",
+    "district": "DERA GHAZI KHAN",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 5,
+      "Physics": 3,
+      "Urdu": 2,
+      "Islamiat": 2,
+      "Arabic": 1,
+      "Computer Science": 1,
+      "Pakistan Studies": 1,
+      "Sociology": 1,
+      "Statistics": 1
+    }
+  },
+  {
+    "id": "373402",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), TAXILA",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 1,
+      "Health and Physical Education": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "333304",
+    "name": "GOVT. GRADUATE COLLEGE (W), TOBA TEK SINGH",
+    "district": "TOBA TEK SINGH",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Botany": 1,
+      "English": 4,
+      "Economics": 1,
+      "Home Economics": 1,
+      "Islamiat": 5,
+      "Physics": 1,
+      "Pakistan Studies": 3,
+      "Urdu": 4,
+      "Computer Science": 5,
+      "Mathematics": 3
+    }
+  },
+  {
+    "id": "354102",
+    "name": "GOVT. GRADUATE COLLEGE (W), VANDALA DIYAL SHAH",
+    "district": "SHEIKHUPURA",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 2,
+      "English": 2,
+      "Chemistry": 1,
+      "Islamiat": 1,
+      "Computer Science": 2,
+      "Mathematics": 2,
+      "Pakistan Studies": 1,
+      "Arabic": 1
+    }
+  },
+  {
+    "id": "373403",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), WAH CANTT",
+    "district": "RAWALPINDI",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Arabic": 1,
+      "Computer Science": 3,
+      "English": 2,
+      "Pakistan Studies": 1,
+      "Islamiat": 1,
+      "Psychology": 3,
+      "Sociology": 2,
+      "Urdu": 2
+    }
+  },
+  {
+    "id": "374109",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), WANHAR BUCHAL KALAN",
+    "district": "CHAKWAL",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Computer Science": 2,
+      "Physics": 1
+    }
+  },
+  {
+    "id": "352123",
+    "name": "GOVT. GRADUATE COLLEGE (W), WAPDA TOWN",
+    "district": "LAHORE",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 3,
+      "Arabic": 2,
+      "Chemistry": 2,
+      "Computer Science": 4,
+      "Health and Physical Education": 1,
+      "Islamiat": 2,
+      "Mathematics": 2,
+      "Physics": 3,
+      "Statistics": 1,
+      "Urdu": 2
+    }
+  },
+  {
+    "id": "356103",
+    "name": "GOVT. GRADUATE COLLEGE (W), WARBURTON",
+    "district": "NANKANA SAHIB",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "Education": 1,
+      "English": 3,
+      "Health and Physical Education": 1,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Computer Science": 2,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "341206",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), WAZIRABAD CITY",
+    "district": "GUJRANWALA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Islamiat": 1,
+      "Economics": 1,
+      "Computer Science": 1,
+      "Psychology": 1,
+      "Education": 1,
+      "Health and Physical Education": 1,
+      "Statistics": 1,
+      "Urdu": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "312402",
+    "name": "GOVT. GRADUATE COLLEGE (W), YAZMAN",
+    "district": "BAHAWALPUR",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "English": 3,
+      "Islamiat": 2,
+      "Computer Science": 4,
+      "Zoology": 2,
+      "Mathematics": 1,
+      "Urdu": 1,
+      "Commerce": 1,
+      "Economics": 1,
+      "Home Economics": 1,
+      "History": 1
+    }
+  },
+  {
+    "id": "344106",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), ZAFARWAL",
+    "district": "NAROWAL",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Arabic": 1,
+      "Computer Science": 1,
+      "Economics": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Political Science": 1,
+      "Urdu": 2
+    }
+  },
+  {
+    "id": "313311",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), ZAHIR PEER",
+    "district": "RAHIM YAR KHAN",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "Islamiat": 1,
+      "English": 1,
+      "Urdu": 1,
+      "Physics": 1,
+      "Computer Science": 1,
+      "Mathematics": 1,
+      "Botany": 1,
+      "Political Science": 1
+    }
+  },
+  {
+    "id": "332202",
+    "name": "GOVT. ASSOCIATE COLLEGE, 170/JB",
+    "district": "JHANG",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Arabic": 1,
+      "Botany": 1,
+      "Education": 1,
+      "English": 1,
+      "Health and Physical Education": 1,
+      "History": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Punjabi": 1,
+      "Sociology": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "331404",
+    "name": "GOVT. GRADUATE COLLEGE (W), 215/RB, JARANWALA ROAD",
+    "district": "FAISALABAD",
+    "gender": "Women",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 1,
+      "English": 4,
+      "Islamiat": 3,
+      "Library Science": 1,
+      "Physics": 1,
+      "Pakistan Studies": 1,
+      "Sociology": 1,
+      "Urdu": 3
+    }
+  },
+  {
+    "id": "332205",
+    "name": "GOVT. GRADUATE COLLEGE, 18 HAZARI",
+    "district": "JHANG",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "English": 1,
+      "Urdu": 2,
+      "Economics": 1,
+      "Physics": 2,
+      "Islamiat": 2,
+      "Pakistan Studies": 1,
+      "Computer Science": 2,
+      "Mathematics": 1,
+      "Geography": 1
+    }
+  },
+  {
+    "id": "383204",
+    "name": "GOVT. ASSOCIATE COLLEGE, BAN HAFIZ JEE",
+    "district": "MIANWALI",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 1,
+      "Economics": 1,
+      "English": 2,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Political Science": 1,
+      "Physics": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "397101",
+    "name": "GOVT. GRADUATE COLLEGE, CHICHAWATNI",
+    "district": "SAHIWAL",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 2,
+      "Computer Science": 1,
+      "English": 3,
+      "Islamiat": 1,
+      "Mathematics": 3,
+      "Psychology": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "311202",
+    "name": "GOVT. ASSOCIATE COLLEGE, DAHRAN WALA",
+    "district": "BAHAWALNAGAR",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Urdu": 1,
+      "Computer Science": 2,
+      "Islamiat": 1,
+      "Pakistan Studies": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "372401",
+    "name": "GOVT. GRADUATE COLLEGE, DINA",
+    "district": "JHELUM",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 4,
+      "Biology": 1,
+      "Physics": 1,
+      "Urdu": 1,
+      "Islamiat": 2,
+      "English": 2,
+      "Mathematics": 1,
+      "Education": 1
+    }
+  },
+  {
+    "id": "381403",
+    "name": "GOVT. ASSOCIATE COLLEGE, DULLEWALA",
+    "district": "BHAKKAR",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Health and Physical Education": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "384501",
+    "name": "GOVT. ASSOCIATE COLLEGE, FAROOQA",
+    "district": "SARGODHA",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Persian": 1,
+      "Islamiat": 1,
+      "Physics": 1,
+      "Computer Science": 1,
+      "Health and Physical Education": 1,
+      "Mathematics": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "393102",
+    "name": "GOVT. ASSOCIATE COLLEGE, HUJRA SHAH MUQEEM",
+    "district": "OKARA",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Computer Science": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Civics": 1
+    }
+  },
+  {
+    "id": "361401",
+    "name": "GOVT. GRADUATE COLLEGE, JALALPUR PIRWALA",
+    "district": "MULTAN",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 1,
+      "Economics": 2,
+      "Zoology": 1,
+      "Urdu": 2,
+      "Health and Physical Education": 1
+    }
+  },
+  {
+    "id": "384303",
+    "name": "GOVT. ASSOCIATE COLLEGE, JHAWARIAN",
+    "district": "SARGODHA",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Commerce": 1,
+      "Urdu": 1,
+      "Islamiat": 1,
+      "History": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "383103",
+    "name": "GOVT. ASSOCIATE COLLEGE, KALABAGH",
+    "district": "MIANWALI",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 1,
+      "Computer Science": 1,
+      "English": 1,
+      "Islamiat": 1,
+      "Physics": 1,
+      "Mathematics": 1,
+      "Political Science": 1
+    }
+  },
+  {
+    "id": "383203",
+    "name": "GOVT. ASSOCIATE COLLEGE, KUNDIAN",
+    "district": "MIANWALI",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Urdu": 1,
+      "Computer Science": 1,
+      "Mathematics": 1,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "311105",
+    "name": "GOVT. ASSOCIATE COLLEGE, MARROT, FORT ABBAS",
+    "district": "BAHAWALNAGAR",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 1,
+      "English": 1,
+      "Health and Physical Education": 1,
+      "Mathematics": 1,
+      "Urdu": 1,
+      "Computer Science": 1,
+      "Pakistan Studies": 1,
+      "Civics": 1
+    }
+  },
+  {
+    "id": "333301",
+    "name": "GOVT. ASSOCIATE COLLEGE, MAURUSIPUR",
+    "district": "TOBA TEK SINGH",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "English": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Punjabi": 1,
+      "Sociology": 1,
+      "Urdu": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "384102",
+    "name": "GOVT. ASSOCIATE COLLEGE, MIANI",
+    "district": "SARGODHA",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 1,
+      "Physics": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "311501",
+    "name": "GOVT. ASSOCIATE COLLEGE, MINCHINABAD",
+    "district": "BAHAWALNAGAR",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Chemistry": 1,
+      "English": 2,
+      "Physics": 1,
+      "Persian": 1,
+      "Computer Science": 2,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "382103",
+    "name": "GOVT. ASSOCIATE COLLEGE, NAUSHERA",
+    "district": "KHUSHAB",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Commerce": 1,
+      "Chemistry": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "341403",
+    "name": "GOVT. GRADUATE COLLEGE, NOWSHERA VIRKAN",
+    "district": "GUJRANWALA",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 1,
+      "English": 2,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Computer Science": 2,
+      "Urdu": 2,
+      "Political Science": 1
+    }
+  },
+  {
+    "id": "374101",
+    "name": "GOVT. ASSOCIATE COLLEGE, PEER PHULLAHI",
+    "district": "CHAKWAL",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Islamiat": 1,
+      "English": 1,
+      "Computer Science": 1,
+      "Physics": 1,
+      "Health and Physical Education": 1
+    }
+  },
+  {
+    "id": "341104",
+    "name": "GOVT. FAQIR MUHAMMAD FAQIR GRADUATE COLLEGE",
+    "district": "GUJRANWALA",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Mathematics": 1,
+      "Computer Science": 1,
+      "English": 2
+    }
+  },
+  {
+    "id": "384108",
+    "name": "GOVT. GRADUATE COLLEGE, PHULLARWAN",
+    "district": "SARGODHA",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 1,
+      "Computer Science": 1,
+      "Geography": 1,
+      "Islamiat": 1,
+      "English": 1,
+      "Mathematics": 1,
+      "Political Science": 1
+    }
+  },
+  {
+    "id": "333305",
+    "name": "GOVT. ASSOCIATE COLLEGE, RAJANA",
+    "district": "TOBA TEK SINGH",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 1,
+      "Economics": 1,
+      "English": 1,
+      "Islamiat": 1,
+      "Physics": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "341121",
+    "name": "GOVT. ASSOCIATE COLLEGE (W), SAGHIR SHAHEED PARK",
+    "district": "GUJRANWALA",
+    "gender": "Women",
+    "category": "Associate",
+    "subjects": {
+      "Education": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Islamiat": 2,
+      "Pakistan Studies": 2,
+      "Political Science": 1,
+      "Psychology": 1,
+      "Statistics": 1,
+      "Urdu": 2,
+      "Computer Science": 1,
+      "Commerce": 1
+    }
+  },
+  {
+    "id": "384221",
+    "name": "GOVT. ASSOCIATE COLLEGE, SAHIWAL",
+    "district": "SARGODHA",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "342301",
+    "name": "GOVT. GRADUATE COLLEGE, SARAI ALAMGIR",
+    "district": "GUJRAT",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Civics": 1,
+      "English": 2,
+      "Computer Science": 2,
+      "Chemistry": 1,
+      "Islamiat": 1,
+      "Urdu": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "364203",
+    "name": "GOVT. ASSOCIATE COLLEGE, SARAI SIDHU",
+    "district": "KHANEWAL",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "Economics": 1,
+      "Education": 1,
+      "English": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Computer Science": 1,
+      "Statistics": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "384301",
+    "name": "GOVT. ASSOCIATE COLLEGE, SHAHPUR SADAR",
+    "district": "SARGODHA",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Health and Physical Education": 1,
+      "Library Science": 1,
+      "Punjabi": 1,
+      "English": 1,
+      "Computer Science": 2,
+      "Arabic": 1,
+      "Commerce": 1
+    }
+  },
+  {
+    "id": "374203",
+    "name": "GOVT. ASSOCIATE COLLEGE, TARHADA",
+    "district": "CHAKWAL",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Urdu": 1,
+      "Education": 1,
+      "Biology": 1,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "344103",
+    "name": "GOVT. GRADUATE COLLEGE, ZAFARWAL",
+    "district": "NAROWAL",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 2,
+      "English": 3,
+      "Islamiat": 2,
+      "Pakistan Studies": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "364102",
+    "name": "GOVT. GRADUATE COLLEGE, ABDUL HAKIM",
+    "district": "KHANEWAL",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "English": 3,
+      "Chemistry": 1,
+      "Computer Science": 1,
+      "Physics": 1,
+      "Mathematics": 1,
+      "Punjabi": 1,
+      "Urdu": 2,
+      "Zoology": 2
+    }
+  },
+  {
+    "id": "398101",
+    "name": "GOVT. GRADUATE COLLEGE, ARIFWALA",
+    "district": "PAKPATTAN",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 3,
+      "Computer Science": 2,
+      "Zoology": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "371403",
+    "name": "GOVT. ASSOCIATE COLLEGE, BASAL",
+    "district": "ATTOCK",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Political Science": 1,
+      "Urdu": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "393105",
+    "name": "GOVT. ASSOCIATE COLLEGE, BASIRPUR",
+    "district": "OKARA",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 1,
+      "Arabic": 1,
+      "Biology": 1,
+      "Economics": 1,
+      "English": 1,
+      "Islamiat": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Sociology": 1,
+      "Statistics": 1
+    }
+  },
+  {
+    "id": "384203",
+    "name": "GOVT. ASSOCIATE COLLEGE, BHAGTANWALA",
+    "district": "SARGODHA",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Pakistan Studies": 1,
+      "Health and Physical Education": 2,
+      "Islamiat": 2,
+      "Computer Science": 2,
+      "Library Science": 1,
+      "Political Science": 1,
+      "Urdu": 1,
+      "Social Work": 1
+    }
+  },
+  {
+    "id": "384101",
+    "name": "GOVT. ASSOCIATE COLLEGE, BHERA",
+    "district": "SARGODHA",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Urdu": 1,
+      "Chemistry": 1,
+      "Civics": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "346302",
+    "name": "GOVT. ASSOCIATE COLLEGE, BHOA HASSAN",
+    "district": "MANDI BAHAUDDIN",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Civics": 1,
+      "Education": 1,
+      "English": 2,
+      "Chemistry": 1,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Computer Science": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "374401",
+    "name": "GOVT. ASSOCIATE COLLEGE, BUCHAL KALAN",
+    "district": "CHAKWAL",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Urdu": 1,
+      "Computer Science": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "373326",
+    "name": "GOVT. ASSOCIATE COLLEGE, CHAK BELI KHAN",
+    "district": "RAWALPINDI",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "English": 1,
+      "Islamiat": 1,
+      "Physics": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "331504",
+    "name": "GOVT. GRADUATE COLLEGE, CHAK JHUMRA",
+    "district": "FAISALABAD",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Physics": 1,
+      "Computer Science": 1,
+      "English": 1,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "373323",
+    "name": "GOVT. ASSOCIATE COLLEGE, CHAKRI",
+    "district": "RAWALPINDI",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Urdu": 1,
+      "Education": 1,
+      "Civics": 1,
+      "Chemistry": 1,
+      "Computer Science": 1,
+      "Mathematics": 1,
+      "Arabic": 1
+    }
+  },
+  {
+    "id": "343204",
+    "name": "GOVT. ASSOCIATE COLLEGE, CHAWINDA",
+    "district": "SIALKOT",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Urdu": 2,
+      "Computer Science": 2,
+      "Islamiat": 2,
+      "Civics": 2,
+      "Biology": 2,
+      "Arabic": 1,
+      "Economics": 1,
+      "Education": 1,
+      "Chemistry": 1,
+      "Physics": 1,
+      "Mathematics": 2
+    }
+  },
+  {
+    "id": "374116",
+    "name": "GOVT. ASSOCIATE COLLEGE, CHOA SAIDAN SHAH",
+    "district": "CHAKWAL",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Urdu": 1,
+      "Physics": 1,
+      "Pakistan Studies": 1,
+      "Islamiat": 1,
+      "Education": 1,
+      "Chemistry": 1
+    }
+  },
+  {
+    "id": "322101",
+    "name": "GOVT. ASSOCIATE COLLEGE, CHOUBARA",
+    "district": "LAYYAH",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 2,
+      "Chemistry": 2,
+      "Computer Science": 2,
+      "English": 2,
+      "Physics": 2,
+      "Arabic": 1,
+      "Civics": 1,
+      "Health and Physical Education": 1,
+      "Mathematics": 1,
+      "Urdu": 1,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "323308",
+    "name": "GOVT. GRADUATE COLLEGE, CHOWK SARWAR SHAHEED",
+    "district": "MUZAFFARGARH",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Biology": 2,
+      "Chemistry": 1,
+      "Computer Science": 2,
+      "English": 4,
+      "Geography": 1,
+      "Mathematics": 1,
+      "Zoology": 2
+    }
+  },
+  {
+    "id": "381402",
+    "name": "GOVT. GRADUATE COLLEGE, DARYA KHAN",
+    "district": "BHAKKAR",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Pakistan Studies": 1,
+      "Education": 1,
+      "Library Science": 1,
+      "Social Work": 1,
+      "English": 1,
+      "Computer Science": 1,
+      "Geography": 1
+    }
+  },
+  {
+    "id": "343101",
+    "name": "GOVT. GRADUATE COLLEGE, DASKA",
+    "district": "SIALKOT",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "English": 2,
+      "Economics": 1,
+      "Punjabi": 1,
+      "Statistics": 1,
+      "Urdu": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "373601",
+    "name": "GOVT. ASSOCIATE COLLEGE, DAULTALA",
+    "district": "RAWALPINDI",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Urdu": 1,
+      "Mathematics": 1,
+      "Chemistry": 1,
+      "Physics": 1,
+      "Civics": 1,
+      "Health and Physical Education": 1,
+      "Computer Science": 1,
+      "Islamiat": 2
+    }
+  },
+  {
+    "id": "393101",
+    "name": "GOVT. ASSOCIATE COLLEGE, DEPALPUR",
+    "district": "OKARA",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 2,
+      "English": 2,
+      "Islamiat": 2,
+      "Statistics": 1,
+      "Arabic": 1,
+      "Economics": 1,
+      "Physics": 1,
+      "Mathematics": 1,
+      "Education": 1,
+      "Political Science": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "342202",
+    "name": "GOVT. GRADUATE COLLEGE, DINGA",
+    "district": "GUJRAT",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 1,
+      "Computer Science": 1,
+      "English": 3,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Health and Physical Education": 1,
+      "Physics": 1,
+      "Urdu": 3
+    }
+  },
+  {
+    "id": "366301",
+    "name": "GOVT. GRADUATE COLLEGE, DUNYAPUR",
+    "district": "LODHRAN",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Chemistry": 1,
+      "Civics": 1,
+      "Education": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 2,
+      "Political Science": 1,
+      "Psychology": 1,
+      "Urdu": 3,
+      "Zoology": 4,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "341120",
+    "name": "GOVT. ASSOCIATE COLLEGE, EMINABAD",
+    "district": "GUJRANWALA",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Urdu": 1,
+      "Computer Science": 1,
+      "Biology": 1,
+      "Chemistry": 1,
+      "Political Science": 1,
+      "Commerce": 1,
+      "Education": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "371201",
+    "name": "GOVT. ASSOCIATE COLLEGE, FATEH JANG",
+    "district": "ATTOCK",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "Economics": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "311301",
+    "name": "GOVT. GRADUATE COLLEGE, FORT ABBAS",
+    "district": "BAHAWALNAGAR",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Urdu": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "332211",
+    "name": "GOVT. GRADUATE COLLEGE, GARH MAHARAJA AHMEDPUR SIAL",
+    "district": "JHANG",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "Botany": 1,
+      "Economics": 1,
+      "Civics": 1,
+      "Education": 1,
+      "English": 4,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Urdu": 2,
+      "Zoology": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "341119",
+    "name": "GOVT. GRADUATE COLLEGE, GAKHAR MANDI",
+    "district": "GUJRANWALA",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "English": 2,
+      "Urdu": 1,
+      "Islamiat": 2,
+      "Political Science": 1,
+      "Punjabi": 1,
+      "Pakistan Studies": 1,
+      "Mathematics": 1,
+      "Statistics": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "393104",
+    "name": "GOVT. ASSOCIATE COLLEGE, GOGERA",
+    "district": "OKARA",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Economics": 1,
+      "Pakistan Studies": 1,
+      "Computer Science": 2,
+      "Health and Physical Education": 1,
+      "Biology": 1,
+      "Sociology": 1,
+      "Islamiat": 1,
+      "Physics": 1,
+      "Education": 1,
+      "Civics": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "373602",
+    "name": "GOVT. SARWAR SHAHEED NISHAN E HAIDER ASSOCIATE COLL",
+    "district": "RAWALPINDI",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "Health and Physical Education": 1,
+      "Urdu": 2,
+      "History": 1,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "312301",
+    "name": "GOVT. GRADUATE COLLEGE, HASILPUR",
+    "district": "BAHAWALPUR",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Health and Physical Education": 1,
+      "Pakistan Studies": 1,
+      "English": 2,
+      "Computer Science": 1,
+      "Mathematics": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "393103",
+    "name": "GOVT. ASSOCIATE COLLEGE, HAVELI LAKHA",
+    "district": "OKARA",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Islamiat": 1,
+      "Sociology": 1,
+      "Computer Science": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "371601",
+    "name": "GOVT. SHUJA KHANZADA SHAHEED ASSOCIATE COLLEGE, HAZ",
+    "district": "ATTOCK",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "History": 1,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Urdu": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "345203",
+    "name": "GOVT. GRADUATE COLLEGE JALALPUR BHATTIAN",
+    "district": "HAFIZABAD",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "English": 1,
+      "Mathematics": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Islamiat": 1,
+      "Computer Science": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "371401",
+    "name": "GOVT. ASSOCIATE COLLEGE, JAND",
+    "district": "ATTOCK",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Urdu": 1,
+      "Computer Science": 1,
+      "Chemistry": 1,
+      "Physics": 1,
+      "Civics": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "381202",
+    "name": "GOVT. ASSOCIATE COLLEGE, JANDANWALA",
+    "district": "BHAKKAR",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "323401",
+    "name": "GOVT. KAURA KHAN GRADUATE COLLEGE, JATOI",
+    "district": "MUZAFFARGARH",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 1,
+      "Education": 2,
+      "English": 2,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Urdu": 1,
+      "Zoology": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "364101",
+    "name": "GOVT. ASSOCIATE COLLEGE, KABIRWALA",
+    "district": "KHANEWAL",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "Zoology": 1,
+      "Mathematics": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "366201",
+    "name": "GOVT. GRADUATE COLLEGE, KAHROR PAKKA",
+    "district": "LODHRAN",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Economics": 1,
+      "English": 1,
+      "Pakistan Studies": 1
+    }
+  },
+  {
+    "id": "373702",
+    "name": "GOVT. ASSOCIATE COLLEGE, KALLAR SYEDAN",
+    "district": "RAWALPINDI",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 1,
+      "Economics": 1,
+      "Islamiat": 1,
+      "Physics": 1,
+      "Sociology": 1,
+      "History": 1,
+      "Commerce": 1
+    }
+  },
+  {
+    "id": "381201",
+    "name": "GOVT. GRADUATE COLLEGE, KALLUR KOT",
+    "district": "BHAKKAR",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "Education": 1,
+      "English": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Library Science": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Computer Science": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "341301",
+    "name": "GOVT. ASSOCIATE COLLEGE, KAMOKE",
+    "district": "GUJRANWALA",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Civics": 1,
+      "Statistics": 1,
+      "Health and Physical Education": 1,
+      "Chemistry": 1,
+      "English": 3,
+      "Biology": 1,
+      "Physics": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "312501",
+    "name": "GOVT. GRADUATE COLLEGE, KHAIRPUR TAMEWALI",
+    "district": "BAHAWALPUR",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "English": 3,
+      "Urdu": 3,
+      "Computer Science": 3,
+      "Economics": 1,
+      "Health and Physical Education": 1,
+      "Chemistry": 1,
+      "Islamiat": 1,
+      "Library Science": 1,
+      "Political Science": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "342201",
+    "name": "GOVT. GRADUATE COLLEGE, KHARIAN",
+    "district": "GUJRAT",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 2,
+      "English": 4,
+      "History": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 2,
+      "Mathematics": 1,
+      "Psychology": 1,
+      "Urdu": 3
+    }
+  },
+  {
+    "id": "351202",
+    "name": "GOVT. GRADUATE COLLEGE, KOT RADHA KISHAN",
+    "district": "KASUR",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 3,
+      "Urdu": 1,
+      "Economics": 1,
+      "English": 1,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Health and Physical Education": 1,
+      "History": 1
+    }
+  },
+  {
+    "id": "342117",
+    "name": "GOVT. ASSOCIATE COLLEGE, KOTLA ARAB ALI KHAN",
+    "district": "GUJRAT",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Education": 1,
+      "English": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Urdu": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "373327",
+    "name": "GOVT. ASSOCIATE COLLEGE, KOTLI SATTIAN",
+    "district": "RAWALPINDI",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 1,
+      "Education": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Physics": 1,
+      "Urdu": 1,
+      "Computer Science": 2,
+      "History": 1
+    }
+  },
+  {
+    "id": "342203",
+    "name": "GOVT. ASSOCIATE COLLEGE, LALAMUSA",
+    "district": "GUJRAT",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Islamiat": 1,
+      "History": 1,
+      "Mathematics": 1,
+      "Urdu": 1,
+      "Health and Physical Education": 1,
+      "Chemistry": 1,
+      "Statistics": 1,
+      "Biology": 1
+    }
+  },
+  {
+    "id": "313201",
+    "name": "GOVT ASSOCIATE COLLEGE, ALLAMA IQBAL TOWN, LIAQUATPUR",
+    "district": "RAHIM YAR KHAN",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Arabic": 1,
+      "Economics": 1,
+      "English": 2,
+      "Health and Physical Education": 1,
+      "History": 1,
+      "Islamiat": 2,
+      "Library Science": 1,
+      "Pakistan Studies": 1,
+      "Urdu": 1,
+      "Computer Science": 3,
+      "Political Science": 1,
+      "Statistics": 1
+    }
+  },
+  {
+    "id": "366101",
+    "name": "GOVT. GRADUATE COLLEGE, LODHRAN",
+    "district": "LODHRAN",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Computer Science": 2,
+      "English": 3,
+      "Urdu": 1,
+      "Mathematics": 1,
+      "Chemistry": 1,
+      "Physics": 1
+    }
+  },
+  {
+    "id": "363201",
+    "name": "GOVT. GRADUATE COLLEGE, MAILSI",
+    "district": "VEHARI",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Computer Science": 2,
+      "Mathematics": 2,
+      "English": 1
+    }
+  },
+  {
+    "id": "366302",
+    "name": "GOVT. ASSOCIATE COLLEGE, MAKHDOOM AALI",
+    "district": "LODHRAN",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Economics": 1,
+      "Health and Physical Education": 1,
+      "Pakistan Studies": 1,
+      "Physics": 1,
+      "Urdu": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "346101",
+    "name": "GOVT. ASSOCIATE COLLEGE, MALAKWAL",
+    "district": "MANDI BAHAUDDIN",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Chemistry": 1,
+      "Computer Science": 1,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "331604",
+    "name": "GOVT. GRADUATE COLLEGE, MAMUKANJAN",
+    "district": "FAISALABAD",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Biology": 1,
+      "Chemistry": 1,
+      "English": 4,
+      "Geography": 1,
+      "Health and Physical Education": 1,
+      "History": 1,
+      "Islamiat": 4,
+      "Mathematics": 2,
+      "Pakistan Studies": 1,
+      "Sociology": 1,
+      "Statistics": 1,
+      "Urdu": 2,
+      "Physiology": 1,
+      "Computer Science": 2
+    }
+  },
+  {
+    "id": "332210",
+    "name": "GOVT. ASSOCIATE COLLEGE, MANDI SHAH JEWANA",
+    "district": "JHANG",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Computer Science": 1,
+      "English": 1,
+      "Urdu": 1,
+      "Mathematics": 1,
+      "Physics": 1
+    }
+  },
+  {
+    "id": "342116",
+    "name": "GOVT. ASSOCIATE COLLEGE, MANGOWAL GHARBI",
+    "district": "GUJRAT",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Chemistry": 1,
+      "Civics": 1,
+      "Computer Science": 1,
+      "English": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "381301",
+    "name": "GOVT. ASSOCIATE COLLEGE, MANKERA",
+    "district": "BHAKKAR",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 1,
+      "Physics": 1,
+      "Chemistry": 1,
+      "Biology": 1,
+      "Computer Science": 1,
+      "Civics": 1
+    }
+  },
+  {
+    "id": "364301",
+    "name": "GOVT. GRADUATE COLLEGE, MIAN CHANNU",
+    "district": "KHANEWAL",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "English": 1,
+      "Urdu": 1,
+      "Computer Science": 1,
+      "Mathematics": 1
+    }
+  },
+  {
+    "id": "354311",
+    "name": "GOVT. GRADUATE COLLEGE, MURIDKE",
+    "district": "SHEIKHUPURA",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 1,
+      "Computer Science": 3,
+      "English": 3,
+      "Mathematics": 1,
+      "Physics": 2,
+      "Urdu": 1,
+      "Commerce": 1
+    }
+  },
+  {
+    "id": "351201",
+    "name": "GOVT. ASSOCIATE COLLEGE, MUSTAFA ABAD",
+    "district": "KASUR",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "English": 2,
+      "Computer Science": 2,
+      "Chemistry": 1,
+      "Physics": 1,
+      "Statistics": 1,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Pakistan Studies": 1,
+      "Urdu": 1,
+      "Geography": 1
+    }
+  },
+  {
+    "id": "354201",
+    "name": "GOVT. ASSOCIATE COLLEGE, NARANG MANDI",
+    "district": "SHEIKHUPURA",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Arabic": 1,
+      "Biology": 1,
+      "Chemistry": 1,
+      "Economics": 1,
+      "English": 2,
+      "History": 1,
+      "Pakistan Studies": 1,
+      "Psychology": 1,
+      "Sociology": 1,
+      "Urdu": 2,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "382201",
+    "name": "GOVT. GRADUATE COLLEGE, NOOR PUR THAL",
+    "district": "KHUSHAB",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Biology": 1,
+      "Chemistry": 1,
+      "Economics": 1,
+      "Health and Physical Education": 1,
+      "Mathematics": 1,
+      "Psychology": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "343201",
+    "name": "GOVT. GRADUATE COLLEGE, PASRUR",
+    "district": "SIALKOT",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Mathematics": 2,
+      "Physics": 1,
+      "English": 6,
+      "Computer Science": 5,
+      "Zoology": 2,
+      "Economics": 1,
+      "Urdu": 3,
+      "Islamiat": 2,
+      "Chemistry": 1,
+      "Political Science": 2
+    }
+  },
+  {
+    "id": "351302",
+    "name": "GOVT. GRADUATE COLLEGE, PHOOL NAGAR",
+    "district": "KASUR",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Urdu": 2,
+      "Physics": 1,
+      "Sociology": 1,
+      "Education": 2,
+      "Computer Science": 3,
+      "English": 2,
+      "Commerce": 2,
+      "Political Science": 1,
+      "Pakistan Studies": 1,
+      "Psychology": 2,
+      "Chemistry": 1,
+      "Mathematics": 1,
+      "Health and Physical Education": 1,
+      "Economics": 1
+    }
+  },
+  {
+    "id": "345101",
+    "name": "GOVT. GRADUATE COLLEGE, PINDI BHATTIAN",
+    "district": "HAFIZABAD",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Chemistry": 1,
+      "English": 1,
+      "Health and Physical Education": 1,
+      "Physics": 1,
+      "Urdu": 1,
+      "Computer Science": 1,
+      "Islamiat": 1
+    }
+  },
+  {
+    "id": "371301",
+    "name": "GOVT. ASSOCIATE COLLEGE, PINDI GHEB",
+    "district": "ATTOCK",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+      "Physics": 1,
+      "Chemistry": 1,
+      "Computer Science": 1
+    }
+  },
+  {
+    "id": "361117",
+    "name": "GOVT. GRADUATE COLLEGE, QADIRPUR RAN",
+    "district": "MULTAN",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Education": 1,
+      "Islamiat": 1,
+      "Pakistan Studies": 1,
+      "Urdu": 1
+    }
+  },
+  {
+    "id": "341102",
+    "name": "GOVT. GRADUATE COLLEGE, QILA DIDAR SINGH",
+    "district": "GUJRANWALA",
+    "gender": "Boys",
+    "category": "Graduate",
+    "subjects": {
+      "Arabic": 1,
+      "Biology": 1,
+      "Geography": 1,
+      "Chemistry": 3,
+      "Sociology": 1,
+      "Commerce": 1,
+      "Education": 1,
+      "English": 5,
+      "Computer Science": 5,
+      "Health and Physical Education": 1,
+      "Islamiat": 1,
+      "Pakistan Studies": 1,
+      "Mathematics": 2,
+      "Physics": 2,
+      "Political Science": 1,
+      "Statistics": 2,
+      "Urdu": 1,
+      "Psychology": 1,
+      "History": 1
+    }
+  },
+  {
+    "id": "382104",
+    "name": "GOVT. ASSOCIATE COLLEGE, QUAIDABAD",
+    "district": "KHUSHAB",
+    "gender": "Boys",
+    "category": "Associate",
+    "subjects": {
+            "Biology": 1,
+      "Chemistry": 1,
+      "Islamiat": 1,
+      "Mathematics": 1,
+      "Computer Science": 2
+    }
+  }
+]
+
