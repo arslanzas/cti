@@ -3,6 +3,15 @@
 <head>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9956621358439176"
      crossorigin="anonymous"></script>
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function(OneSignal) {
+    await OneSignal.init({
+      appId: "6223c5c6-1fc7-4924-886d-fcbdbca4fc6c",
+    });
+  });
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Check CTI Vacant Seats | CTI.AC.PK</title>
@@ -119,7 +128,7 @@
                     <h3 id="selectedCollegeTitle" class="text-xl font-black text-slate-900">College Name</h3>
                     <p id="selectedCollegeDistrict" class="text-xs text-slate-500">District: --</p>
                 </div>
-                <span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-full">Status: Approved by DPI</span>
+                <span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-full">Status: Approved by DPI[span_0](start_span)[span_0](end_span)</span>
             </div>
 
             <div class="overflow-x-auto">
@@ -255,7 +264,7 @@
                 tr.innerHTML = `
                     <td class="p-3.5 font-semibold text-slate-800">${subject}</td>
                     <td class="p-3.5 text-center font-black text-blue-700 text-base">${seats} Seat${seats > 1 ? 's' : ''}</td>
-                    <td class="p-3.5"><span class="bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs px-2.5 py-1 rounded-lg font-semibold">Approved</span></td>
+                    <td class="p-3.5"><span class="bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs px-2.5 py-1 rounded-lg font-semibold">Approved[span_1](start_span)[span_1](end_span)</span></td>
                 `;
                 tbody.appendChild(tr);
             }
