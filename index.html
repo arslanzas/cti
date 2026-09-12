@@ -17,8 +17,8 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CTI Merit Calculator | CTI.AC.PK</title>
-    <meta name="description" content="Calculate your official CTI academic merit score for Punjab Associate and Graduate Colleges based on the updated 2026-2027 HED policy formula.">
+    <title>CTI Punjab Merit Calculator & Vacant Seats | CTI.AC.PK</title>
+    <meta name="description" content="Calculate your official CTI academic merit score and check available subject-wise seats for Punjab Associate and Graduate Colleges.">
 
     <!-- Google Analytics (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B5R0BG2CT7"></script>
@@ -33,23 +33,29 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        .tab-active { background-color: #2563eb; color: #ffffff; border-color: #2563eb; }
+        .tab-inactive { background-color: #f8fafc; color: #64748b; border-color: #e2e8f0; }
+    </style>
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans selection:bg-blue-600 selection:text-white">
 
-    <div class="bg-amber-500 text-slate-900 font-bold px-4 py-2.5 text-center text-xs sm:text-sm shadow-sm flex justify-center items-center gap-2">
-        <span class="bg-slate-900 text-amber-300 px-2 py-0.5 rounded-full uppercase tracking-wider text-[10px]">Updated</span>
-        <span>Official 85-Mark Academic Merit Calculator based on exact HED flat-rate rules.</span>
+    <!-- Clean Top Notification -->
+    <div class="bg-blue-600 text-white font-medium px-4 py-2 text-center text-xs sm:text-sm tracking-wide">
+        <strong>Update:</strong> The 2026-2027 CTI Merit Calculator now officially supports both 4-Year BS and 2-Year MA/MSc degree paths.
     </div>
 
+    <!-- Main Navigation -->
     <nav class="bg-white border-b sticky top-0 z-50 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16 items-center">
                 <a href="index.html" class="flex items-center gap-2">
-                    <div class="bg-blue-700 text-white font-black text-xl px-3 py-1 rounded-lg tracking-wider">CTI</div>
+                    <div class="bg-slate-900 text-white font-black text-xl px-3 py-1 rounded tracking-wider shadow-sm">CTI</div>
                     <span class="font-bold text-xl text-slate-900 tracking-tight">.AC.PK</span>
                 </a>
-                <div class="hidden md:flex items-center space-x-6 text-sm font-semibold">
-                    <a href="index.html" class="text-blue-600 font-bold transition">Home</a>
+                <div class="hidden md:flex items-center space-x-8 text-sm font-semibold">
+                    <a href="index.html" class="text-blue-600 font-bold">Home</a>
                     <a href="seats.html" class="text-slate-600 hover:text-blue-600 transition">Seat Checker</a>
                     <a href="compress.html" class="text-slate-600 hover:text-blue-600 transition">Image Compressor</a>
                     <a href="about.html" class="text-slate-600 hover:text-blue-600 transition">About Us</a>
@@ -59,214 +65,304 @@
         </div>
     </nav>
 
-    <header class="bg-slate-900 text-white py-12 px-4 text-center border-b-4 border-amber-400 relative">
-        <div class="max-w-4xl mx-auto space-y-3 relative z-10">
-            <h1 class="text-3xl sm:text-5xl font-black tracking-tight">CTI Merit Calculator</h1>
-            <p class="text-sm sm:text-base text-slate-300 font-light max-w-2xl mx-auto">
-                Calculate your exact academic score out of 85. Evaluates M.Phil/Ph.D. flat awards and percentage rules automatically.
+    <!-- Hero Header -->
+    <header class="bg-slate-900 text-white py-16 px-4 text-center">
+        <div class="max-w-4xl mx-auto space-y-4">
+            <h1 class="text-4xl sm:text-5xl font-black tracking-tight">Punjab CTI Portal 2026-27</h1>
+            <p class="text-lg text-slate-400 font-light max-w-2xl mx-auto">
+                Accurately calculate your 85-mark academic merit or explore the latest official subject-wise college seat vacancies across Punjab.
             </p>
+            <div class="pt-6 flex justify-center gap-4">
+                <a href="#calculator" class="bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 px-6 rounded-lg transition shadow-lg shadow-blue-500/30">
+                    <i class="fa-solid fa-calculator mr-2"></i> Calculate Merit
+                </a>
+                <a href="seats.html" class="bg-white hover:bg-slate-100 text-slate-900 font-bold py-3 px-6 rounded-lg transition shadow-lg">
+                    <i class="fa-solid fa-building-columns mr-2"></i> Check Seats
+                </a>
+            </div>
         </div>
     </header>
 
-    <main class="max-w-3xl mx-auto px-4 py-10 space-y-8">
+    <!-- Main Content Section -->
+    <main class="max-w-4xl mx-auto px-4 py-12" id="calculator">
         
-        <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm space-y-6">
+        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
             
-            <div class="space-y-5">
-                <div class="space-y-1.5 bg-blue-50 p-4 rounded-xl border border-blue-100">
-                    <label class="block text-sm font-bold text-blue-900 uppercase tracking-wide">College Category</label>
-                    <select id="collegeCategory" onchange="toggleMphilFields()" class="w-full bg-white border border-blue-200 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:border-blue-600 transition font-semibold text-slate-800">
+            <!-- Calculator Header -->
+            <div class="bg-slate-50 border-b border-slate-200 p-6 sm:px-8 sm:py-6 flex justify-between items-center">
+                <div>
+                    <h2 class="text-xl font-bold text-slate-900">Official Merit Calculator</h2>
+                    <p class="text-xs text-slate-500 mt-1">HED Punjab Formula (Max 85 Academic Marks)</p>
+                </div>
+                <i class="fa-solid fa-chart-pie text-3xl text-blue-200"></i>
+            </div>
+
+            <div class="p-6 sm:p-8 space-y-8">
+                
+                <!-- 1. College Type Selection -->
+                <div class="space-y-3">
+                    <label class="block text-sm font-bold text-slate-800 uppercase tracking-wide">1. Select College Type</label>
+                    <select id="collegeType" onchange="updateUI()" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm font-semibold text-slate-800 focus:outline-none focus:border-blue-600 focus:bg-white transition">
                         <option value="Associate">Associate College</option>
                         <option value="Graduate">Graduate College</option>
                     </select>
                 </div>
 
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                    <div class="space-y-3 p-4 border border-slate-100 rounded-xl bg-slate-50/50">
-                        <label class="block text-sm font-bold text-slate-800">Matriculation</label>
-                        <div class="grid grid-cols-2 gap-3">
-                            <div>
-                                <label class="text-[10px] uppercase font-bold text-slate-500">Obtained</label>
-                                <input type="number" id="matObt" oninput="calculateMerit()" class="w-full border border-slate-200 rounded-lg px-3 py-2 text-sm focus:border-blue-600 focus:outline-none">
-                            </div>
-                            <div>
-                                <label class="text-[10px] uppercase font-bold text-slate-500">Total</label>
-                                <input type="number" id="matTot" oninput="calculateMerit()" value="1100" class="w-full border border-slate-200 rounded-lg px-3 py-2 text-sm focus:border-blue-600 focus:outline-none">
+                <!-- 2. Degree Path Toggle -->
+                <div class="space-y-3">
+                    <label class="block text-sm font-bold text-slate-800 uppercase tracking-wide">2. Select Your Degree Path</label>
+                    <div class="grid grid-cols-2 gap-3">
+                        <label id="btnBS" class="tab-active cursor-pointer border rounded-xl px-4 py-3 text-center text-sm font-bold transition">
+                            <input type="radio" name="degreePath" value="BS" class="hidden" checked onchange="updateUI()">
+                            4-Year BS Degree
+                        </label>
+                        <label id="btnMaster" class="tab-inactive cursor-pointer border rounded-xl px-4 py-3 text-center text-sm font-bold transition">
+                            <input type="radio" name="degreePath" value="Master" class="hidden" onchange="updateUI()">
+                            BA/BSc + MA/MSc
+                        </label>
+                    </div>
+                </div>
+
+                <!-- 3. Marks Input Grid -->
+                <div class="space-y-3">
+                    <label class="block text-sm font-bold text-slate-800 uppercase tracking-wide">3. Enter Obtained & Total Marks</label>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <!-- Matriculation -->
+                        <div class="p-4 border border-slate-100 rounded-xl bg-slate-50">
+                            <label class="block text-xs font-bold text-slate-600 mb-2">Matriculation</label>
+                            <div class="flex gap-2">
+                                <input type="number" id="matObt" oninput="calculateMerit()" placeholder="Obtained" class="w-1/2 border border-slate-200 rounded-lg px-3 py-2 text-sm focus:border-blue-600 focus:outline-none">
+                                <input type="number" id="matTot" oninput="calculateMerit()" value="1100" class="w-1/2 border border-slate-200 rounded-lg px-3 py-2 text-sm focus:border-blue-600 focus:outline-none text-slate-500">
                             </div>
                         </div>
-                    </div>
 
-                    <div class="space-y-3 p-4 border border-slate-100 rounded-xl bg-slate-50/50">
-                        <label class="block text-sm font-bold text-slate-800">Intermediate</label>
-                        <div class="grid grid-cols-2 gap-3">
-                            <div>
-                                <label class="text-[10px] uppercase font-bold text-slate-500">Obtained</label>
-                                <input type="number" id="intObt" oninput="calculateMerit()" class="w-full border border-slate-200 rounded-lg px-3 py-2 text-sm focus:border-blue-600 focus:outline-none">
-                            </div>
-                            <div>
-                                <label class="text-[10px] uppercase font-bold text-slate-500">Total</label>
-                                <input type="number" id="intTot" oninput="calculateMerit()" value="1100" class="w-full border border-slate-200 rounded-lg px-3 py-2 text-sm focus:border-blue-600 focus:outline-none">
+                        <!-- Intermediate -->
+                        <div class="p-4 border border-slate-100 rounded-xl bg-slate-50">
+                            <label class="block text-xs font-bold text-slate-600 mb-2">Intermediate</label>
+                            <div class="flex gap-2">
+                                <input type="number" id="intObt" oninput="calculateMerit()" placeholder="Obtained" class="w-1/2 border border-slate-200 rounded-lg px-3 py-2 text-sm focus:border-blue-600 focus:outline-none">
+                                <input type="number" id="intTot" oninput="calculateMerit()" value="1100" class="w-1/2 border border-slate-200 rounded-lg px-3 py-2 text-sm focus:border-blue-600 focus:outline-none text-slate-500">
                             </div>
                         </div>
-                    </div>
 
-                    <div class="space-y-3 p-4 border border-slate-100 rounded-xl bg-slate-50/50">
-                        <label class="block text-sm font-bold text-slate-800">BS / Master's (16 Yrs)</label>
-                        <div class="grid grid-cols-2 gap-3">
-                            <div>
-                                <label class="text-[10px] uppercase font-bold text-slate-500">Obtained</label>
-                                <input type="number" id="bsObt" oninput="calculateMerit()" class="w-full border border-slate-200 rounded-lg px-3 py-2 text-sm focus:border-blue-600 focus:outline-none">
-                            </div>
-                            <div>
-                                <label class="text-[10px] uppercase font-bold text-slate-500">Total</label>
-                                <input type="number" id="bsTot" oninput="calculateMerit()" class="w-full border border-slate-200 rounded-lg px-3 py-2 text-sm focus:border-blue-600 focus:outline-none">
+                        <!-- 4-Year BS (Toggled) -->
+                        <div id="bsContainer" class="p-4 border border-slate-100 rounded-xl bg-blue-50/50 sm:col-span-2">
+                            <label class="block text-xs font-bold text-blue-800 mb-2">4-Year BS (FYDP)</label>
+                            <div class="grid grid-cols-2 gap-2">
+                                <input type="number" id="bsObt" oninput="calculateMerit()" placeholder="BS Obtained" class="w-full border border-slate-200 rounded-lg px-3 py-2 text-sm focus:border-blue-600 focus:outline-none">
+                                <input type="number" id="bsTot" oninput="calculateMerit()" placeholder="BS Total" class="w-full border border-slate-200 rounded-lg px-3 py-2 text-sm focus:border-blue-600 focus:outline-none text-slate-500">
                             </div>
                         </div>
-                    </div>
 
-                    <div class="space-y-3 p-4 border border-emerald-100 rounded-xl bg-emerald-50/30">
-                        <label class="block text-sm font-bold text-slate-800">Advanced Degrees</label>
-                        <div class="space-y-2">
-                            <label class="flex items-center space-x-2 text-sm font-medium">
-                                <input type="checkbox" id="hasMphil" onchange="toggleMphilFields()" class="rounded border-slate-300 text-blue-600 focus:ring-blue-500">
-                                <span>I have an M.Phil / MS</span>
-                            </label>
-                            
-                            <div id="mphilMarksDiv" class="hidden grid grid-cols-2 gap-3 pl-6 pt-1 pb-2 border-l-2 border-emerald-200 ml-2">
-                                <div>
-                                    <label class="text-[10px] uppercase font-bold text-emerald-600">M.Phil Obt</label>
-                                    <input type="number" id="mphilObt" oninput="calculateMerit()" class="w-full border border-slate-200 rounded-lg px-3 py-2 text-sm focus:border-blue-600 focus:outline-none bg-white">
-                                </div>
-                                <div>
-                                    <label class="text-[10px] uppercase font-bold text-emerald-600">M.Phil Tot</label>
-                                    <input type="number" id="mphilTot" oninput="calculateMerit()" class="w-full border border-slate-200 rounded-lg px-3 py-2 text-sm focus:border-blue-600 focus:outline-none bg-white">
+                        <!-- 2-Year Path (Toggled) -->
+                        <div id="masterContainer" class="hidden sm:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="p-4 border border-slate-100 rounded-xl bg-blue-50/50">
+                                <label class="block text-xs font-bold text-blue-800 mb-2">2-Year Bachelor (BA/BSc)</label>
+                                <div class="flex gap-2">
+                                    <input type="number" id="bachObt" oninput="calculateMerit()" placeholder="Obtained" class="w-1/2 border border-slate-200 rounded-lg px-3 py-2 text-sm focus:border-blue-600 focus:outline-none">
+                                    <input type="number" id="bachTot" oninput="calculateMerit()" placeholder="Total" class="w-1/2 border border-slate-200 rounded-lg px-3 py-2 text-sm focus:border-blue-600 focus:outline-none text-slate-500">
                                 </div>
                             </div>
-
-                            <label class="flex items-center space-x-2 text-sm font-medium">
-                                <input type="checkbox" id="hasPhd" onchange="calculateMerit()" class="rounded border-slate-300 text-blue-600 focus:ring-blue-500">
-                                <span>I have a Ph.D</span>
-                            </label>
+                            <div class="p-4 border border-slate-100 rounded-xl bg-blue-50/50">
+                                <label class="block text-xs font-bold text-blue-800 mb-2">2-Year Master (MA/MSc)</label>
+                                <div class="flex gap-2">
+                                    <input type="number" id="mastObt" oninput="calculateMerit()" placeholder="Obtained" class="w-1/2 border border-slate-200 rounded-lg px-3 py-2 text-sm focus:border-blue-600 focus:outline-none">
+                                    <input type="number" id="mastTot" oninput="calculateMerit()" placeholder="Total" class="w-1/2 border border-slate-200 rounded-lg px-3 py-2 text-sm focus:border-blue-600 focus:outline-none text-slate-500">
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
+
+                <!-- 4. Advanced Degrees -->
+                <div class="space-y-4 p-5 border border-emerald-100 rounded-xl bg-emerald-50/30">
+                    <label class="block text-sm font-bold text-emerald-800 uppercase tracking-wide">4. Advanced Degrees (If Applicable)</label>
+                    
+                    <div class="space-y-4">
+                        <label class="flex items-center space-x-3 text-sm font-bold text-slate-700">
+                            <input type="checkbox" id="hasMphil" onchange="updateUI()" class="w-5 h-5 rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+                            <span>M.Phil / MS Degree Completed</span>
+                        </label>
+                        
+                        <!-- MPhil marks input (Only shows for Graduate Colleges) -->
+                        <div id="mphilMarksDiv" class="hidden grid grid-cols-2 gap-3 pl-8">
+                            <input type="number" id="mphilObt" oninput="calculateMerit()" placeholder="M.Phil Obtained" class="w-full border border-emerald-200 rounded-lg px-3 py-2 text-sm focus:border-emerald-500 focus:outline-none bg-white">
+                            <input type="number" id="mphilTot" oninput="calculateMerit()" placeholder="M.Phil Total" class="w-full border border-emerald-200 rounded-lg px-3 py-2 text-sm focus:border-emerald-500 focus:outline-none bg-white">
+                        </div>
+
+                        <label class="flex items-center space-x-3 text-sm font-bold text-slate-700">
+                            <input type="checkbox" id="hasPhd" onchange="updateUI()" class="w-5 h-5 rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+                            <span>Ph.D Completed</span>
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Total Output Footer -->
+            <div class="bg-slate-900 text-white p-6 sm:p-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+                <div class="w-full sm:w-auto">
+                    <p class="text-xs text-slate-400 font-bold uppercase tracking-widest mb-2 border-b border-slate-700 pb-2">Academic Marks Breakdown</p>
+                    <ul class="text-sm space-y-1 text-slate-300">
+                        <li>Matric: <span id="outMatric" class="font-bold text-white">0.00</span> / 15</li>
+                        <li>Inter: <span id="outInter" class="font-bold text-white">0.00</span> / 15</li>
+                        <li>16-Yrs Degree: <span id="outBach" class="font-bold text-white">0.00</span> <span id="lblBachMax" class="text-xs">/ 50</span></li>
+                        <li>Advanced Deg: <span id="outAdv" class="font-bold text-emerald-400">0.00</span> <span id="lblAdvMax" class="text-xs">/ 5</span></li>
+                    </ul>
+                </div>
+                <div class="text-center sm:text-right w-full sm:w-auto bg-slate-800 p-4 rounded-xl border border-slate-700">
+                    <p class="text-[10px] text-slate-400 uppercase tracking-widest font-bold">Total Merit</p>
+                    <p class="text-4xl font-black text-amber-400" id="resTotal">0.00 <span class="text-sm text-slate-500 font-normal">/ 85</span></p>
                 </div>
             </div>
         </div>
 
-        <div id="resultsCard" class="bg-slate-900 rounded-2xl shadow-xl overflow-hidden text-white">
-            <div class="p-6 sm:p-8 space-y-6">
-                <div class="border-b border-slate-700 pb-4 flex justify-between items-center">
-                    <h3 class="text-xl font-bold text-amber-400">Merit Breakdown</h3>
-                    <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1 rounded-full border border-slate-700">Max 85 Marks</span>
-                </div>
-
-                <div class="space-y-3 text-sm font-medium">
-                    <div class="flex justify-between items-center py-2 border-b border-slate-800/50">
-                        <span class="text-slate-400">Matriculation</span>
-                        <span id="resMatric" class="text-lg">0.00 <span class="text-xs text-slate-500">/ 15</span></span>
-                    </div>
-                    <div class="flex justify-between items-center py-2 border-b border-slate-800/50">
-                        <span class="text-slate-400">Intermediate</span>
-                        <span id="resInter" class="text-lg">0.00 <span class="text-xs text-slate-500">/ 15</span></span>
-                    </div>
-                    <div class="flex justify-between items-center py-2 border-b border-slate-800/50">
-                        <span class="text-slate-400">16 Years (BS/Master's)</span>
-                        <span id="resBs" class="text-lg text-blue-300">0.00 <span id="maxBsLabel" class="text-xs text-slate-500">/ 50</span></span>
-                    </div>
-                    <div class="flex justify-between items-center py-2 border-b border-slate-800/50">
-                        <span class="text-slate-400">Advanced Degree (M.Phil/Ph.D)</span>
-                        <span id="resAdv" class="text-lg text-emerald-400">0.00 <span id="maxAdvLabel" class="text-xs text-slate-500">/ 5</span></span>
-                    </div>
-                </div>
-
-                <div class="pt-4 flex justify-between items-end">
-                    <div>
-                        <p class="text-xs text-slate-400 uppercase tracking-widest font-bold">Total Academic Score</p>
-                    </div>
-                    <div class="text-4xl font-black text-amber-400" id="resTotal">0.00</div>
-                </div>
-            </div>
-        </div>
     </main>
 
-    <footer class="bg-slate-950 text-slate-400 py-10 border-t border-slate-800 text-center space-y-4 mt-16">
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 py-10 border-t border-slate-800 text-center space-y-4">
         <div class="max-w-4xl mx-auto px-4">
             <div class="flex justify-center items-center gap-2 mb-3">
                 <span class="bg-blue-600 text-white font-bold text-xl px-2.5 py-0.5 rounded">CTI</span>
                 <span class="font-bold text-slate-100 text-xl">.AC.PK</span>
             </div>
-            <p class="text-xs text-slate-500">&copy; 2026 CTI.AC.PK. All Rights Reserved. Independent candidate utility portal.</p>
+            <div class="flex flex-wrap justify-center gap-6 text-sm font-semibold mb-4 text-slate-300">
+                <a href="index.html" class="hover:text-amber-400 transition">Home</a>
+                <a href="seats.html" class="hover:text-amber-400 transition">Seat Checker</a>
+                <a href="compress.html" class="hover:text-amber-400 transition">Image Compressor</a>
+                <a href="about.html" class="hover:text-amber-400 transition">About Us</a>
+                <a href="contact.html" class="hover:text-amber-400 transition">Contact Us</a>
+            </div>
+            <p class="text-xs text-slate-500">&copy; 2026 CTI.AC.PK. All Rights Reserved.</p>
         </div>
     </footer>
 
+    <!-- Floating WhatsApp Help Button -->
+    <a href="https://wa.me/+15097035524?text=Hello%2C%20I%20have%20a%20question%20regarding%20CTI%20Portal." 
+       target="_blank" 
+       rel="noopener noreferrer"
+       class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full shadow-2xl flex items-center justify-center text-2xl transition-all duration-300 hover:scale-110"
+       title="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Application Logic -->
     <script>
-        function calcScore(obtId, totId, maxMarks) {
-            const obt = parseFloat(document.getElementById(obtId).value);
-            const tot = parseFloat(document.getElementById(totId).value);
-            if (isNaN(obt) || isNaN(tot) || tot === 0 || obt === 0) return 0;
-            return (obt / tot) * maxMarks;
+        function getPct(obtId, totId) {
+            const obt = parseFloat(document.getElementById(obtId).value) || 0;
+            const tot = parseFloat(document.getElementById(totId).value) || 0;
+            if (tot === 0 || obt === 0) return 0;
+            return (obt / tot);
         }
 
-        function toggleMphilFields() {
-            const category = document.getElementById('collegeCategory').value;
+        function updateUI() {
+            const type = document.getElementById('collegeType').value;
+            const pathRadios = document.getElementsByName('degreePath');
+            let path = 'BS';
+            
+            // Handle Tab UI
+            for (const radio of pathRadios) {
+                if (radio.checked) path = radio.value;
+            }
+            
+            if (path === 'BS') {
+                document.getElementById('btnBS').className = "tab-active cursor-pointer border rounded-xl px-4 py-3 text-center text-sm font-bold transition";
+                document.getElementById('btnMaster').className = "tab-inactive cursor-pointer border rounded-xl px-4 py-3 text-center text-sm font-bold transition";
+                document.getElementById('bsContainer').classList.remove('hidden');
+                document.getElementById('masterContainer').classList.add('hidden');
+            } else {
+                document.getElementById('btnBS').className = "tab-inactive cursor-pointer border rounded-xl px-4 py-3 text-center text-sm font-bold transition";
+                document.getElementById('btnMaster').className = "tab-active cursor-pointer border rounded-xl px-4 py-3 text-center text-sm font-bold transition";
+                document.getElementById('bsContainer').classList.add('hidden');
+                document.getElementById('masterContainer').classList.remove('hidden');
+                document.getElementById('masterContainer').classList.add('sm:col-span-2', 'grid', 'grid-cols-1', 'sm:grid-cols-2', 'gap-4');
+            }
+
+            // Handle M.Phil Input visibility (Only Graduate colleges use percentage for MPhil)
             const hasMphil = document.getElementById('hasMphil').checked;
             const mphilMarksDiv = document.getElementById('mphilMarksDiv');
-
-            if (category === 'Graduate' && hasMphil) {
+            
+            if (type === 'Graduate' && hasMphil) {
                 mphilMarksDiv.classList.remove('hidden');
             } else {
                 mphilMarksDiv.classList.add('hidden');
             }
+
             calculateMerit();
         }
 
         function calculateMerit() {
-            const category = document.getElementById('collegeCategory').value;
-            
-            const matScore = calcScore('matObt', 'matTot', 15);
-            const intScore = calcScore('intObt', 'intTot', 15);
-            
-            let bsMax = category === 'Graduate' ? 40 : 50;
-            let advMax = category === 'Graduate' ? 15 : 5;
-            
-            const bsScore = calcScore('bsObt', 'bsTot', bsMax);
+            const type = document.getElementById('collegeType').value;
+            const pathRadios = document.getElementsByName('degreePath');
+            let path = 'BS';
+            for (const radio of pathRadios) {
+                if (radio.checked) path = radio.value;
+            }
 
+            // 1. Core Percentages
+            const matricScore = getPct('matObt', 'matTot') * 15;
+            const interScore = getPct('intObt', 'intTot') * 15;
+
+            // 2. 16-Year Degree
+            let bachelorsScore = 0;
+            let bsMax = 0;
+
+            if (path === 'BS') {
+                bsMax = type === 'Associate' ? 50 : 40;
+                bachelorsScore = getPct('bsObt', 'bsTot') * bsMax;
+            } else {
+                bsMax = type === 'Associate' ? 50 : 40; // 15 + 35 = 50 OR 15 + 25 = 40
+                const maxBach = 15;
+                const maxMast = type === 'Associate' ? 35 : 25;
+                
+                const bachScore = getPct('bachObt', 'bachTot') * maxBach;
+                const mastScore = getPct('mastObt', 'mastTot') * maxMast;
+                bachelorsScore = bachScore + mastScore;
+            }
+
+            // 3. Advanced Degrees
             const hasMphil = document.getElementById('hasMphil').checked;
             const hasPhd = document.getElementById('hasPhd').checked;
+            
             let advScore = 0;
+            let advMax = type === 'Associate' ? 5 : 15;
 
-            if (category === 'Associate') {
+            if (type === 'Associate') {
+                // Flat Awards, Never Both (PhD overrides)
                 if (hasPhd) {
-                    advScore = 5; // Flat 5, overrides MPhil
+                    advScore = 5;
                 } else if (hasMphil) {
-                    advScore = 3; // Flat 3
+                    advScore = 3;
                 }
-            } else if (category === 'Graduate') {
+            } else {
+                // Graduate Colleges
                 if (hasMphil) {
-                    advScore += calcScore('mphilObt', 'mphilTot', 10); // Percentage out of 10
+                    advScore += getPct('mphilObt', 'mphilTot') * 10;
                 }
                 if (hasPhd) {
-                    advScore += 5; // Flat 5 stacks with MPhil percentage
+                    advScore += 5; // Flat 5 stacks
                 }
                 if (advScore > 15) advScore = 15;
             }
 
-            let total = matScore + intScore + bsScore + advScore;
+            // 4. Calculate Final Total
+            let total = matricScore + interScore + bachelorsScore + advScore;
             if (total > 85) total = 85;
 
-            document.getElementById('maxBsLabel').textContent = `/ ${bsMax}`;
-            document.getElementById('maxAdvLabel').textContent = `/ ${advMax}`;
+            // 5. Render to UI
+            document.getElementById('lblBachMax').textContent = `/ ${bsMax}`;
+            document.getElementById('lblAdvMax').textContent = `/ ${advMax}`;
 
-            document.getElementById('resMatric').innerHTML = `${matScore.toFixed(2)} <span class="text-xs text-slate-500">/ 15</span>`;
-            document.getElementById('resInter').innerHTML = `${intScore.toFixed(2)} <span class="text-xs text-slate-500">/ 15</span>`;
-            document.getElementById('resBs').innerHTML = `${bsScore.toFixed(2)} <span class="text-xs text-slate-500">/ ${bsMax}</span>`;
-            document.getElementById('resAdv').innerHTML = `${advScore.toFixed(2)} <span class="text-xs text-slate-500">/ ${advMax}</span>`;
-            document.getElementById('resTotal').textContent = total.toFixed(2);
+            document.getElementById('outMatric').textContent = matricScore.toFixed(2);
+            document.getElementById('outInter').textContent = interScore.toFixed(2);
+            document.getElementById('outBach').textContent = bachelorsScore.toFixed(2);
+            document.getElementById('outAdv').textContent = advScore.toFixed(2);
+            
+            document.getElementById('resTotal').innerHTML = `${total.toFixed(2)} <span class="text-sm text-slate-500 font-normal">/ 85</span>`;
         }
 
-        window.onload = function() {
-            toggleMphilFields();
-        };
+        window.onload = updateUI;
     </script>
 </body>
 </html>
